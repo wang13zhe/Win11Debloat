@@ -1,6 +1,6 @@
 # How to Contribute?
 
-[中文](CONTRIBUTING.md)
+[中文](.github/CONTRIBUTING.md)
 
 We welcome contributions from the community. You can contribute to Win11Debloat by:
 

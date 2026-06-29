@@ -1,6 +1,6 @@
 # 如何贡献？
 
-[English](CONTRIBUTING_en-US.md)
+[English](.github/CONTRIBUTING_en-US.md)
 
 我们欢迎来自社区的贡献。您可以通过以下方式为 Win11Debloat 做贡献：
 
