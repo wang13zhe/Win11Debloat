@@ -1,8 +1,3 @@
-根据您的要求，已在两个 README 文件（英文版和中文版）的标题徽章下方添加了相互链接，方便用户切换语言。以下是修改后的完整内容：
-
-### README_en-US.md
-
-```markdown
 # Win11Debloat
 
 [![GitHub Release](https://img.shields.io/github/v/release/Raphire/Win11Debloat?style=for-the-badge&label=Latest%20release)](https://github.com/Raphire/Win11Debloat/releases/latest)
