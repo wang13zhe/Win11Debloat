@@ -1,5 +1,7 @@
 # How to Contribute?
 
+[中文](CONTRIBUTING.md)
+
 We welcome contributions from the community. You can contribute to Win11Debloat by:
 
 - Reporting issues and bugs [here](https://github.com/Raphire/Win11Debloat/issues/new?template=bug_report.yml)
