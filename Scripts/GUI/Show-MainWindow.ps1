@@ -30,6 +30,7 @@ function Show-MainWindow {
     $menuReportBug = $window.FindName('MenuReportBug')
     $menuLogs = $window.FindName('MenuLogs')
     $menuAbout = $window.FindName('MenuAbout')
+    $menuLanguage = $window.FindName('MenuLanguage')
     $importConfigBtn = $window.FindName('ImportConfigBtn')
     $exportConfigBtn = $window.FindName('ExportConfigBtn')
     $restoreBackupBtn = $window.FindName('RestoreBackupBtn')
@@ -103,6 +104,29 @@ function Show-MainWindow {
     })
 
     $menuAbout.Add_Click({ Show-AboutDialog -Owner $window })
+
+    # ---- Language menu ----
+    if ($menuLanguage) {
+        $currentLanguageCode = if ($script:Lang) { $script:Lang.LanguageCode } else { 'en-US' }
+
+        foreach ($language in (Get-LanguageCatalog)) {
+            $languageItem = New-Object System.Windows.Controls.MenuItem
+            $languageItem.Header = $language.NativeName
+            $languageItem.Tag = $language.Code
+            $languageItem.IsCheckable = $true
+            $languageItem.IsChecked = ($language.Code -eq $currentLanguageCode)
+            $languageItem.Add_Click({
+                $selectedLanguageCode = [string]$this.Tag
+                if ($script:Lang -and $selectedLanguageCode -eq $script:Lang.LanguageCode) { return }
+
+                # Remember the choice and let the caller rebuild the window with the new strings
+                Set-ActiveLanguage -LanguageCode $selectedLanguageCode -Persist -UpdateAppList | Out-Null
+                $script:RestartGui = $true
+                $window.Close()
+            })
+            $menuLanguage.Items.Add($languageItem) | Out-Null
+        }
+    }
 
     $closeBtn.Add_Click({ $window.Close() })
     $window.Add_Closing({ $script:CancelRequested = $true })

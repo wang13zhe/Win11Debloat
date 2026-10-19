@@ -30,7 +30,9 @@ function Import-AppDetailsFromJson {
 
     $apps = @()
     try {
-        $jsonContent = Get-Content -Path $script:AppsListFilePath -Raw | ConvertFrom-Json
+        # Language packs are UTF-8; without -Encoding the Windows PowerShell 5.1 default (ANSI)
+        # mangles non-ASCII text and can break JSON parsing for CJK/Cyrillic packs.
+        $jsonContent = Get-Content -Path $script:AppsListFilePath -Raw -Encoding UTF8 | ConvertFrom-Json
     }
     catch {
         Write-Error "Failed to read Apps.json: $_"

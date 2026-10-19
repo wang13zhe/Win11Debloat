@@ -1,0 +1,1174 @@
+﻿{
+  "Version": "1.1",
+  "Apps": [
+    {
+      "FriendlyName": "Clipchamp",
+      "AppId": "Clipchamp.Clipchamp",
+      "Description": "Éditeur vidéo de Microsoft",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "3D Builder",
+      "AppId": "Microsoft.3DBuilder",
+      "Description": "Logiciel de modélisation 3D de base",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Cortana",
+      "AppId": "Microsoft.549981C3F5F10",
+      "Description": "Assistant vocal Microsoft Cortana (abandonné)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing Finance",
+      "AppId": "Microsoft.BingFinance",
+      "Description": "Actualités et suivi financiers via Bing (abandonné)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing Cuisine et boissons",
+      "AppId": "Microsoft.BingFoodAndDrink",
+      "Description": "Recettes et actualités culinaires via Bing (abandonné)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing Santé et forme",
+      "AppId": "Microsoft.BingHealthAndFitness",
+      "Description": "Suivi et actualités santé et forme via Bing (abandonné)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing Actualités",
+      "AppId": "Microsoft.BingNews",
+      "Description": "Agrégateur d'actualités via Bing (remplacé par Microsoft News/Start)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing Sports",
+      "AppId": "Microsoft.BingSports",
+      "Description": "Actualités et scores sportifs via Bing (abandonné)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Traducteur Bing",
+      "AppId": "Microsoft.BingTranslator",
+      "Description": "Service de traduction via Bing",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing Voyages",
+      "AppId": "Microsoft.BingTravel",
+      "Description": "Planification de voyages et actualités via Bing (abandonné)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing Météo",
+      "AppId": "Microsoft.BingWeather",
+      "Description": "Prévisions météo via Bing",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Copilot",
+      "AppId": "XP9CXNGPPJ97XX",
+      "Description": "Assistant IA intégré à Windows",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "WinGet"
+    },
+    {
+      "FriendlyName": "Copilot+ AI Hub",
+      "AppId": "Microsoft.Windows.AIHub",
+      "Description": "Application Copilot+ AI Hub (Windows 11 24H2 et versions ultérieures)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft PC Manager",
+      "AppId": "Microsoft.PCManager",
+      "Description": "Outil de nettoyage et d'optimisation du système Microsoft PC Manager (souvent préinstallé)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bien démarrer",
+      "AppId": "Microsoft.Getstarted",
+      "Description": "Conseils et guide d'introduction pour Windows (ne peut pas être désinstallé dans Windows 11)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Messagerie",
+      "AppId": "Microsoft.Messaging",
+      "Description": "Application de messagerie, souvent intégrée à Skype (largement abandonnée)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Visionneuse 3D",
+      "AppId": "Microsoft.Microsoft3DViewer",
+      "Description": "Visionneuse de modèles 3D",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Journal",
+      "AppId": "Microsoft.MicrosoftJournal",
+      "Description": "Application de prise de notes numérique optimisée pour la saisie au stylet",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Office Hub",
+      "AppId": "Microsoft.MicrosoftOfficeHub",
+      "Description": "Hub d'accès aux applications et documents Microsoft Office (précurseur de l'application Microsoft 365)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Power BI",
+      "AppId": "Microsoft.MicrosoftPowerBIForWindows",
+      "Description": "Client du service d'analyse décisionnelle",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Solitaire Collection",
+      "AppId": "Microsoft.MicrosoftSolitaireCollection",
+      "Description": "Collection de jeux de cartes solitaire",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Sticky Notes",
+      "AppId": "Microsoft.MicrosoftStickyNotes",
+      "Description": "Application de notes autocollantes numériques (abandonnée et remplacée par OneNote)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Portail de réalité mixte",
+      "AppId": "Microsoft.MixedReality.Portal",
+      "Description": "Portail pour les casques Windows Mixed Reality",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Test de débit réseau",
+      "AppId": "Microsoft.NetworkSpeedTest",
+      "Description": "Utilitaire de test de débit de la connexion Internet",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft News",
+      "AppId": "Microsoft.News",
+      "Description": "Agrégateur d'actualités (a remplacé Bing News, fait désormais partie de Microsoft Start)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "OneNote",
+      "AppId": "Microsoft.Office.OneNote",
+      "Description": "Application de prise de notes numérique (version Universal Windows Platform)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Sway",
+      "AppId": "Microsoft.Office.Sway",
+      "Description": "Application de présentation et de narration",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "One Connect",
+      "AppId": "Microsoft.OneConnect",
+      "Description": "Application de gestion des opérateurs mobiles (remplacée par Forfaits mobiles)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Impression 3D",
+      "AppId": "Microsoft.Print3D",
+      "Description": "Logiciel de préparation d'impressions 3D",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Power Automate",
+      "AppId": "Microsoft.PowerAutomateDesktop",
+      "Description": "Outil d'automatisation de bureau (RPA)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Skype (UWP)",
+      "AppId": "Microsoft.SkypeApp",
+      "Description": "Application de communication Skype, version Universal Windows Platform (abandonnée)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft To Do",
+      "AppId": "Microsoft.Todos",
+      "Description": "Application de liste de tâches et de gestion des tâches",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dev Home",
+      "AppId": "Microsoft.Windows.DevHome",
+      "Description": "Tableau de bord et utilitaire de configuration d'outils pour les développeurs (abandonné)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Alarmes et horloge",
+      "AppId": "Microsoft.WindowsAlarms",
+      "Description": "Application Alarmes et horloge",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Centre de commentaires",
+      "AppId": "Microsoft.WindowsFeedbackHub",
+      "Description": "Application permettant d'envoyer des commentaires à Microsoft sur Windows",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Cartes",
+      "AppId": "Microsoft.WindowsMaps",
+      "Description": "Application de cartes et de navigation",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Enregistreur vocal",
+      "AppId": "Microsoft.WindowsSoundRecorder",
+      "Description": "Application d'enregistrement audio de base",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Console Companion",
+      "AppId": "Microsoft.XboxApp",
+      "Description": "Ancienne application Xbox Console Companion (abandonnée)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Films et TV",
+      "AppId": "Microsoft.ZuneVideo",
+      "Description": "Application de location, d'achat et de lecture de contenus vidéo (rebaptisée « Films et TV »)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Sécurité familiale",
+      "AppId": "MicrosoftCorporationII.MicrosoftFamily",
+      "Description": "Application Sécurité familiale pour gérer les comptes et paramètres familiaux",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Assistant rapide",
+      "AppId": "MicrosoftCorporationII.QuickAssist",
+      "Description": "Outil d'assistance à distance",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Teams (ancienne version)",
+      "AppId": "MicrosoftTeams",
+      "Description": "Ancienne version personnelle de Microsoft Teams (version Microsoft Store)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Teams (nouvelle version)",
+      "AppId": "MSTeams",
+      "Description": "Nouvelle application Microsoft Teams (professionnelle/scolaire ou personnelle)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "ACG Media Player",
+      "AppId": "ACGMediaPlayer",
+      "Description": "Application de lecteur multimédia",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Actipro Software",
+      "AppId": "ActiproSoftwareLLC",
+      "Description": "Contrôles d'interface utilisateur ou composants logiciels potentiels, souvent fournis par les fabricants OEM",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Adobe Photoshop Express",
+      "AppId": "AdobeSystemsIncorporated.AdobePhotoshopExpress",
+      "Description": "Application de retouche photo de base d'Adobe",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Amazon",
+      "AppId": "Amazon.com.Amazon",
+      "Description": "Application d'achats Amazon",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Prime Video",
+      "AppId": "AmazonVideo.PrimeVideo",
+      "Description": "Application du service de streaming Amazon Prime Video",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Asphalt 8",
+      "AppId": "Asphalt8Airborne",
+      "Description": "Jeu de course",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Autodesk SketchBook",
+      "AppId": "AutodeskSketchBook",
+      "Description": "Application de dessin et de croquis numérique",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Caesars Slots",
+      "AppId": "CaesarsSlotsFreeCasino",
+      "Description": "Jeu de machines à sous de casino",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Cooking Fever",
+      "AppId": "COOKINGFEVER",
+      "Description": "Jeu de simulation de restaurant",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "CyberLink Media Suite",
+      "AppId": "CyberLinkMediaSuiteEssentials",
+      "Description": "Suite logicielle multimédia (souvent préinstallée par les fabricants OEM)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Disney Magic Kingdoms",
+      "AppId": "DisneyMagicKingdoms",
+      "Description": "Jeu de construction de parc à thème Disney",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Disney+",
+      "AppId": "Disney.37853FC22B2CE",
+      "Description": "Application du service de streaming Disney+",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Drawboard PDF",
+      "AppId": "DrawboardPDF",
+      "Description": "Application de lecture et d'annotation de PDF, souvent optimisée pour la saisie au stylet",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Duolingo",
+      "AppId": "Duolingo-LearnLanguagesforFree",
+      "Description": "Application d'apprentissage des langues",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Eclipse Manager",
+      "AppId": "EclipseManager",
+      "Description": "Souvent liée à des logiciels ou utilitaires OEM spécifiques (par exemple pour gérer les paramètres de l'écran)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Facebook",
+      "AppId": "FACEBOOK.FACEBOOK",
+      "Description": "Application de réseau social Facebook",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "FarmVille 2",
+      "AppId": "FarmVille2CountryEscape",
+      "Description": "Jeu de simulation agricole",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Flipboard",
+      "AppId": "Flipboard",
+      "Description": "Agrégateur d'actualités et de réseaux sociaux présenté sous forme de magazine",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Hidden City",
+      "AppId": "HiddenCity",
+      "Description": "Jeu d'aventure et de puzzles à objets cachés",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Hulu",
+      "AppId": "HULULLC.HULUPLUS",
+      "Description": "Application du service de streaming Hulu",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "iHeartRadio",
+      "AppId": "iHeartRadio",
+      "Description": "Application de radio sur Internet",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Instagram",
+      "AppId": "Facebook.Instagram",
+      "Description": "Application de réseau social Instagram",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bubble Witch 3",
+      "AppId": "king.com.BubbleWitch3Saga",
+      "Description": "Jeu de puzzle de King",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Candy Crush Saga",
+      "AppId": "king.com.CandyCrushSaga",
+      "Description": "Jeu de puzzle de King",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Candy Crush Soda",
+      "AppId": "king.com.CandyCrushSodaSaga",
+      "Description": "Jeu de puzzle de King",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "LinkedIn",
+      "AppId": "LinkedInforWindows",
+      "Description": "Application de réseau professionnel LinkedIn",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "March of Empires",
+      "AppId": "MarchofEmpires",
+      "Description": "Jeu de stratégie",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Netflix",
+      "AppId": "4DF9E0F8.Netflix",
+      "Description": "Application du service de streaming Netflix",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "NYT Crossword",
+      "AppId": "NYTCrossword",
+      "Description": "Application de mots croisés du New York Times",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "One Calendar",
+      "AppId": "OneCalendar",
+      "Description": "Application d'agrégation de calendriers",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Pandora",
+      "AppId": "PandoraMediaInc",
+      "Description": "Application de streaming musical Pandora",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Phototastic Collage",
+      "AppId": "PhototasticCollage",
+      "Description": "Application de création de collages photo",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "PicsArt",
+      "AppId": "PicsArt-PhotoStudio",
+      "Description": "Application de retouche photo et de création",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Polarr Photo Editor",
+      "AppId": "PolarrPhotoEditorAcademicEdition",
+      "Description": "Application de retouche photo (édition académique)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Royal Revolt",
+      "AppId": "flaregamesGmbH.RoyalRevolt",
+      "Description": "Jeu de tower defense et de stratégie",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Fond d'écran animé",
+      "AppId": "Sidia.LiveWallpaper",
+      "Description": "Application de fond d'écran animé",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Sling TV",
+      "AppId": "SlingTV",
+      "Description": "Application du service de télévision en direct Sling TV",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Spotify",
+      "AppId": "SpotifyAB.SpotifyMusic",
+      "Description": "Application de streaming musical Spotify",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "TikTok",
+      "AppId": "BytedancePte.Ltd.TikTok",
+      "Description": "Application de vidéos courtes TikTok",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "TuneIn Radio",
+      "AppId": "TuneInRadio",
+      "Description": "Application de radio sur Internet",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "WinZip",
+      "AppId": "WinZipUniversal",
+      "Description": "Utilitaire de compression et d'extraction de fichiers (version Universal Windows Platform)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Recherche Bing",
+      "AppId": "Microsoft.BingSearch",
+      "Description": "Recherche web de Microsoft Bing (s'intègre à la recherche Windows)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Edge",
+      "AppId": ["Microsoft.Edge", "XPFFTQ037JWMHS"],
+      "Description": "Navigateur par défaut de Windows. AVERTISSEMENT : la suppression de cette application retire aussi le seul navigateur de Windows Sandbox et pourrait affecter d'autres applications",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "WinGet"
+    },
+    {
+      "FriendlyName": "Application Xbox Gaming",
+      "AppId": "Microsoft.GamingApp",
+      "Description": "Application Xbox Gaming moderne, requise pour installer certains jeux PC",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Obtenir de l'aide",
+      "AppId": "Microsoft.GetHelp",
+      "Description": "Nécessaire pour certains outils de résolution des problèmes de Windows 11 et interactions avec l'assistance",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft 365 Companions",
+      "AppId": "Microsoft.M365Companions",
+      "Description": "Applications annexes Calendrier, Fichiers et Contacts de Microsoft 365 (Entreprise) ; elles peuvent être réinstallées si votre administrateur Microsoft 365 les active",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Paint 3D",
+      "AppId": "Microsoft.MSPaint",
+      "Description": "Paint 3D (application de dessin moderne avec fonctionnalités 3D)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "OneDrive",
+      "AppId": "Microsoft.OneDrive",
+      "Description": "Client de stockage cloud OneDrive grand public",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "WinGet"
+    },
+    {
+      "FriendlyName": "Outlook pour Windows",
+      "AppId": "Microsoft.OutlookForWindows",
+      "Description": "Nouveau client de messagerie Outlook pour Windows",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Paint",
+      "AppId": "Microsoft.Paint",
+      "Description": "Paint classique (application de dessin 2D traditionnelle)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Contacts",
+      "AppId": "Microsoft.People",
+      "Description": "Nécessaire à Courrier et Calendrier, et inclus avec eux (abandonné)",
+      "SelectedByDefault": false,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bureau à distance",
+      "AppId": "Microsoft.RemoteDesktop",
+      "Description": "Application cliente Bureau à distance",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Outil Capture d'écran",
+      "AppId": "Microsoft.ScreenSketch",
+      "Description": "Outil Capture d'écran (outil de capture et d'annotation d'écran)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Expérience Widgets",
+      "AppId": "Microsoft.StartExperiencesApp",
+      "Description": "Cette application alimente les widgets Windows (Mon flux)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Tableau blanc",
+      "AppId": "Microsoft.Whiteboard",
+      "Description": "Application de tableau blanc collaboratif numérique",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Photos",
+      "AppId": "Microsoft.Windows.Photos",
+      "Description": "Application par défaut d'affichage et de retouche de base des photos",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Calculatrice",
+      "AppId": "Microsoft.WindowsCalculator",
+      "Description": "Application Calculatrice",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Appareil photo",
+      "AppId": "Microsoft.WindowsCamera",
+      "Description": "Application Appareil photo pour utiliser les caméras intégrées ou connectées",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Courrier et Calendrier",
+      "AppId": "Microsoft.windowscommunicationsapps",
+      "Description": "Suite d'applications Courrier et Calendrier (abandonnée)",
+      "SelectedByDefault": false,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bloc-notes",
+      "AppId": "Microsoft.WindowsNotepad",
+      "Description": "Application d'édition de texte Bloc-notes",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Store",
+      "AppId": "Microsoft.WindowsStore",
+      "Description": "Microsoft Store. AVERTISSEMENT : cette application ne peut pas être réinstallée facilement si elle est supprimée !",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Windows Terminal",
+      "AppId": "Microsoft.WindowsTerminal",
+      "Description": "Application de terminal par défaut de Windows 11 (Invite de commandes, PowerShell, WSL). AVERTISSEMENT : ne la supprimez pas si vous avez lancé Win11Debloat depuis Windows Terminal, car le script échouerait.",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox TCUI Framework",
+      "AppId": "Microsoft.Xbox.TCUI",
+      "Description": "Framework d'interface utilisateur, apparemment requis pour le Microsoft Store, Photos et certains jeux",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Game Overlay",
+      "AppId": "Microsoft.XboxGameOverlay",
+      "Description": "Superposition de jeu, requise ou utile pour certains jeux (fait partie de la Barre de jeu Xbox)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Gaming Overlay",
+      "AppId": "Microsoft.XboxGamingOverlay",
+      "Description": "Superposition de jeu, requise ou utile pour certains jeux (fait partie de la Barre de jeu Xbox)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Identity Provider",
+      "AppId": "Microsoft.XboxIdentityProvider",
+      "Description": "Framework de connexion Xbox, requis pour certains jeux et services Xbox",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Speech To Text",
+      "AppId": "Microsoft.XboxSpeechToTextOverlay",
+      "Description": "Fonctionnalité d'accessibilité requise pour certains jeux. AVERTISSEMENT : cette application ne peut pas être réinstallée facilement !",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Phone Link",
+      "AppId": "Microsoft.YourPhone",
+      "Description": "Phone Link (connecte un téléphone Android/iOS au PC)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Lecteur multimédia",
+      "AppId": "Microsoft.ZuneMusic",
+      "Description": "Lecteur multimédia moderne (a remplacé Groove Musique, lit les fichiers audio et vidéo locaux)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Expérience multi-appareils",
+      "AppId": "MicrosoftWindows.CrossDevice",
+      "Description": "Intégration du téléphone dans l'Explorateur de fichiers, l'Appareil photo et plus encore (fait partie des fonctionnalités de Phone Link)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Windows Web Experience Pack",
+      "AppId": "MicrosoftWindows.Client.WebExperience",
+      "Description": "Permet de fournir et de mettre à jour certaines fonctionnalités, comme les widgets, via le Microsoft Store",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Widgets Platform Runtime",
+      "AppId": "Microsoft.WidgetsPlatformRuntime",
+      "Description": "Runtime requis pour le fonctionnement des widgets Windows",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Application de moniteur LG",
+      "AppId": "LGElectronics.LGMonitorApp",
+      "Description": "Logiciel OEM LG permettant de contrôler votre moniteur LG. Windows Update peut réinstaller silencieusement cette application si un moniteur LG est connecté",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP AI Experience Center",
+      "AppId": "AD2F1837.HPAIExperienceCenter",
+      "Description": "Logiciel OEM HP, fonctionnalités et assistance améliorées par l'IA",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Connected Music",
+      "AppId": "AD2F1837.HPConnectedMusic",
+      "Description": "Logiciel OEM HP pour la musique (potentiellement abandonné)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Connected Photo",
+      "AppId": "AD2F1837.HPConnectedPhotopoweredbySnapfish",
+      "Description": "Logiciel OEM HP pour les photos, intégré à Snapfish (potentiellement abandonné)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Desktop Support Utilities",
+      "AppId": "AD2F1837.HPDesktopSupportUtilities",
+      "Description": "Logiciel OEM HP fournissant des outils d'assistance pour le bureau",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Easy Clean",
+      "AppId": "AD2F1837.HPEasyClean",
+      "Description": "Logiciel OEM HP de nettoyage ou d'optimisation du système",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP File Viewer",
+      "AppId": "AD2F1837.HPFileViewer",
+      "Description": "Logiciel OEM HP pour afficher certains types de fichiers",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP JumpStarts",
+      "AppId": "AD2F1837.HPJumpStarts",
+      "Description": "Logiciel OEM HP pour des tutoriels, la découverte d'applications ou un accès rapide aux fonctionnalités HP",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP PC Hardware Diagnostics",
+      "AppId": "AD2F1837.HPPCHardwareDiagnosticsWindows",
+      "Description": "Logiciel OEM HP de diagnostic du matériel du PC",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Power Manager",
+      "AppId": "AD2F1837.HPPowerManager",
+      "Description": "Logiciel OEM HP de gestion des paramètres d'alimentation et de la batterie",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Printer Control",
+      "AppId": "AD2F1837.HPPrinterControl",
+      "Description": "Logiciel OEM HP de gestion des imprimantes HP",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Privacy Settings",
+      "AppId": "AD2F1837.HPPrivacySettings",
+      "Description": "Logiciel OEM HP de gestion des paramètres de confidentialité",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP QuickDrop",
+      "AppId": "AD2F1837.HPQuickDrop",
+      "Description": "Logiciel OEM HP de transfert rapide de fichiers entre appareils",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP QuickTouch",
+      "AppId": "AD2F1837.HPQuickTouch",
+      "Description": "Logiciel OEM HP, probablement destiné à des raccourcis ou contrôles tactiles",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Registration",
+      "AppId": "AD2F1837.HPRegistration",
+      "Description": "Logiciel OEM HP d'enregistrement du produit",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Support Assistant",
+      "AppId": "AD2F1837.HPSupportAssistant",
+      "Description": "Logiciel OEM HP d'assistance, de mises à jour et de résolution des problèmes",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Sure Shield AI",
+      "AppId": "AD2F1837.HPSureShieldAI",
+      "Description": "Logiciel de sécurité OEM HP, probablement une protection contre les menaces basée sur l'IA",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP System Information",
+      "AppId": "AD2F1837.HPSystemInformation",
+      "Description": "Logiciel OEM HP d'affichage des informations système",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Welcome",
+      "AppId": "AD2F1837.HPWelcome",
+      "Description": "Logiciel OEM HP proposant un accueil ou une aide à la configuration initiale",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP WorkWell",
+      "AppId": "AD2F1837.HPWorkWell",
+      "Description": "Logiciel OEM HP axé sur le bien-être, avec éventuellement des rappels de pause ou des conseils ergonomiques",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "myHP",
+      "AppId": "AD2F1837.myHP",
+      "Description": "Application centrale OEM HP pour les informations sur l'appareil, l'assistance et les services",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Lenovo Vantage",
+      "AppId": "E046963F.LenovoCompanion",
+      "Description": "Application centrale OEM Lenovo pour les paramètres de l'appareil, les mises à jour et l'assistance",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Lenovo Vantage Service",
+      "AppId": "LenovoCompanyLimited.LenovoVantageService",
+      "Description": "Composant de service en arrière-plan de Lenovo Vantage",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dell SupportAssist",
+      "AppId": "DellInc.DellSupportAssistforPCs",
+      "Description": "Outil OEM Dell d'assistance, de diagnostic et de mise à jour",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dell Digital Delivery Services",
+      "AppId": "DellInc.DellDigitalDelivery",
+      "Description": "Logiciel OEM Dell de livraison des logiciels préachetés",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dell Mobile Connect",
+      "AppId": "DellInc.DellMobileConnect",
+      "Description": "Application OEM Dell permettant de lier un téléphone Android/iOS au PC (remplacée par Phone Link)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    }
+  ],
+  "Presets": [
+    {
+      "Name": "Applications de jeu Xbox",
+      "AppIds": [
+        "Microsoft.GamingApp",
+        "Microsoft.XboxGameOverlay",
+        "Microsoft.XboxGamingOverlay"
+      ]
+    },
+    {
+      "Name": "Logiciels OEM (Dell, HP, Lenovo, LG)",
+      "AppIds": [
+        "AD2F1837.HPAIExperienceCenter",
+        "AD2F1837.HPConnectedMusic",
+        "AD2F1837.HPConnectedPhotopoweredbySnapfish",
+        "AD2F1837.HPDesktopSupportUtilities",
+        "AD2F1837.HPEasyClean",
+        "AD2F1837.HPFileViewer",
+        "AD2F1837.HPJumpStarts",
+        "AD2F1837.HPPCHardwareDiagnosticsWindows",
+        "AD2F1837.HPPowerManager",
+        "AD2F1837.HPPrinterControl",
+        "AD2F1837.HPPrivacySettings",
+        "AD2F1837.HPQuickDrop",
+        "AD2F1837.HPQuickTouch",
+        "AD2F1837.HPRegistration",
+        "AD2F1837.HPSupportAssistant",
+        "AD2F1837.HPSureShieldAI",
+        "AD2F1837.HPSystemInformation",
+        "AD2F1837.HPWelcome",
+        "AD2F1837.HPWorkWell",
+        "AD2F1837.myHP",
+        "E046963F.LenovoCompanion",
+        "LenovoCompanyLimited.LenovoVantageService",
+        "LGElectronics.LGMonitorApp",
+        "DellInc.DellSupportAssistforPCs",
+        "DellInc.DellDigitalDelivery",
+        "DellInc.DellMobileConnect"
+      ]
+    }
+  ]
+}

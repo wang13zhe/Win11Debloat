@@ -1,0 +1,1177 @@
+﻿{
+  "Version": "1.1",
+  "Apps": [
+    {
+      "FriendlyName": "Clipchamp",
+      "AppId": "Clipchamp.Clipchamp",
+      "Description": "Microsoft에서 제공하는 동영상 편집기입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "3D 빌더",
+      "AppId": "Microsoft.3DBuilder",
+      "Description": "기본적인 3D 모델링 소프트웨어입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Cortana",
+      "AppId": "Microsoft.549981C3F5F10",
+      "Description": "지원이 중단된 Microsoft Cortana 음성 도우미입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing 금융",
+      "AppId": "Microsoft.BingFinance",
+      "Description": "지원이 중단된 Bing 기반 금융 뉴스 및 시세 추적 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing 음식 및 음료",
+      "AppId": "Microsoft.BingFoodAndDrink",
+      "Description": "지원이 중단된 Bing 기반 요리법 및 음식 뉴스 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing 건강 및 피트니스",
+      "AppId": "Microsoft.BingHealthAndFitness",
+      "Description": "지원이 중단된 Bing 기반 건강 및 피트니스 추적/뉴스 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing 뉴스",
+      "AppId": "Microsoft.BingNews",
+      "Description": "Bing 기반 뉴스 수집기로, Microsoft 뉴스/Start로 대체되었습니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing 스포츠",
+      "AppId": "Microsoft.BingSports",
+      "Description": "지원이 중단된 Bing 기반 스포츠 뉴스 및 점수 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing 번역기",
+      "AppId": "Microsoft.BingTranslator",
+      "Description": "Bing 기반 번역 서비스입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing 여행",
+      "AppId": "Microsoft.BingTravel",
+      "Description": "지원이 중단된 Bing 기반 여행 계획 및 뉴스 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing 날씨",
+      "AppId": "Microsoft.BingWeather",
+      "Description": "Bing 기반 일기 예보 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Copilot",
+      "AppId": "XP9CXNGPPJ97XX",
+      "Description": "Windows에 통합된 AI 도우미입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "WinGet"
+    },
+    {
+      "FriendlyName": "Copilot+ AI Hub",
+      "AppId": "Microsoft.Windows.AIHub",
+      "Description": "Windows 11 24H2 이상에서 사용할 수 있는 Copilot+ AI 허브 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft PC Manager",
+      "AppId": "Microsoft.PCManager",
+      "Description": "Microsoft의 시스템 정리 및 최적화 도구로, 사전 설치되는 경우가 많습니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "시작하기",
+      "AppId": "Microsoft.Getstarted",
+      "Description": "Windows 팁과 소개 가이드를 제공하는 앱이며, Windows 11에서는 제거할 수 없습니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "메시징",
+      "AppId": "Microsoft.Messaging",
+      "Description": "Skype와 연동되는 경우가 많은 메시징 앱이며, 대부분 지원이 중단되었습니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "3D 뷰어",
+      "AppId": "Microsoft.Microsoft3DViewer",
+      "Description": "3D 모델을 볼 수 있는 뷰어입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Journal",
+      "AppId": "Microsoft.MicrosoftJournal",
+      "Description": "펜 입력에 최적화된 디지털 필기 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Office 허브",
+      "AppId": "Microsoft.MicrosoftOfficeHub",
+      "Description": "Microsoft Office 앱과 문서에 액세스하는 허브이며, Microsoft 365 앱의 전신입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Power BI",
+      "AppId": "Microsoft.MicrosoftPowerBIForWindows",
+      "Description": "비즈니스 분석 서비스 클라이언트입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "솔리테어 컬렉션",
+      "AppId": "Microsoft.MicrosoftSolitaireCollection",
+      "Description": "여러 가지 솔리테어 카드 게임을 모은 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "스티커 메모",
+      "AppId": "Microsoft.MicrosoftStickyNotes",
+      "Description": "디지털 스티커 메모 앱이며, 지원이 중단되고 OneNote로 대체되었습니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "혼합 현실 포털",
+      "AppId": "Microsoft.MixedReality.Portal",
+      "Description": "Windows Mixed Reality 헤드셋용 포털입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "네트워크 속도 테스트",
+      "AppId": "Microsoft.NetworkSpeedTest",
+      "Description": "인터넷 연결 속도를 측정하는 유틸리티입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft 뉴스",
+      "AppId": "Microsoft.News",
+      "Description": "Bing 뉴스를 대체한 뉴스 수집 앱이며, 현재는 Microsoft Start의 일부입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "OneNote",
+      "AppId": "Microsoft.Office.OneNote",
+      "Description": "UWP(유니버설 Windows 플랫폼) 버전의 디지털 필기 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Sway",
+      "AppId": "Microsoft.Office.Sway",
+      "Description": "프레젠테이션과 스토리텔링을 위한 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "One Connect",
+      "AppId": "Microsoft.OneConnect",
+      "Description": "모바일 통신사 관리 앱이며, 모바일 요금제로 대체되었습니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "3D 인쇄",
+      "AppId": "Microsoft.Print3D",
+      "Description": "3D 인쇄를 준비하는 소프트웨어입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Power Automate",
+      "AppId": "Microsoft.PowerAutomateDesktop",
+      "Description": "데스크톱 자동화(RPA) 도구입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Skype(UWP)",
+      "AppId": "Microsoft.SkypeApp",
+      "Description": "Skype 통신 앱의 UWP 버전이며, 지원이 중단되었습니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft To Do",
+      "AppId": "Microsoft.Todos",
+      "Description": "할 일 목록과 작업을 관리하는 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dev Home",
+      "AppId": "Microsoft.Windows.DevHome",
+      "Description": "지원이 중단된 개발자 대시보드 및 도구 구성 유틸리티입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "알람 및 시계",
+      "AppId": "Microsoft.WindowsAlarms",
+      "Description": "알람과 시계 기능을 제공하는 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "피드백 허브",
+      "AppId": "Microsoft.WindowsFeedbackHub",
+      "Description": "Windows에 대한 의견을 Microsoft에 보낼 수 있는 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Windows 지도",
+      "AppId": "Microsoft.WindowsMaps",
+      "Description": "지도와 내비게이션 기능을 제공하는 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "녹음기",
+      "AppId": "Microsoft.WindowsSoundRecorder",
+      "Description": "기본적인 오디오 녹음 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Console Companion",
+      "AppId": "Microsoft.XboxApp",
+      "Description": "지원이 중단된 이전 Xbox Console Companion 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "영화 및 TV",
+      "AppId": "Microsoft.ZuneVideo",
+      "Description": "동영상 대여, 구매 및 재생을 위한 영화 및 TV 앱이며, 이후 'Films & TV'로 이름이 변경되었습니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "가족 안전",
+      "AppId": "MicrosoftCorporationII.MicrosoftFamily",
+      "Description": "가족 계정과 설정을 관리하는 가족 안전 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "빠른 지원",
+      "AppId": "MicrosoftCorporationII.QuickAssist",
+      "Description": "원격 지원 도구입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Teams(이전)",
+      "AppId": "MicrosoftTeams",
+      "Description": "MS Store 버전의 이전 Microsoft Teams 개인용 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Teams(신규)",
+      "AppId": "MSTeams",
+      "Description": "새 Microsoft Teams 앱이며, 회사/학교 또는 개인용으로 사용할 수 있습니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "ACG 미디어 플레이어",
+      "AppId": "ACGMediaPlayer",
+      "Description": "미디어 플레이어 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Actipro Software",
+      "AppId": "ActiproSoftwareLLC",
+      "Description": "UI 컨트롤이나 소프트웨어 구성 요소로 보이며, OEM에서 함께 제공하는 경우가 많습니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Adobe Photoshop Express",
+      "AppId": "AdobeSystemsIncorporated.AdobePhotoshopExpress",
+      "Description": "Adobe의 기본 사진 편집 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Amazon",
+      "AppId": "Amazon.com.Amazon",
+      "Description": "Amazon 쇼핑 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Prime Video",
+      "AppId": "AmazonVideo.PrimeVideo",
+      "Description": "Amazon Prime Video 스트리밍 서비스 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Asphalt 8",
+      "AppId": "Asphalt8Airborne",
+      "Description": "레이싱 게임입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Autodesk SketchBook",
+      "AppId": "AutodeskSketchBook",
+      "Description": "디지털 드로잉과 스케치를 위한 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Caesars Slots",
+      "AppId": "CaesarsSlotsFreeCasino",
+      "Description": "카지노 슬롯머신 게임입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Cooking Fever",
+      "AppId": "COOKINGFEVER",
+      "Description": "레스토랑 시뮬레이션 게임입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "CyberLink Media Suite",
+      "AppId": "CyberLinkMediaSuiteEssentials",
+      "Description": "멀티미디어 소프트웨어 제품군이며, OEM에서 사전 설치하는 경우가 많습니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Disney Magic Kingdoms",
+      "AppId": "DisneyMagicKingdoms",
+      "Description": "디즈니 테마 파크를 건설하는 게임입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Disney+",
+      "AppId": "Disney.37853FC22B2CE",
+      "Description": "Disney+ 스트리밍 서비스 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Drawboard PDF",
+      "AppId": "DrawboardPDF",
+      "Description": "PDF 보기와 주석 달기를 위한 앱으로, 펜 입력에 중점을 둔 경우가 많습니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Duolingo",
+      "AppId": "Duolingo-LearnLanguagesforFree",
+      "Description": "언어 학습 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Eclipse Manager",
+      "AppId": "EclipseManager",
+      "Description": "특정 OEM 소프트웨어나 유틸리티와 관련된 경우가 많습니다(예: 화면 설정 관리).",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Facebook",
+      "AppId": "FACEBOOK.FACEBOOK",
+      "Description": "Facebook 소셜 미디어 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "FarmVille 2",
+      "AppId": "FarmVille2CountryEscape",
+      "Description": "농장 시뮬레이션 게임입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Flipboard",
+      "AppId": "Flipboard",
+      "Description": "잡지 형식의 뉴스 및 소셜 네트워크 수집 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Hidden City",
+      "AppId": "HiddenCity",
+      "Description": "숨은 물건 찾기 퍼즐 어드벤처 게임입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Hulu",
+      "AppId": "HULULLC.HULUPLUS",
+      "Description": "Hulu 스트리밍 서비스 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "iHeartRadio",
+      "AppId": "iHeartRadio",
+      "Description": "인터넷 라디오 스트리밍 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Instagram",
+      "AppId": "Facebook.Instagram",
+      "Description": "Instagram 소셜 미디어 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bubble Witch 3",
+      "AppId": "king.com.BubbleWitch3Saga",
+      "Description": "King에서 만든 퍼즐 게임입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Candy Crush Saga",
+      "AppId": "king.com.CandyCrushSaga",
+      "Description": "King에서 만든 퍼즐 게임입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Candy Crush Soda",
+      "AppId": "king.com.CandyCrushSodaSaga",
+      "Description": "King에서 만든 퍼즐 게임입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "LinkedIn",
+      "AppId": "LinkedInforWindows",
+      "Description": "LinkedIn 전문가 네트워킹 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "March of Empires",
+      "AppId": "MarchofEmpires",
+      "Description": "전략 게임입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Netflix",
+      "AppId": "4DF9E0F8.Netflix",
+      "Description": "Netflix 스트리밍 서비스 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "NYT Crossword",
+      "AppId": "NYTCrossword",
+      "Description": "New York Times 십자말풀이 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "One Calendar",
+      "AppId": "OneCalendar",
+      "Description": "여러 일정을 한곳에서 모아 주는 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Pandora",
+      "AppId": "PandoraMediaInc",
+      "Description": "Pandora 음악 스트리밍 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Phototastic Collage",
+      "AppId": "PhototasticCollage",
+      "Description": "사진 콜라주를 만드는 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "PicsArt",
+      "AppId": "PicsArt-PhotoStudio",
+      "Description": "사진 편집과 창작을 위한 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Polarr Photo Editor",
+      "AppId": "PolarrPhotoEditorAcademicEdition",
+      "Description": "아카데믹 에디션으로 제공되는 사진 편집 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Royal Revolt",
+      "AppId": "flaregamesGmbH.RoyalRevolt",
+      "Description": "타워 디펜스 및 전략 게임입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Live Wallpaper",
+      "AppId": "Sidia.LiveWallpaper",
+      "Description": "라이브 배경 화면 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Sling TV",
+      "AppId": "SlingTV",
+      "Description": "실시간 TV 스트리밍 서비스 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Spotify",
+      "AppId": "SpotifyAB.SpotifyMusic",
+      "Description": "Spotify 음악 스트리밍 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "TikTok",
+      "AppId": "BytedancePte.Ltd.TikTok",
+      "Description": "TikTok 짧은 동영상 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "TuneIn Radio",
+      "AppId": "TuneInRadio",
+      "Description": "인터넷 라디오 스트리밍 앱입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "WinZip",
+      "AppId": "WinZipUniversal",
+      "Description": "UWP 버전의 파일 압축 및 압축 풀기 유틸리티입니다.",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing 검색",
+      "AppId": "Microsoft.BingSearch",
+      "Description": "Windows 검색에 통합되는 Microsoft Bing 웹 검색입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Edge",
+      "AppId": [
+        "Microsoft.Edge",
+        "XPFFTQ037JWMHS"
+      ],
+      "Description": "Windows의 기본 브라우저입니다. 경고: 이 앱을 제거하면 Windows 샌드박스에서 유일한 브라우저도 사라지고 다른 앱에 영향을 줄 수 있습니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "WinGet"
+    },
+    {
+      "FriendlyName": "Xbox 게임 앱",
+      "AppId": "Microsoft.GamingApp",
+      "Description": "일부 PC 게임을 설치하는 데 필요한 최신 Xbox 게임 앱입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "도움말",
+      "AppId": "Microsoft.GetHelp",
+      "Description": "일부 Windows 11 문제 해결사와 지원 상호 작용에 필요한 앱입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft 365 컴패니언",
+      "AppId": "Microsoft.M365Companions",
+      "Description": "Microsoft 365(비즈니스)의 일정, 파일, 피플 미니 앱이며, Microsoft 365 관리자가 사용하도록 설정하면 다시 설치될 수 있습니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Paint 3D",
+      "AppId": "Microsoft.MSPaint",
+      "Description": "3D 기능을 갖춘 최신 그림판 앱입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "OneDrive",
+      "AppId": "Microsoft.OneDrive",
+      "Description": "OneDrive 개인용 클라우드 저장소 클라이언트입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "WinGet"
+    },
+    {
+      "FriendlyName": "Windows용 Outlook",
+      "AppId": "Microsoft.OutlookForWindows",
+      "Description": "새로운 Windows용 Outlook 메일 클라이언트입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "그림판",
+      "AppId": "Microsoft.Paint",
+      "Description": "전통적인 2D 그림판 앱인 클래식 그림판입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "피플",
+      "AppId": "Microsoft.People",
+      "Description": "메일 및 일정에 필요하며 함께 제공되던 앱이며, 지원이 중단되었습니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "원격 데스크톱",
+      "AppId": "Microsoft.RemoteDesktop",
+      "Description": "원격 데스크톱 클라이언트 앱입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "캡처 도구",
+      "AppId": "Microsoft.ScreenSketch",
+      "Description": "스크린샷과 주석을 위한 캡처 도구입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "위젯 환경",
+      "AppId": "Microsoft.StartExperiencesApp",
+      "Description": "Windows 위젯의 내 피드 기능을 제공하는 앱입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Whiteboard",
+      "AppId": "Microsoft.Whiteboard",
+      "Description": "디지털 공동 작업 화이트보드 앱입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "사진",
+      "AppId": "Microsoft.Windows.Photos",
+      "Description": "기본 사진 보기 및 간단한 편집 앱입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "계산기",
+      "AppId": "Microsoft.WindowsCalculator",
+      "Description": "계산기 앱입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "카메라",
+      "AppId": "Microsoft.WindowsCamera",
+      "Description": "기본 제공되거나 연결된 카메라를 사용하는 카메라 앱입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "메일 및 일정",
+      "AppId": "Microsoft.windowscommunicationsapps",
+      "Description": "메일 및 일정 앱 제품군이며, 지원이 중단되었습니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "메모장",
+      "AppId": "Microsoft.WindowsNotepad",
+      "Description": "메모장 텍스트 편집기 앱입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Store",
+      "AppId": "Microsoft.WindowsStore",
+      "Description": "Microsoft Store입니다. 경고: 이 앱을 제거하면 쉽게 다시 설치할 수 없습니다!",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Windows 터미널",
+      "AppId": "Microsoft.WindowsTerminal",
+      "Description": "Windows 11의 기본 터미널 앱(명령 프롬프트, PowerShell, WSL)입니다. 경고: Windows 터미널에서 Win11Debloat를 시작한 경우 이 앱을 제거하면 스크립트가 실패하므로 제거하지 마세요.",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox TCUI Framework",
+      "AppId": "Microsoft.Xbox.TCUI",
+      "Description": "Microsoft Store, 사진 및 일부 게임에 필요한 것으로 보이는 UI 프레임워크입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Game Overlay",
+      "AppId": "Microsoft.XboxGameOverlay",
+      "Description": "일부 게임에 필요하거나 유용한 게임 오버레이입니다(Xbox 게임 바의 일부).",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Gaming Overlay",
+      "AppId": "Microsoft.XboxGamingOverlay",
+      "Description": "일부 게임에 필요하거나 유용한 게임 오버레이입니다(Xbox 게임 바의 일부).",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Identity Provider",
+      "AppId": "Microsoft.XboxIdentityProvider",
+      "Description": "일부 게임과 Xbox 서비스에 필요한 Xbox 로그인 프레임워크입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Speech To Text",
+      "AppId": "Microsoft.XboxSpeechToTextOverlay",
+      "Description": "일부 게임에 필요한 접근성 기능입니다. 경고: 이 앱은 쉽게 다시 설치할 수 없습니다!",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "휴대폰과 연결",
+      "AppId": "Microsoft.YourPhone",
+      "Description": "Android/iOS 휴대폰을 PC에 연결하는 휴대폰과 연결 앱입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "미디어 플레이어",
+      "AppId": "Microsoft.ZuneMusic",
+      "Description": "Groove Music을 대체한 최신 미디어 플레이어로, 로컬 오디오와 동영상을 재생합니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "장치 간 환경",
+      "AppId": "MicrosoftWindows.CrossDevice",
+      "Description": "파일 탐색기, 카메라 등에서 휴대폰을 통합하는 기능입니다(휴대폰과 연결 기능의 일부).",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Windows Web Experience Pack",
+      "AppId": "MicrosoftWindows.Client.WebExperience",
+      "Description": "Microsoft Store를 통해 위젯 같은 특정 기능을 제공하고 업데이트하는 데 도움이 되는 패키지입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "위젯 플랫폼 런타임",
+      "AppId": "Microsoft.WidgetsPlatformRuntime",
+      "Description": "Windows 위젯이 작동하는 데 필요한 런타임입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "LG Monitor App",
+      "AppId": "LGElectronics.LGMonitorApp",
+      "Description": "LG 모니터를 제어하는 LG OEM 소프트웨어이며, LG 모니터가 연결되어 있으면 Windows Update에서 이 앱을 자동으로 다시 설치할 수 있습니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP AI Experience Center",
+      "AppId": "AD2F1837.HPAIExperienceCenter",
+      "Description": "AI 기반 기능과 지원을 제공하는 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Connected Music",
+      "AppId": "AD2F1837.HPConnectedMusic",
+      "Description": "지원이 중단되었을 수 있는 음악용 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Connected Photo",
+      "AppId": "AD2F1837.HPConnectedPhotopoweredbySnapfish",
+      "Description": "Snapfish와 통합된 사진용 HP OEM 소프트웨어이며, 지원이 중단되었을 수 있습니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Desktop Support Utilities",
+      "AppId": "AD2F1837.HPDesktopSupportUtilities",
+      "Description": "데스크톱 지원 도구를 제공하는 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Easy Clean",
+      "AppId": "AD2F1837.HPEasyClean",
+      "Description": "시스템 정리나 최적화를 위한 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP File Viewer",
+      "AppId": "AD2F1837.HPFileViewer",
+      "Description": "특정 파일 형식을 보기 위한 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP JumpStarts",
+      "AppId": "AD2F1837.HPJumpStarts",
+      "Description": "자습서, 앱 검색 또는 HP 기능 빠른 액세스를 제공하는 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP PC Hardware Diagnostics",
+      "AppId": "AD2F1837.HPPCHardwareDiagnosticsWindows",
+      "Description": "PC 하드웨어 진단을 위한 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Power Manager",
+      "AppId": "AD2F1837.HPPowerManager",
+      "Description": "전원 설정과 배터리를 관리하는 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Printer Control",
+      "AppId": "AD2F1837.HPPrinterControl",
+      "Description": "HP 프린터를 관리하는 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Privacy Settings",
+      "AppId": "AD2F1837.HPPrivacySettings",
+      "Description": "개인 정보 설정을 관리하는 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP QuickDrop",
+      "AppId": "AD2F1837.HPQuickDrop",
+      "Description": "장치 간에 파일을 빠르게 전송하는 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP QuickTouch",
+      "AppId": "AD2F1837.HPQuickTouch",
+      "Description": "터치 전용 바로 가기나 컨트롤을 위한 것으로 보이는 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Registration",
+      "AppId": "AD2F1837.HPRegistration",
+      "Description": "제품 등록을 위한 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Support Assistant",
+      "AppId": "AD2F1837.HPSupportAssistant",
+      "Description": "지원, 업데이트 및 문제 해결을 위한 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Sure Shield AI",
+      "AppId": "AD2F1837.HPSureShieldAI",
+      "Description": "AI 기반 위협 방지 기능으로 보이는 HP OEM 보안 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP System Information",
+      "AppId": "AD2F1837.HPSystemInformation",
+      "Description": "시스템 정보를 표시하는 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Welcome",
+      "AppId": "AD2F1837.HPWelcome",
+      "Description": "환영 환경이나 초기 설정 도움말을 제공하는 HP OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP WorkWell",
+      "AppId": "AD2F1837.HPWorkWell",
+      "Description": "웰빙에 중점을 둔 HP OEM 소프트웨어로, 휴식 알림이나 인체 공학 팁이 포함될 수 있습니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "myHP",
+      "AppId": "AD2F1837.myHP",
+      "Description": "장치 정보, 지원 및 서비스를 제공하는 HP OEM 중앙 허브 앱입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Lenovo Vantage",
+      "AppId": "E046963F.LenovoCompanion",
+      "Description": "장치 설정, 업데이트 및 지원을 제공하는 Lenovo OEM 허브 앱입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Lenovo Vantage Service",
+      "AppId": "LenovoCompanyLimited.LenovoVantageService",
+      "Description": "Lenovo Vantage의 백그라운드 서비스 구성 요소입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dell SupportAssist",
+      "AppId": "DellInc.DellSupportAssistforPCs",
+      "Description": "지원, 진단 및 업데이트를 제공하는 Dell OEM 도구입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dell Digital Delivery Services",
+      "AppId": "DellInc.DellDigitalDelivery",
+      "Description": "미리 구매한 소프트웨어를 제공하는 Dell OEM 소프트웨어입니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dell Mobile Connect",
+      "AppId": "DellInc.DellMobileConnect",
+      "Description": "Android/iOS 휴대폰을 PC에 연결하는 Dell OEM 앱이며, 휴대폰과 연결로 대체되었습니다.",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    }
+  ],
+  "Presets": [
+    {
+      "Name": "Xbox 게임 앱",
+      "AppIds": [
+        "Microsoft.GamingApp",
+        "Microsoft.XboxGameOverlay",
+        "Microsoft.XboxGamingOverlay"
+      ]
+    },
+    {
+      "Name": "OEM 소프트웨어(Dell, HP, Lenovo, LG)",
+      "AppIds": [
+        "AD2F1837.HPAIExperienceCenter",
+        "AD2F1837.HPConnectedMusic",
+        "AD2F1837.HPConnectedPhotopoweredbySnapfish",
+        "AD2F1837.HPDesktopSupportUtilities",
+        "AD2F1837.HPEasyClean",
+        "AD2F1837.HPFileViewer",
+        "AD2F1837.HPJumpStarts",
+        "AD2F1837.HPPCHardwareDiagnosticsWindows",
+        "AD2F1837.HPPowerManager",
+        "AD2F1837.HPPrinterControl",
+        "AD2F1837.HPPrivacySettings",
+        "AD2F1837.HPQuickDrop",
+        "AD2F1837.HPQuickTouch",
+        "AD2F1837.HPRegistration",
+        "AD2F1837.HPSupportAssistant",
+        "AD2F1837.HPSureShieldAI",
+        "AD2F1837.HPSystemInformation",
+        "AD2F1837.HPWelcome",
+        "AD2F1837.HPWorkWell",
+        "AD2F1837.myHP",
+        "E046963F.LenovoCompanion",
+        "LenovoCompanyLimited.LenovoVantageService",
+        "LGElectronics.LGMonitorApp",
+        "DellInc.DellSupportAssistforPCs",
+        "DellInc.DellDigitalDelivery",
+        "DellInc.DellMobileConnect"
+      ]
+    }
+  ]
+}

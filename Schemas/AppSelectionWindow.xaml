@@ -112,8 +112,8 @@
                         <Grid Margin="0,8,10,10">
                             <CheckBox x:Name="OnlyInstalledBox" Content="%LANG:AppOnlyInstalledCheckbox%" Foreground="{DynamicResource AppFgColor}" AutomationProperties.Name="%LANG:AppOnlyInstalledCheckbox%"/>
                         </Grid>
-                        <Button x:Name="ConfirmBtn" Width="80" Height="32" Margin="0,0,10,0" Content="%LANG:AppSelectionWindowConfirm%" Style="{DynamicResource PrimaryButtonStyle}" AutomationProperties.Name="%LANG:AppSelectionWindowConfirm%"/>
-                        <Button x:Name="CancelBtn" Width="80" Height="32" Content="%LANG:AppSelectionWindowCancel%" Style="{DynamicResource SecondaryButtonStyle}" IsCancel="True" AutomationProperties.Name="%LANG:AppSelectionWindowCancel%"/>
+                        <Button x:Name="ConfirmBtn" MinWidth="80" Height="32" Padding="14,0" Margin="0,0,10,0" Content="%LANG:AppSelectionWindowConfirm%" Style="{DynamicResource PrimaryButtonStyle}" AutomationProperties.Name="%LANG:AppSelectionWindowConfirm%"/>
+                        <Button x:Name="CancelBtn" MinWidth="80" Height="32" Padding="14,0" Content="%LANG:AppSelectionWindowCancel%" Style="{DynamicResource SecondaryButtonStyle}" IsCancel="True" AutomationProperties.Name="%LANG:AppSelectionWindowCancel%"/>
                     </StackPanel>
                 </Grid>
             </Grid>

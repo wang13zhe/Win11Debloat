@@ -1,0 +1,42 @@
+[
+  {
+    "Code": "en-US",
+    "NativeName": "English"
+  },
+  {
+    "Code": "zh-CN",
+    "NativeName": "简体中文"
+  },
+  {
+    "Code": "zh-TW",
+    "NativeName": "繁體中文"
+  },
+  {
+    "Code": "ja-JP",
+    "NativeName": "日本語"
+  },
+  {
+    "Code": "ko-KR",
+    "NativeName": "한국어"
+  },
+  {
+    "Code": "de-DE",
+    "NativeName": "Deutsch"
+  },
+  {
+    "Code": "fr-FR",
+    "NativeName": "Français"
+  },
+  {
+    "Code": "es-ES",
+    "NativeName": "Español"
+  },
+  {
+    "Code": "pt-BR",
+    "NativeName": "Português (Brasil)"
+  },
+  {
+    "Code": "ru-RU",
+    "NativeName": "Русский"
+  }
+]

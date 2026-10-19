@@ -1,0 +1,744 @@
+{
+  "Features": {
+    "RemoveApps": {
+      "Label": "「Apps」パラメーターで指定したアプリを削除する",
+      "ApplyText": "選択したアプリを削除しています"
+    },
+    "Apps": {
+      "Label": "削除するアプリの選択。コンマ区切りの一覧で指定します。既定のアプリ一覧を使用するには「Default」を使用するか省略します",
+      "ApplyText": "選択したアプリを削除しています"
+    },
+    "RemoveGamingApps": {
+      "Label": "Xbox アプリと Xbox Game Bar を削除する",
+      "ApplyText": "ゲーム関連のアプリを削除しています"
+    },
+    "RemoveHPApps": {
+      "Label": "HP の OEM アプリケーションを削除する",
+      "ApplyText": "HP のアプリを削除しています"
+    },
+    "CreateRestorePoint": {
+      "Label": "システムの復元ポイントを作成する",
+      "ApplyText": "システムの復元ポイントを作成しています"
+    },
+    "DisableTelemetry": {
+      "Label": "テレメトリ、追跡、ターゲット広告を無効にする",
+      "ToolTip": "この設定では、テレメトリ、診断データの収集、アクティビティ履歴、アプリ起動の追跡、ターゲット広告などを無効にします。デバイスと使用状況について Microsoft に送信されるデータが制限されます。Windows Insider の場合、オプションの診断データ収集を再び有効にするまで更新プログラムがブロックされることがあります。",
+      "ApplyText": "テレメトリと診断データの収集を無効にしています",
+      "UndoLabel": "テレメトリ、追跡、ターゲット広告を有効にする",
+      "ApplyUndoText": "テレメトリと診断データの収集を有効にしています"
+    },
+    "DisableSuggestions": {
+      "Label": "Windows 全体のヒント、コツ、おすすめコンテンツを無効にする",
+      "ToolTip": "この設定では、Windows の煩わしい通知、リマインダー、同期プロバイダーの広告などを非表示にします。また、おすすめアプリの自動インストールも防止します。",
+      "ApplyText": "Windows 全体のヒント、コツ、おすすめ、広告を無効にしています",
+      "UndoLabel": "Windows 全体のヒント、コツ、おすすめコンテンツを有効にする",
+      "ApplyUndoText": "Windows 全体のヒント、コツ、おすすめ、広告を有効にしています"
+    },
+    "DisableNotifications": {
+      "Label": "Windows の通知 (アプリやその他の送信者から) を無効にする",
+      "ToolTip": "アプリやその他の送信者からの Windows 標準の通知を無効にします。Discord、WhatsApp、Teams、Slack などのアプリからの通知も含まれます。",
+      "ApplyText": "Windows の通知とリマインダーを無効にしています",
+      "UndoLabel": "Windows の通知とリマインダーを有効にする",
+      "ApplyUndoText": "Windows の通知とリマインダーを有効にしています"
+    },
+    "DisableLocationServices": {
+      "Label": "Windows の位置情報サービスとアプリの位置情報アクセスを無効にする",
+      "ToolTip": "Windows の位置情報サービスをオフにし、アプリによる位置情報へのアクセスを拒否します。この機能はポリシーを使用するため、一部の設定がロックされます。",
+      "ApplyText": "Windows の位置情報サービスとアプリの位置情報アクセスを無効にしています",
+      "UndoLabel": "Windows の位置情報サービスとアプリの位置情報アクセスを有効にする",
+      "ApplyUndoText": "Windows の位置情報サービスとアプリの位置情報アクセスを有効にしています"
+    },
+    "DisableFindMyDevice": {
+      "Label": "デバイスの検索による位置情報の追跡を無効にする",
+      "ToolTip": "デバイスの位置情報を定期的に Microsoft に送信する「デバイスの検索」機能をオフにします。この機能はポリシーを使用するため、一部の設定がロックされます。",
+      "ApplyText": "デバイスの検索による位置情報の追跡を無効にしています",
+      "UndoLabel": "デバイスの検索による位置情報の追跡を有効にする",
+      "ApplyUndoText": "デバイスの検索による位置情報の追跡を有効にしています"
+    },
+    "DisableLockscreenTips": {
+      "Label": "ロック画面のヒントとコツを無効にする",
+      "ToolTip": "ロック画面のスポットライト オプションをオフにし、ロック画面に表示されるヒント、コツ、豆知識を無効にします。",
+      "ApplyText": "ロック画面のヒントとコツを無効にしています",
+      "UndoLabel": "ロック画面のヒントとコツを有効にする",
+      "ApplyUndoText": "ロック画面のヒントとコツを有効にしています"
+    },
+    "EnableDesktopSpotlight": {
+      "Label": "Windows スポットライトのデスクトップ背景とショートカットを有効にする",
+      "ToolTip": "Windows スポットライトのデスクトップ背景と「この画像について」ショートカットを復元します。",
+      "ApplyText": "Windows スポットライトのデスクトップ背景とショートカットを復元しています"
+    },
+    "DisableDesktopSpotlight": {
+      "Label": "Windows スポットライトのデスクトップ背景を無効にする",
+      "ToolTip": "デスクトップ背景の Windows スポットライトをオフにします。この機能は壁紙を入れ替えて表示し、ヒントや豆知識が表示されることがあります。この機能はポリシーを使用するため、一部の設定がロックされます。",
+      "ApplyText": "Windows スポットライトのデスクトップ背景を無効にしています",
+      "UndoLabel": "Windows スポットライトのデスクトップ背景を有効にする",
+      "ApplyUndoText": "Windows スポットライトのデスクトップ背景とショートカットを復元しています"
+    },
+    "HideDesktopSpotlightIcon": {
+      "Label": "デスクトップの「この画像について」ショートカットを非表示にする",
+      "ToolTip": "Windows スポットライトの壁紙の切り替えを有効にしたまま、デスクトップの「この画像について」ショートカットを非表示にします。Windows スポットライト自体は無効になりません。",
+      "ApplyText": "Windows スポットライトの「この画像について」デスクトップ ショートカットを非表示にしています",
+      "UndoLabel": "デスクトップの「この画像について」ショートカットを表示する",
+      "ApplyUndoText": "Windows スポットライトの「この画像について」デスクトップ ショートカットを表示しています"
+    },
+    "DisableEdgeAds": {
+      "Label": "Edge の広告、おすすめ、ニュース フィードを無効にする",
+      "ToolTip": "Microsoft Edge の広告、おすすめ、MSN ニュース フィードなどの煩わしい要素をオフにします。この機能はポリシーを使用するため、一部の設定がロックされます。",
+      "ApplyText": "Microsoft Edge の広告、おすすめ、MSN ニュース フィードを無効にしています",
+      "UndoLabel": "Edge の広告、おすすめ、ニュース フィードを有効にする",
+      "ApplyUndoText": "Microsoft Edge の広告、おすすめ、MSN ニュース フィードを有効にしています"
+    },
+    "DisableCopilot": {
+      "Label": "Microsoft Copilot を無効にする",
+      "ToolTip": "Windows に組み込まれている AI アシスタント、Microsoft Copilot を無効にしてアンインストールします。",
+      "ApplyText": "Microsoft Copilot を無効にしています",
+      "UndoLabel": "Microsoft Copilot を有効にする",
+      "ApplyUndoText": "Microsoft Copilot を有効にしています"
+    },
+    "DisableRecall": {
+      "Label": "Windows Recall を無効にする",
+      "ToolTip": "最近使用したファイル、アプリ、アクティビティにすばやくアクセスできる AI 機能、Windows Recall を無効にします。この機能はポリシーを使用するため、一部の設定がロックされます。",
+      "ApplyText": "Windows Recall を無効にしています",
+      "UndoLabel": "Windows Recall を有効にする",
+      "ApplyUndoText": "Windows Recall を有効にしています"
+    },
+    "DisableClickToDo": {
+      "Label": "Click To Do (AI によるテキストと画像の分析) を無効にする",
+      "ToolTip": "Windows の AI によるテキストと画像の分析機能を提供する Click To Do を無効にします。この機能はポリシーを使用するため、一部の設定がロックされます。",
+      "ApplyText": "Click To Do を無効にしています",
+      "UndoLabel": "Click To Do (AI によるテキストと画像の分析) を有効にする",
+      "ApplyUndoText": "Click To Do を有効にしています"
+    },
+    "DisableAISvcAutoStart": {
+      "Label": "AI サービスが自動的に開始されないようにする",
+      "ToolTip": "WSAIFabricSvc サービスを手動開始に設定し、Windows と同時にサービスが自動的に開始されないようにします。",
+      "ApplyText": "AI サービスが自動的に開始されないようにしています",
+      "UndoLabel": "AI サービスの自動開始を許可する",
+      "ApplyUndoText": "AI サービスの自動開始を許可しています"
+    },
+    "DisableDVR": {
+      "Label": "Xbox のゲーム/画面録画を無効にする",
+      "ToolTip": "Game Bar アプリに含まれる Xbox のゲーム/画面録画機能を無効にします。この機能はポリシーを使用するため、一部の設定がロックされます。",
+      "ApplyText": "Xbox のゲーム/画面録画を無効にしています",
+      "UndoLabel": "Xbox のゲーム/画面録画を有効にする",
+      "ApplyUndoText": "Xbox のゲーム/画面録画を有効にしています"
+    },
+    "DisableGameBarIntegration": {
+      "Label": "Game Bar の統合を無効にする",
+      "ToolTip": "ゲームおよびコントローラーとの Game Bar の統合を無効にします。ゲームの起動時やコントローラーの接続時に表示される、煩わしい ms-gamebar のポップアップを停止します。",
+      "ApplyText": "Game Bar の統合を無効にしています",
+      "UndoLabel": "Game Bar の統合を有効にする",
+      "ApplyUndoText": "Game Bar の統合を有効にしています"
+    },
+    "ClearStart": {
+      "Label": "このユーザーのみ、スタート メニューのピン留めアプリをすべて削除する",
+      "ApplyText": "スタート メニューのピン留めアプリをすべて削除しています"
+    },
+    "ClearStartAllUsers": {
+      "Label": "既存および新規のすべてのユーザーについて、スタート メニューのピン留めアプリをすべて削除する",
+      "ApplyText": "すべてのユーザーのスタート メニューのピン留めアプリをすべて削除しています"
+    },
+    "ReplaceStart": {
+      "Label": "このユーザーのみ、スタート メニューのレイアウトを指定したテンプレート ファイルで置き換える",
+      "ApplyText": "スタート メニューを置き換えています"
+    },
+    "ReplaceStartAllUsers": {
+      "Label": "既存および新規のすべてのユーザーについて、スタート メニューのレイアウトを指定したテンプレート ファイルで置き換える",
+      "ApplyText": "すべてのユーザーのスタート メニューを置き換えています"
+    },
+    "DisableStartRecommended": {
+      "Label": "スタート メニューの「推奨」セクションを非表示にする",
+      "ToolTip": "最近追加されたアプリ、最近開いたファイル、アプリのおすすめを表示するスタート メニューの「推奨」セクションを非表示にします。この機能はポリシーを使用するため、一部の設定がロックされます。",
+      "ApplyText": "スタート メニューの「推奨」セクションを無効にしています",
+      "UndoLabel": "スタート メニューに「推奨」セクションを表示する",
+      "ApplyUndoText": "スタート メニューの「推奨」セクションを有効にしています"
+    },
+    "DisableStartAllApps": {
+      "Label": "スタート メニューの「すべてのアプリ」セクションを非表示にする",
+      "ToolTip": "インストールされているすべてのアプリを表示するスタート メニューの「すべてのアプリ」セクションを非表示にします。警告: このセクションを非表示にすると、システムにインストールされているアプリを見つけにくくなる場合があります。この機能はポリシーを使用するため、一部の設定がロックされます。",
+      "ApplyText": "スタート メニューの「すべてのアプリ」セクションを無効にしています",
+      "UndoLabel": "スタート メニューに「すべてのアプリ」セクションを表示する",
+      "ApplyUndoText": "スタート メニューの「すべてのアプリ」セクションを有効にしています"
+    },
+    "DisableStartPhoneLink": {
+      "Label": "スタート メニューのスマートフォン連携を無効にする",
+      "ToolTip": "モバイル デバイスを PC にリンクしている場合に、スタート メニューのスマートフォン連携を削除します。",
+      "ApplyText": "スタート メニューのモバイル デバイスとのスマートフォン連携を無効にしています",
+      "UndoLabel": "スタート メニューのスマートフォン連携を有効にする",
+      "ApplyUndoText": "スタート メニューのモバイル デバイスとのスマートフォン連携を有効にしています"
+    },
+    "DisableBing": {
+      "Label": "検索の Bing Web 検索と Copilot の統合を無効にする",
+      "ToolTip": "Windows の検索エクスペリエンスで、Bing の Web 検索結果と Copilot の統合をオフにします。この機能はポリシーを使用するため、一部の設定がロックされます。",
+      "ApplyText": "Windows 検索の Bing Web 検索と Copilot の統合を無効にしています",
+      "UndoLabel": "検索の Bing Web 検索と Copilot の統合を有効にする",
+      "ApplyUndoText": "Windows 検索の Bing Web 検索と Copilot の統合を有効にしています"
+    },
+    "DisableStoreSearchSuggestions": {
+      "Label": "検索の Microsoft Store アプリのおすすめを無効にする",
+      "ToolTip": "Windows 検索での Microsoft Store アプリのおすすめを無効にします。",
+      "ApplyText": "検索の Microsoft Store アプリのおすすめを無効にしています",
+      "UndoLabel": "検索の Microsoft Store アプリのおすすめを有効にする",
+      "ApplyUndoText": "検索の Microsoft Store アプリのおすすめを有効にしています"
+    },
+    "DisableSettings365Ads": {
+      "Label": "設定のホームに表示される Microsoft 365 Copilot の広告を非表示にする",
+      "ToolTip": "設定のホーム ページに表示される Microsoft 365 Copilot の広告をオフにします。",
+      "ApplyText": "設定のホームの Microsoft 365 Copilot の広告を無効にしています",
+      "UndoLabel": "設定のホームに Microsoft 365 Copilot の広告を表示する",
+      "ApplyUndoText": "設定のホームの Microsoft 365 Copilot の広告を有効にしています"
+    },
+    "DisableSettingsHome": {
+      "Label": "設定の「ホーム」ページを非表示にする",
+      "ToolTip": "設定アプリから「ホーム」ページを削除します。",
+      "ApplyText": "設定のホーム ページを無効にしています",
+      "UndoLabel": "設定の「ホーム」ページを表示する",
+      "ApplyUndoText": "設定のホーム ページを有効にしています"
+    },
+    "DisableEdgeAI": {
+      "Label": "Microsoft Edge の AI 機能を無効にする",
+      "ToolTip": "AI 搭載のサイドバーや Copilot 機能など、Microsoft Edge の AI 機能をオフにします。この機能はポリシーを使用するため、一部の設定がロックされます。",
+      "ApplyText": "Microsoft Edge の AI 機能を無効にしています",
+      "UndoLabel": "Microsoft Edge の AI 機能を有効にする",
+      "ApplyUndoText": "Microsoft Edge の AI 機能を有効にしています"
+    },
+    "DisablePaintAI": {
+      "Label": "ペイントの AI 機能を無効にする",
+      "ToolTip": "AI による画像生成や編集ツールなど、ペイントの AI 機能をオフにします。この機能はポリシーを使用するため、一部の設定がロックされます。",
+      "ApplyText": "ペイントの AI 機能を無効にしています",
+      "UndoLabel": "ペイントの AI 機能を有効にする",
+      "ApplyUndoText": "ペイントの AI 機能を有効にしています"
+    },
+    "DisableNotepadAI": {
+      "Label": "メモ帳の AI 機能を無効にする",
+      "ToolTip": "AI による文章提案など、メモ帳の AI 機能をオフにします。この機能はポリシーを使用するため、一部の設定がロックされます。",
+      "ApplyText": "メモ帳の AI 機能を無効にしています",
+      "UndoLabel": "メモ帳の AI 機能を有効にする",
+      "ApplyUndoText": "メモ帳の AI 機能を有効にしています"
+    },
+    "EnableDarkMode": {
+      "Label": "システムとアプリのダーク テーマを有効にする",
+      "ToolTip": "アプリとシステムのテーマをダーク モードに設定します。",
+      "ApplyText": "システムとアプリのダーク モードを有効にしています",
+      "UndoLabel": "システムとアプリのダーク テーマを無効にする",
+      "ApplyUndoText": "システムとアプリのダーク モードを無効にしています"
+    },
+    "DisableDragTray": {
+      "Label": "ファイルの共有と移動のための「ドラッグ トレイ」を無効にする",
+      "ToolTip": "ドラッグ トレイは、Windows 11 でファイルを共有および移動するための新しい機能で、ファイルをドラッグすると画面の上部に表示されます。",
+      "ApplyText": "ドラッグ トレイを無効にしています",
+      "UndoLabel": "ファイルの共有と移動のための「ドラッグ トレイ」を有効にする",
+      "ApplyUndoText": "ドラッグ トレイを有効にしています"
+    },
+    "RevertContextMenu": {
+      "Label": "従来の Windows 10 の右クリック メニュー スタイルを使用する",
+      "ToolTip": "新しい Windows 11 の右クリック メニューでは「その他のオプションを表示」の背後に隠れている、従来の Windows 10 スタイルの右クリック メニューを復元します。",
+      "ApplyText": "従来の Windows 10 スタイルの右クリック メニューを復元しています",
+      "UndoLabel": "Windows 11 の右クリック メニュー スタイルを使用する",
+      "ApplyUndoText": "Windows 11 スタイルの右クリック メニューを復元しています"
+    },
+    "DisableMouseAcceleration": {
+      "Label": "ポインターの精度を高める (マウス アクセラレーション) を無効にする",
+      "ToolTip": "Windows で既定で有効になっているマウス アクセラレーションを無効にします。マウスの動きがより一貫して予測しやすくなります。",
+      "ApplyText": "ポインターの精度を高める機能をオフにしています",
+      "UndoLabel": "ポインターの精度を高める (マウス アクセラレーション) を有効にする",
+      "ApplyUndoText": "ポインターの精度を高める機能をオンにしています"
+    },
+    "DisableStickyKeys": {
+      "Label": "固定キーのキーボード ショートカット (Shift を 5 回押す) を無効にする",
+      "ToolTip": "Shift キーを 5 回続けて押したときに、固定キーのダイアログが表示されないようにします。",
+      "ApplyText": "固定キーのキーボード ショートカットを無効にしています",
+      "UndoLabel": "固定キーのキーボード ショートカット (Shift を 5 回押す) を有効にする",
+      "ApplyUndoText": "固定キーのキーボード ショートカットを有効にしています"
+    },
+    "DisableWindowSnapping": {
+      "Label": "ウィンドウのスナップを無効にする",
+      "ToolTip": "ウィンドウを画面の端や角にスナップする機能をオフにします。",
+      "ApplyText": "ウィンドウのスナップを無効にしています",
+      "UndoLabel": "ウィンドウのスナップを有効にする",
+      "ApplyUndoText": "ウィンドウのスナップを有効にしています"
+    },
+    "DisableSnapAssist": {
+      "Label": "ウィンドウをスナップしたときのアプリ候補の表示を無効にする",
+      "ToolTip": "ウィンドウを画面の端や角にスナップしたときに、アプリの候補が表示されないようにします。",
+      "ApplyText": "スナップ アシストの候補を無効にしています",
+      "UndoLabel": "ウィンドウをスナップしたときのアプリ候補の表示を有効にする",
+      "ApplyUndoText": "スナップ アシストの候補を有効にしています"
+    },
+    "DisableSnapLayouts": {
+      "Label": "画面上部と最大化ボタンのスナップ レイアウトのポップアップを非表示にする",
+      "ToolTip": "最大化ボタンにマウス ポインターを合わせたときや、ウィンドウを画面の上部にドラッグしたときに表示されるスナップ レイアウトのポップアップをオフにします。",
+      "ApplyText": "画面上部と最大化ボタンへのドラッグ時にスナップ レイアウトを非表示にしています",
+      "UndoLabel": "画面上部と最大化ボタンのスナップ レイアウトのポップアップを表示する",
+      "ApplyUndoText": "画面上部と最大化ボタンへのドラッグ時にスナップ レイアウトを表示しています"
+    },
+    "HideTabsInAltTab": {
+      "Label": "スナップ時または Alt+Tab 押下時にアプリのタブを非表示にする",
+      "ApplyText": "スナップ時または Alt+Tab 押下時にアプリのタブを表示しないようにしています"
+    },
+    "Show3TabsInAltTab": {
+      "Label": "スナップ時または Alt+Tab 押下時にアプリのタブを 3 つ表示する",
+      "ApplyText": "スナップ時または Alt+Tab 押下時にアプリのタブを 3 つ表示するようにしています"
+    },
+    "Show5TabsInAltTab": {
+      "Label": "スナップ時または Alt+Tab 押下時にアプリのタブを 5 つ表示する",
+      "ApplyText": "スナップ時または Alt+Tab 押下時にアプリのタブを 5 つ表示するようにしています"
+    },
+    "Show20TabsInAltTab": {
+      "Label": "スナップ時または Alt+Tab 押下時にアプリのタブを 20 個表示する",
+      "ApplyText": "スナップ時または Alt+Tab 押下時にアプリのタブを 20 個表示するようにしています"
+    },
+    "TaskbarAlignLeft": {
+      "Label": "タスクバーを左に配置する",
+      "ToolTip": "Windows 11 では既定でタスクバーのボタンが中央に配置されます。この設定を有効にすると、以前のバージョンの Windows と同様に、タスクバーのボタンが左に移動します。",
+      "ApplyText": "タスクバーのボタンを左に配置しています",
+      "UndoLabel": "タスクバーを中央に配置する",
+      "ApplyUndoText": "タスクバーのボタンを中央に配置しています"
+    },
+    "HideSearchTb": {
+      "Label": "タスクバーの検索アイコンを非表示にする",
+      "ApplyText": "タスクバーの検索アイコンを非表示にしています",
+      "UndoLabel": "タスクバーに検索ボックスを表示する",
+      "ApplyUndoText": "タスクバーの検索を検索ボックスに変更しています"
+    },
+    "ShowSearchIconTb": {
+      "Label": "タスクバーに検索アイコンを表示する",
+      "ApplyText": "タスクバーの検索をアイコンのみに変更しています",
+      "UndoLabel": "タスクバーに検索ボックスを表示する",
+      "ApplyUndoText": "タスクバーの検索を検索ボックスに変更しています"
+    },
+    "ShowSearchLabelTb": {
+      "Label": "タスクバーにラベル付きの検索アイコンを表示する",
+      "ApplyText": "タスクバーの検索をラベル付きアイコンに変更しています",
+      "UndoLabel": "タスクバーに検索ボックスを表示する",
+      "ApplyUndoText": "タスクバーの検索を検索ボックスに変更しています"
+    },
+    "ShowSearchBoxTb": {
+      "Label": "タスクバーに検索ボックスを表示する",
+      "ApplyText": "タスクバーの検索を検索ボックスに変更しています"
+    },
+    "HideTaskview": {
+      "Label": "タスクバーの「タスク ビュー」ボタンを非表示にする",
+      "ToolTip": "開いているすべてのウィンドウと仮想デスクトップを表示できる、タスクバーの「タスク ビュー」ボタンを無効にします。",
+      "ApplyText": "タスクバーのタスク ビュー ボタンを非表示にしています",
+      "UndoLabel": "タスクバーに「タスク ビュー」ボタンを表示する",
+      "ApplyUndoText": "タスクバーのタスク ビュー ボタンを表示しています"
+    },
+    "DisableWidgets": {
+      "Label": "タスクバーとロック画面のウィジェットを無効にする",
+      "ToolTip": "タスクバーのウィジェット ボタンや、ロック画面に表示できるウィジェットなど、Windows のウィジェット機能を無効にします。",
+      "ApplyText": "タスクバーとロック画面のウィジェットを無効にしています"
+    },
+    "HideChat": {
+      "Label": "タスクバーのチャット (今すぐ会議) アイコンを非表示にする",
+      "ToolTip": "タスクバーのチャット (今すぐ会議) アイコンを無効にします。",
+      "ApplyText": "タスクバーのチャット アイコンを非表示にしています",
+      "UndoLabel": "タスクバーにチャット (今すぐ会議) アイコンを表示する",
+      "ApplyUndoText": "タスクバーのチャット アイコンを表示しています"
+    },
+    "DisableStorageSense": {
+      "Label": "記憶域の感知による自動ディスク クリーンアップを無効にする",
+      "ToolTip": "一時ファイルの削除、ごみ箱の空にすること、ダウンロード フォルダー内のファイルのクリーンアップによってディスク領域を自動的に解放する記憶域の感知を無効にします。",
+      "ApplyText": "記憶域の感知による自動ディスク クリーンアップを無効にしています",
+      "UndoLabel": "記憶域の感知による自動ディスク クリーンアップを有効にする",
+      "ApplyUndoText": "記憶域の感知による自動ディスク クリーンアップを有効にしています"
+    },
+    "DisableFastStartup": {
+      "Label": "高速スタートアップを無効にする",
+      "ToolTip": "高速スタートアップは、システム イメージをディスクに保存することで、シャットダウン後の起動を高速化します。高速スタートアップを無効にすると、特定の問題の解決に役立つ場合がありますが、起動時間がわずかに長くなることがあります。",
+      "ApplyText": "高速スタートアップを無効にしています",
+      "UndoLabel": "高速スタートアップを有効にする",
+      "ApplyUndoText": "高速スタートアップを有効にしています"
+    },
+    "DisableBitlockerAutoEncryption": {
+      "Label": "BitLocker の自動デバイス暗号化を無効にする",
+      "ToolTip": "サポートされているデバイスでは、Windows 11 によって BitLocker のデバイス暗号化が自動的に有効になります。これを無効にするとデバイスの自動暗号化がオフになりますが、必要に応じて BitLocker 暗号化を手動で有効にすることもできます。この設定を適用しても、既に BitLocker で暗号化されているドライブは暗号化されたままです。",
+      "ApplyText": "BitLocker の自動デバイス暗号化を無効にしています",
+      "UndoLabel": "BitLocker の自動デバイス暗号化を有効にする",
+      "ApplyUndoText": "BitLocker の自動デバイス暗号化を有効にしています"
+    },
+    "DisableModernStandbyNetworking": {
+      "Label": "Modern Standby のネットワーク接続を無効にする",
+      "ToolTip": "Modern Standby をサポートするデバイスは、既定でスリープ中もネットワーク接続を維持します。Modern Standby 中のネットワーク接続を無効にすると、バッテリーの節約に役立ちます。",
+      "ApplyText": "Modern Standby 中のネットワーク接続を無効にしています",
+      "UndoLabel": "Modern Standby のネットワーク接続を有効にする",
+      "ApplyUndoText": "Modern Standby 中のネットワーク接続を有効にしています"
+    },
+    "EnableEndTask": {
+      "Label": "タスクバーの右クリック メニューに「タスクの終了」オプションを表示する",
+      "ToolTip": "有効にすると、タスクバーのアプリの右クリック メニューに「タスクの終了」オプションが追加され、アプリをすばやく強制終了できるようになります。",
+      "ApplyText": "タスクバーの右クリック メニューで「タスクの終了」オプションを有効にしています",
+      "UndoLabel": "タスクバーの右クリック メニューの「タスクの終了」オプションを非表示にする",
+      "ApplyUndoText": "タスクバーの右クリック メニューで「タスクの終了」オプションを無効にしています"
+    },
+    "EnableLastActiveClick": {
+      "Label": "タスクバー アプリの「最後にアクティブだったウィンドウをクリック」動作を有効にする",
+      "ToolTip": "有効にすると、タスクバーのアプリをクリックしたときに、サムネイルのプレビューだけを表示するのではなく、そのアプリの最後にアクティブだったウィンドウに切り替わります。",
+      "ApplyText": "タスクバーのアプリ領域で「最後にアクティブだったウィンドウをクリック」動作を有効にしています",
+      "UndoLabel": "タスクバー アプリの「最後にアクティブだったウィンドウをクリック」動作を無効にする",
+      "ApplyUndoText": "タスクバーのアプリ領域で「最後にアクティブだったウィンドウをクリック」動作を無効にしています"
+    },
+    "CombineTaskbarAlways": {
+      "Label": "メイン ディスプレイのタスクバー ボタンを常にまとめ、ラベルを非表示にする",
+      "ApplyText": "メイン ディスプレイのタスクバーで、ボタンを常にまとめてラベルを非表示にしています"
+    },
+    "CombineMMTaskbarAlways": {
+      "Label": "セカンダリ ディスプレイのタスクバー ボタンを常にまとめ、ラベルを非表示にする",
+      "ApplyText": "セカンダリ ディスプレイのタスクバーで、ボタンを常にまとめてラベルを非表示にしています"
+    },
+    "CombineTaskbarWhenFull": {
+      "Label": "メイン ディスプレイのタスクバーがいっぱいのときにタスクバー ボタンをまとめ、ラベルを非表示にする",
+      "ApplyText": "メイン ディスプレイのタスクバーで、タスクバーがいっぱいのときのみボタンをまとめてラベルを非表示にしています",
+      "UndoLabel": "メイン ディスプレイのタスクバー ボタンを常にまとめ、ラベルを非表示にする",
+      "ApplyUndoText": "メイン ディスプレイのタスクバーで、ボタンを常にまとめてラベルを非表示にしています"
+    },
+    "CombineMMTaskbarWhenFull": {
+      "Label": "セカンダリ ディスプレイのタスクバーがいっぱいのときにタスクバー ボタンをまとめ、ラベルを非表示にする",
+      "ApplyText": "セカンダリ ディスプレイのタスクバーで、タスクバーがいっぱいのときのみボタンをまとめてラベルを非表示にしています",
+      "UndoLabel": "セカンダリ ディスプレイのタスクバー ボタンを常にまとめ、ラベルを非表示にする",
+      "ApplyUndoText": "セカンダリ ディスプレイのタスクバーで、ボタンを常にまとめてラベルを非表示にしています"
+    },
+    "CombineTaskbarNever": {
+      "Label": "メイン ディスプレイのタスクバー ボタンをまとめず、ラベルを表示する",
+      "ApplyText": "メイン ディスプレイのタスクバーで、ボタンをまとめずにラベルを表示しています",
+      "UndoLabel": "メイン ディスプレイのタスクバー ボタンを常にまとめ、ラベルを非表示にする",
+      "ApplyUndoText": "メイン ディスプレイのタスクバーで、ボタンを常にまとめてラベルを非表示にしています"
+    },
+    "CombineMMTaskbarNever": {
+      "Label": "セカンダリ ディスプレイのタスクバー ボタンをまとめず、ラベルを表示する",
+      "ApplyText": "セカンダリ ディスプレイのタスクバーで、ボタンをまとめずにラベルを表示しています",
+      "UndoLabel": "セカンダリ ディスプレイのタスクバー ボタンを常にまとめ、ラベルを非表示にする",
+      "ApplyUndoText": "セカンダリ ディスプレイのタスクバーで、ボタンを常にまとめてラベルを非表示にしています"
+    },
+    "MMTaskbarModeAll": {
+      "Label": "すべてのタスクバーにアプリ アイコンを表示する",
+      "ApplyText": "すべてのタスクバーにアプリ アイコンを表示するように設定しています"
+    },
+    "MMTaskbarModeMainActive": {
+      "Label": "メイン タスクバーと、ウィンドウが開いているタスクバーにアプリ アイコンを表示する",
+      "ApplyText": "メイン タスクバーと、ウィンドウが開いているタスクバーにアプリ アイコンを表示するように設定しています",
+      "UndoLabel": "すべてのタスクバーにアプリ アイコンを表示する",
+      "ApplyUndoText": "すべてのタスクバーにアプリ アイコンを表示するように設定しています"
+    },
+    "MMTaskbarModeActive": {
+      "Label": "ウィンドウが開いているタスクバーにのみアプリ アイコンを表示する",
+      "ApplyText": "アプリ アイコンを、ウィンドウが開いているタスクバーにのみ表示するように設定しています",
+      "UndoLabel": "すべてのタスクバーにアプリ アイコンを表示する",
+      "ApplyUndoText": "すべてのタスクバーにアプリ アイコンを表示するように設定しています"
+    },
+    "ExplorerToHome": {
+      "Label": "エクスプローラーを開いたときの既定の場所を「ホーム」に変更する",
+      "ApplyText": "エクスプローラーを開いたときの既定の場所を「ホーム」に変更しています"
+    },
+    "ExplorerToThisPC": {
+      "Label": "エクスプローラーを開いたときの既定の場所を「PC」に変更する",
+      "ApplyText": "エクスプローラーを開いたときの既定の場所を「PC」に変更しています",
+      "UndoLabel": "エクスプローラーを開いたときの既定の場所を「ホーム」に変更する",
+      "ApplyUndoText": "エクスプローラーを開いたときの既定の場所を「ホーム」に変更しています"
+    },
+    "ExplorerToDownloads": {
+      "Label": "エクスプローラーを開いたときの既定の場所を「ダウンロード」に変更する",
+      "ApplyText": "エクスプローラーを開いたときの既定の場所を「ダウンロード」に変更しています",
+      "UndoLabel": "エクスプローラーを開いたときの既定の場所を「ホーム」に変更する",
+      "ApplyUndoText": "エクスプローラーを開いたときの既定の場所を「ホーム」に変更しています"
+    },
+    "ExplorerToOneDrive": {
+      "Label": "エクスプローラーを開いたときの既定の場所を「OneDrive」に変更する",
+      "ApplyText": "エクスプローラーを開いたときの既定の場所を「OneDrive」に変更しています",
+      "UndoLabel": "エクスプローラーを開いたときの既定の場所を「ホーム」に変更する",
+      "ApplyUndoText": "エクスプローラーを開いたときの既定の場所を「ホーム」に変更しています"
+    },
+    "ShowKnownFileExt": {
+      "Label": "既知のファイルの種類の拡張子を表示する",
+      "ToolTip": "既知のファイルの種類の拡張子を表示します。既定では Windows が既知のファイルの種類の拡張子を非表示にするため、混乱やセキュリティ上のリスクにつながる可能性があります。",
+      "ApplyText": "既知のファイルの種類の拡張子を表示するようにしています",
+      "UndoLabel": "既知のファイルの種類の拡張子を非表示にする",
+      "ApplyUndoText": "既知のファイルの種類の拡張子を非表示にしています"
+    },
+    "ShowHiddenFolders": {
+      "Label": "隠しファイル、隠しフォルダー、隠しドライブを表示する",
+      "ToolTip": "既定では、意図しない変更や削除を防ぐために、Windows が特定のファイル、フォルダー、ドライブを非表示にします。これをオンにすると、エクスプローラーにすべてのファイルが表示されます。",
+      "ApplyText": "隠しファイル、隠しフォルダー、隠しドライブを表示しています",
+      "UndoLabel": "隠しファイル、隠しフォルダー、隠しドライブを非表示にする",
+      "ApplyUndoText": "隠しファイル、隠しフォルダー、隠しドライブを非表示にしています"
+    },
+    "HideDupliDrive": {
+      "Label": "重複するリムーバブル ドライブのエントリを非表示にする",
+      "ToolTip": "既定では、Windows はリムーバブル ドライブを「PC」の下とナビゲーション ウィンドウに独自のエントリとして二重に表示します。この設定を有効にすると、リムーバブル ドライブは「PC」の下にのみ表示されます。",
+      "ApplyText": "エクスプローラーのナビゲーション ウィンドウから重複するリムーバブル ドライブのエントリを非表示にしています",
+      "UndoLabel": "重複するリムーバブル ドライブのエントリを表示する",
+      "ApplyUndoText": "エクスプローラーのナビゲーション ウィンドウに重複するリムーバブル ドライブのエントリを表示しています"
+    },
+    "HideHome": {
+      "Label": "ナビゲーション ウィンドウから「ホーム」を非表示にする",
+      "ToolTip": "エクスプローラーのナビゲーション ウィンドウから「ホーム」セクションを非表示にします。",
+      "ApplyText": "エクスプローラーのナビゲーション ウィンドウから「ホーム」セクションを非表示にしています",
+      "UndoLabel": "ナビゲーション ウィンドウに「ホーム」を表示する",
+      "ApplyUndoText": "エクスプローラーのナビゲーション ウィンドウに「ホーム」セクションを表示しています"
+    },
+    "HideGallery": {
+      "Label": "ナビゲーション ウィンドウから「ギャラリー」を非表示にする",
+      "ToolTip": "エクスプローラーのナビゲーション ウィンドウから「ギャラリー」セクションを非表示にします。",
+      "ApplyText": "エクスプローラーのナビゲーション ウィンドウから「ギャラリー」セクションを非表示にしています",
+      "UndoLabel": "ナビゲーション ウィンドウに「ギャラリー」を表示する",
+      "ApplyUndoText": "エクスプローラーのナビゲーション ウィンドウに「ギャラリー」セクションを表示しています"
+    },
+    "DisableTransparency": {
+      "Label": "透明効果を無効にする",
+      "ToolTip": "Windows とインターフェイスの透明効果を無効にします。古いハードウェアではパフォーマンスの向上に役立つ場合があります。",
+      "ApplyText": "透明効果を無効にしています",
+      "UndoLabel": "透明効果を有効にする",
+      "ApplyUndoText": "透明効果を有効にしています"
+    },
+    "DisableAnimations": {
+      "Label": "アニメーションと視覚効果を無効にする",
+      "ToolTip": "Windows のアニメーションと一部の視覚効果を無効にします。特に古いハードウェアでは、インターフェイスの動作が軽快に感じられるようになります。",
+      "ApplyText": "アニメーションと視覚効果を無効にしています",
+      "UndoLabel": "アニメーションと視覚効果を有効にする",
+      "ApplyUndoText": "アニメーションと視覚効果を有効にしています"
+    },
+    "DisableUpdateASAP": {
+      "Label": "更新プログラムが利用可能になってもすぐには取得しないようにする",
+      "ToolTip": "新しいセキュリティ以外の更新プログラムをいち早く受け取る PC の対象にならないようにします。これらの更新プログラムは最終的に引き続き提供されます。",
+      "ApplyText": "Windows が更新プログラムを利用可能になり次第取得しないようにしています",
+      "UndoLabel": "更新プログラムを利用可能になり次第取得することを許可する",
+      "ApplyUndoText": "Windows が更新プログラムを利用可能になり次第取得することを許可しています"
+    },
+    "PreventUpdateAutoReboot": {
+      "Label": "サインイン中は更新プログラムの適用後に自動再起動しないようにする",
+      "ToolTip": "いずれかのユーザーがサインインしている間は、更新プログラムの適用後に PC が自動的に再起動しないようにします。",
+      "ApplyText": "サインイン中の更新プログラム適用後の自動再起動を防止しています",
+      "UndoLabel": "サインイン中の更新プログラム適用後の自動再起動を許可する",
+      "ApplyUndoText": "サインイン中の更新プログラム適用後の自動再起動を許可しています"
+    },
+    "DisableDeliveryOptimization": {
+      "Label": "ダウンロードした更新プログラムを他の PC と共有しないようにする",
+      "ToolTip": "ローカル ネットワーク上またはインターネット上の他の PC と、ダウンロードした更新プログラムを共有しないようにします。また、他の PC から更新プログラムをダウンロードすることもできなくなります。",
+      "ApplyText": "ダウンロードした更新プログラムの他の PC との共有を無効にしています",
+      "UndoLabel": "ダウンロードした更新プログラムを他の PC と共有することを許可する",
+      "ApplyUndoText": "ダウンロードした更新プログラムの他の PC との共有を有効にしています"
+    },
+    "DisableDeviceAutoAppDownload": {
+      "Label": "デバイスのコンパニオン アプリが Windows によって自動インストールされないようにする",
+      "ToolTip": "LG や Alienware のモニターなど、特定のデバイスを接続したときに、Windows Update を介してデバイスのコンパニオン アプリが自動的にインストールされないようにします。これらのデバイスはこれまでどおり動作します。この設定は、同意なしに追加のアプリが自動インストールされるのを防ぐだけです。",
+      "ApplyText": "デバイスのコンパニオン アプリの自動インストールを防止しています",
+      "UndoLabel": "デバイスのコンパニオン アプリの自動インストールを許可する",
+      "ApplyUndoText": "デバイスのコンパニオン アプリの自動インストールを許可しています"
+    },
+    "ForceRemoveEdge": {
+      "Label": "Microsoft Edge を強制的にアンインストールする。推奨されません!",
+      "ApplyText": "Microsoft Edge を強制的にアンインストールしています"
+    },
+    "HideOnedrive": {
+      "Label": "ナビゲーション ウィンドウから「OneDrive」を非表示にする",
+      "ToolTip": "エクスプローラーのナビゲーション ウィンドウから「OneDrive」セクションを非表示にします。",
+      "ApplyText": "エクスプローラーのナビゲーション ウィンドウから「OneDrive」セクションを非表示にしています",
+      "UndoLabel": "ナビゲーション ウィンドウに「OneDrive」を表示する",
+      "ApplyUndoText": "エクスプローラーのナビゲーション ウィンドウに「OneDrive」セクションを表示しています"
+    },
+    "Hide3dObjects": {
+      "Label": "「PC」の下の「3D オブジェクト」フォルダーを非表示にする",
+      "ToolTip": "エクスプローラーのナビゲーション ウィンドウから「3D オブジェクト」フォルダーを非表示にします。",
+      "ApplyText": "エクスプローラーのナビゲーション ウィンドウから「3D オブジェクト」フォルダーを非表示にしています",
+      "UndoLabel": "「PC」の下に「3D オブジェクト」フォルダーを表示する",
+      "ApplyUndoText": "エクスプローラーのナビゲーション ウィンドウに「3D オブジェクト」フォルダーを表示しています"
+    },
+    "HideMusic": {
+      "Label": "「PC」の下の「ミュージック」フォルダーを非表示にする",
+      "ToolTip": "エクスプローラーのナビゲーション ウィンドウから「ミュージック」フォルダーを非表示にします。",
+      "ApplyText": "エクスプローラーのナビゲーション ウィンドウから「ミュージック」フォルダーを非表示にしています",
+      "UndoLabel": "「PC」の下に「ミュージック」フォルダーを表示する",
+      "ApplyUndoText": "エクスプローラーのナビゲーション ウィンドウに「ミュージック」フォルダーを表示しています"
+    },
+    "AddFoldersToThisPC": {
+      "Label": "共通フォルダーを「PC」ページに再び追加する",
+      "ToolTip": "この設定により、デスクトップ、ドキュメント、ダウンロード、ミュージック、ピクチャ、ビデオなどの共通フォルダーがエクスプローラーの「PC」ページに再び追加されます。",
+      "ApplyText": "すべての共通フォルダー (デスクトップ、ダウンロードなど) をエクスプローラーの「PC」に再び追加しています",
+      "UndoLabel": "共通フォルダーを「PC」ページから削除する",
+      "ApplyUndoText": "すべての共通フォルダー (デスクトップ、ダウンロードなど) をエクスプローラーの「PC」から削除しています"
+    },
+    "HideIncludeInLibrary": {
+      "Label": "右クリック メニューの「ライブラリに含める」オプションを非表示にする",
+      "ToolTip": "エクスプローラーの右クリック メニューから「ライブラリに含める」オプションを非表示にします。",
+      "ApplyText": "右クリック メニューの「ライブラリに含める」を非表示にしています",
+      "UndoLabel": "右クリック メニューに「ライブラリに含める」オプションを表示する",
+      "ApplyUndoText": "右クリック メニューの「ライブラリに含める」を表示しています"
+    },
+    "HideGiveAccessTo": {
+      "Label": "右クリック メニューの「アクセスを許可する」オプションを非表示にする",
+      "ToolTip": "エクスプローラーの右クリック メニューから「アクセスを許可する」オプションを非表示にします。",
+      "ApplyText": "右クリック メニューの「アクセスを許可する」を非表示にしています",
+      "UndoLabel": "右クリック メニューに「アクセスを許可する」オプションを表示する",
+      "ApplyUndoText": "右クリック メニューの「アクセスを許可する」を表示しています"
+    },
+    "HideShare": {
+      "Label": "右クリック メニューの「共有」オプションを非表示にする",
+      "ToolTip": "エクスプローラーの右クリック メニューから「共有」オプションを非表示にします。",
+      "ApplyText": "右クリック メニューの「共有」を非表示にしています",
+      "UndoLabel": "右クリック メニューに「共有」オプションを表示する",
+      "ApplyUndoText": "右クリック メニューの「共有」を表示しています"
+    },
+    "DisableBraveBloat": {
+      "Label": "Brave ブラウザーの不要な機能 (AI、暗号資産など) を無効にする",
+      "ToolTip": "Brave に組み込まれている AI 機能、暗号資産ウォレット、ニュース、Rewards、Talk、VPN を無効にします。この機能はポリシーを使用するため、一部の設定がロックされます。",
+      "ApplyText": "Brave ブラウザーの AI、暗号資産、ニュース、Rewards、Talk、VPN を無効にしています",
+      "UndoLabel": "Brave ブラウザーの機能 (AI、暗号資産など) を有効にする",
+      "ApplyUndoText": "Brave ブラウザーの AI、暗号資産、ニュース、Rewards、Talk、VPN を有効にしています"
+    },
+    "EnableWindowsSandbox": {
+      "Label": "Windows サンドボックスを有効にする",
+      "ToolTip": "Windows サンドボックスは、アプリを分離して安全に実行するための軽量なデスクトップ環境です。Windows サンドボックス環境内にインストールされたソフトウェアは「サンドボックス化」されたままで、ホスト マシンとは別に実行されます。Windows 11 Pro、Workstation、Enterprise エディションでのみサポートされています。",
+      "ApplyText": "Windows サンドボックスを有効にしています",
+      "UndoLabel": "Windows サンドボックスを無効にする",
+      "ApplyUndoText": "Windows サンドボックスを無効にしています"
+    },
+    "EnableWindowsSubsystemForLinux": {
+      "Label": "Windows Subsystem for Linux を有効にする",
+      "ToolTip": "Windows Subsystem for Linux を使用すると、仮想マシンを用意しなくても、Windows 上で直接 Linux 環境を実行できます。",
+      "ApplyText": "Windows Subsystem for Linux を有効にしています",
+      "UndoLabel": "Windows Subsystem for Linux を無効にする",
+      "ApplyUndoText": "Windows Subsystem for Linux を無効にしています"
+    },
+    "ShowDriveLettersFirst": {
+      "Label": "ドライブ文字をドライブ ラベルの前に表示する",
+      "ToolTip": "この設定により、エクスプローラーでドライブ文字がドライブ ラベルの前に表示されます。",
+      "ApplyText": "ドライブ文字をドライブ ラベルの前に表示しています",
+      "UndoLabel": "ドライブ文字をドライブ ラベルの後に表示する",
+      "ApplyUndoText": "ドライブ文字をドライブ ラベルの後に表示しています"
+    },
+    "ShowDriveLettersLast": {
+      "Label": "ドライブ文字をドライブ ラベルの後に表示する",
+      "ToolTip": "この設定により、エクスプローラーでドライブ文字がドライブ ラベルの後に表示されます (Windows の既定の動作)。",
+      "ApplyText": "ドライブ文字をドライブ ラベルの後に表示しています"
+    },
+    "ShowNetworkDriveLettersFirst": {
+      "Label": "ネットワーク ドライブ文字をドライブ ラベルの前に表示する",
+      "ToolTip": "この設定により、エクスプローラーでネットワーク ドライブ文字のみがドライブ ラベルの前に表示されます。",
+      "ApplyText": "ネットワーク ドライブ文字をドライブ ラベルの前に表示しています",
+      "UndoLabel": "ドライブ文字をドライブ ラベルの後に表示する",
+      "ApplyUndoText": "ドライブ文字をドライブ ラベルの後に表示しています"
+    },
+    "HideDriveLetters": {
+      "Label": "すべてのドライブ文字を非表示にする",
+      "ToolTip": "この設定により、エクスプローラーのナビゲーション ウィンドウと「PC」からすべてのドライブ文字が非表示になります。",
+      "ApplyText": "すべてのドライブ文字を非表示にしています",
+      "UndoLabel": "ドライブ文字をドライブ ラベルの後に表示する",
+      "ApplyUndoText": "ドライブ文字をドライブ ラベルの後に表示しています"
+    },
+    "StartAllAppsCategory": {
+      "Label": "すべてのアプリをカテゴリ ビューで表示する (既定)",
+      "ToolTip": "スタート メニューの「すべてのアプリ」セクションで、アプリをカテゴリ別にグループ化して表示するように設定します。",
+      "ApplyText": "「すべてのアプリ」ビューをカテゴリに設定しています"
+    },
+    "StartAllAppsGrid": {
+      "Label": "すべてのアプリをグリッド ビューで表示する",
+      "ToolTip": "スタート メニューの「すべてのアプリ」セクションで、アプリをアルファベット順のグリッド レイアウトで表示するように設定します。",
+      "ApplyText": "「すべてのアプリ」ビューをグリッドに設定しています",
+      "UndoLabel": "すべてのアプリをカテゴリ ビューで表示する",
+      "ApplyUndoText": "「すべてのアプリ」ビューをカテゴリに設定しています"
+    },
+    "StartAllAppsList": {
+      "Label": "すべてのアプリをリスト ビューで表示する",
+      "ToolTip": "スタート メニューの「すべてのアプリ」セクションで、アプリをアルファベット順のリスト レイアウトで表示するように設定します。",
+      "ApplyText": "「すべてのアプリ」ビューをリストに設定しています",
+      "UndoLabel": "すべてのアプリをカテゴリ ビューで表示する",
+      "ApplyUndoText": "「すべてのアプリ」ビューをカテゴリに設定しています"
+    }
+  },
+  "UiGroups": {
+    "DesktopSpotlight": {
+      "Label": "デスクトップの Windows スポットライト",
+      "ToolTip": "この設定では、Windows スポットライトのデスクトップ背景オプションを制御します。「この画像について」ショートカットの有無にかかわらず壁紙の切り替えを維持するか、Windows スポットライトを完全に無効にすることができます。",
+      "Values": {
+        "EnableDesktopSpotlight": "「この画像について」ショートカットを表示する (既定)",
+        "HideDesktopSpotlightIcon": "「この画像について」ショートカットを非表示にする",
+        "DisableDesktopSpotlight": "Windows スポットライトのデスクトップ背景を無効にする"
+      }
+    },
+    "SearchIcon": {
+      "Label": "タスクバーの検索スタイル",
+      "ToolTip": "この設定では、タスクバーの検索ボックスの外観をカスタマイズできます。",
+      "Values": {
+        "ShowSearchBoxTb": "検索ボックスを表示する (既定)",
+        "ShowSearchLabelTb": "検索アイコンとラベルを表示する",
+        "ShowSearchIconTb": "検索アイコンのみを表示する",
+        "HideSearchTb": "非表示"
+      }
+    },
+    "MultiMon": {
+      "Label": "タスクバーのアプリの表示先",
+      "ToolTip": "この設定では、複数のモニターを使用しているときに、タスクバーのアプリ ボタンを表示する場所を選択できます。",
+      "Values": {
+        "MMTaskbarModeAll": "すべてのタスクバー (既定)",
+        "MMTaskbarModeMainActive": "メイン タスクバーとウィンドウが開いているタスクバー",
+        "MMTaskbarModeActive": "ウィンドウが開いているタスクバー"
+      }
+    },
+    "CombineButtons": {
+      "Label": "メイン ディスプレイのタスクバー ボタンのまとめ方",
+      "ToolTip": "この設定では、メイン ディスプレイでタスクバー ボタンをまとめる方法を選択できます。",
+      "Values": {
+        "CombineTaskbarAlways": "常にまとめる (既定)",
+        "CombineTaskbarWhenFull": "タスクバーがいっぱいのとき",
+        "CombineTaskbarNever": "まとめない"
+      }
+    },
+    "CombineMMButtons": {
+      "Label": "セカンダリ ディスプレイのタスクバー ボタンのまとめ方",
+      "ToolTip": "この設定では、セカンダリ ディスプレイでタスクバー ボタンをまとめる方法を選択できます。",
+      "Values": {
+        "CombineMMTaskbarAlways": "常にまとめる (既定)",
+        "CombineMMTaskbarWhenFull": "タスクバーがいっぱいのとき",
+        "CombineMMTaskbarNever": "まとめない"
+      }
+    },
+    "ClearStart": {
+      "Label": "スタート メニューのピン留めアプリを削除する",
+      "ToolTip": "この設定では、スタート メニューのピン留めアプリをすべてすばやく削除できます。",
+      "Values": {
+        "ClearStart": "選択したユーザーに対して削除する",
+        "ClearStartAllUsers": "すべてのユーザーに対して削除する"
+      }
+    },
+    "ExplorerLocation": {
+      "Label": "エクスプローラーを開く場所",
+      "ToolTip": "この設定では、エクスプローラーを開いたときの既定の場所を選択できます。",
+      "Values": {
+        "ExplorerToHome": "ホーム (既定)",
+        "ExplorerToThisPC": "PC",
+        "ExplorerToDownloads": "ダウンロード",
+        "ExplorerToOneDrive": "OneDrive"
+      }
+    },
+    "DriveLetterPosition": {
+      "Label": "ドライブ文字の位置",
+      "ToolTip": "この設定では、エクスプローラーでドライブ文字を表示する場所を選択できます。",
+      "Values": {
+        "ShowDriveLettersLast": "ドライブ文字をドライブ ラベルの後に表示する (既定)",
+        "ShowDriveLettersFirst": "ドライブ文字をドライブ ラベルの前に表示する",
+        "ShowNetworkDriveLettersFirst": "ネットワーク ドライブ文字をドライブ ラベルの前に表示する",
+        "HideDriveLetters": "すべてのドライブ文字を非表示にする"
+      }
+    },
+    "ShowTabsInAltTab": {
+      "Label": "スナップ時または Alt+Tab 押下時にアプリのタブを表示する",
+      "ToolTip": "この設定では、ウィンドウをスナップしたときや Alt+Tab キーを押したときに、アプリのタブ (Edge ブラウザーのタブなど) を表示するかどうかを選択できます。",
+      "Values": {
+        "HideTabsInAltTab": "タブを表示しない",
+        "Show3TabsInAltTab": "最近使ったタブを 3 つ表示する (既定)",
+        "Show5TabsInAltTab": "最近使ったタブを 5 つ表示する",
+        "Show20TabsInAltTab": "最近使ったタブを 20 個表示する"
+      }
+    },
+    "StartAllAppsView": {
+      "Label": "スタート メニューの「すべてのアプリ」ビュー",
+      "ToolTip": "この設定では、スタート メニューの「すべてのアプリ」セクションのレイアウトを変更するか、完全に非表示にすることができます。このセクションを非表示にすると、システムにインストールされているアプリを見つけにくくなる場合があります。この機能はポリシーを使用するため、一部の設定がロックされます。",
+      "Values": {
+        "DisableStartAllApps": "非表示",
+        "StartAllAppsCategory": "カテゴリ (既定)",
+        "StartAllAppsGrid": "グリッド",
+        "StartAllAppsList": "リスト"
+      }
+    }
+  }
+}

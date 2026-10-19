@@ -1,0 +1,1174 @@
+﻿{
+  "Version": "1.1",
+  "Apps": [
+    {
+      "FriendlyName": "Clipchamp",
+      "AppId": "Clipchamp.Clipchamp",
+      "Description": "Microsoft のビデオ エディター",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "3D Builder",
+      "AppId": "Microsoft.3DBuilder",
+      "Description": "基本的な 3D モデリング ソフトウェア",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Cortana",
+      "AppId": "Microsoft.549981C3F5F10",
+      "Description": "Microsoft Cortana 音声アシスタント (提供終了)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "マネー",
+      "AppId": "Microsoft.BingFinance",
+      "Description": "Bing によるファイナンス ニュースと資産管理 (提供終了)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "フード & ドリンク",
+      "AppId": "Microsoft.BingFoodAndDrink",
+      "Description": "Bing によるレシピと食品ニュース (提供終了)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "ヘルス & フィットネス",
+      "AppId": "Microsoft.BingHealthAndFitness",
+      "Description": "Bing による健康とフィットネスの記録/ニュース (提供終了)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "ニュース",
+      "AppId": "Microsoft.BingNews",
+      "Description": "Bing によるニュース アグリゲーター (Microsoft News/スタートに置き換え)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "スポーツ",
+      "AppId": "Microsoft.BingSports",
+      "Description": "Bing によるスポーツ ニュースとスコア (提供終了)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "翻訳",
+      "AppId": "Microsoft.BingTranslator",
+      "Description": "Bing による翻訳サービス",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "旅行",
+      "AppId": "Microsoft.BingTravel",
+      "Description": "Bing による旅行計画とニュース (提供終了)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "天気",
+      "AppId": "Microsoft.BingWeather",
+      "Description": "Bing による天気予報",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Copilot",
+      "AppId": "XP9CXNGPPJ97XX",
+      "Description": "Windows に統合された AI アシスタント",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "WinGet"
+    },
+    {
+      "FriendlyName": "Copilot+ AI Hub",
+      "AppId": "Microsoft.Windows.AIHub",
+      "Description": "Copilot+ AI Hub アプリ (Windows 11 24H2 以降)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft PC Manager",
+      "AppId": "Microsoft.PCManager",
+      "Description": "Microsoft PC Manager のシステム クリーンアップおよび最適化ツール (多くの場合プリインストールされています)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "はじめに",
+      "AppId": "Microsoft.Getstarted",
+      "Description": "Windows のヒントと概要ガイド (Windows 11 ではアンインストールできません)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "メッセージング",
+      "AppId": "Microsoft.Messaging",
+      "Description": "Skype と統合されることの多いメッセージング アプリ (大部分が提供終了)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "3D ビューアー",
+      "AppId": "Microsoft.Microsoft3DViewer",
+      "Description": "3D モデルのビューアー",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Journal",
+      "AppId": "Microsoft.MicrosoftJournal",
+      "Description": "ペン入力に最適化されたデジタル ノート作成アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Office Hub",
+      "AppId": "Microsoft.MicrosoftOfficeHub",
+      "Description": "Microsoft Office のアプリとドキュメントにアクセスするためのハブ (Microsoft 365 アプリの前身)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Power BI",
+      "AppId": "Microsoft.MicrosoftPowerBIForWindows",
+      "Description": "ビジネス分析サービスのクライアント",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "ソリティア コレクション",
+      "AppId": "Microsoft.MicrosoftSolitaireCollection",
+      "Description": "ソリティア カード ゲームのコレクション",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "付箋",
+      "AppId": "Microsoft.MicrosoftStickyNotes",
+      "Description": "デジタル付箋アプリ (提供終了、OneNote に置き換え)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Mixed Reality ポータル",
+      "AppId": "Microsoft.MixedReality.Portal",
+      "Description": "Windows Mixed Reality ヘッドセット用のポータル",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "ネットワーク スピード テスト",
+      "AppId": "Microsoft.NetworkSpeedTest",
+      "Description": "インターネット接続の速度をテストするユーティリティ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft ニュース",
+      "AppId": "Microsoft.News",
+      "Description": "ニュース アグリゲーター (Bing News に代わるもので、現在は Microsoft Start の一部)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "OneNote",
+      "AppId": "Microsoft.Office.OneNote",
+      "Description": "デジタル ノート作成アプリ (ユニバーサル Windows プラットフォーム版)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Sway",
+      "AppId": "Microsoft.Office.Sway",
+      "Description": "プレゼンテーションとストーリーテリングのアプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "One Connect",
+      "AppId": "Microsoft.OneConnect",
+      "Description": "モバイル オペレーター管理アプリ (モバイル プランに置き換え)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Print 3D",
+      "AppId": "Microsoft.Print3D",
+      "Description": "3D プリントの準備ソフトウェア",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Power Automate",
+      "AppId": "Microsoft.PowerAutomateDesktop",
+      "Description": "デスクトップ自動化ツール (RPA)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Skype (UWP)",
+      "AppId": "Microsoft.SkypeApp",
+      "Description": "Skype コミュニケーション アプリのユニバーサル Windows プラットフォーム版 (提供終了)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft To Do",
+      "AppId": "Microsoft.Todos",
+      "Description": "To Do リストとタスク管理のアプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dev Home",
+      "AppId": "Microsoft.Windows.DevHome",
+      "Description": "開発者向けダッシュボードとツール構成ユーティリティ (提供終了)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "アラーム & クロック",
+      "AppId": "Microsoft.WindowsAlarms",
+      "Description": "アラーム & クロック アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "フィードバック Hub",
+      "AppId": "Microsoft.WindowsFeedbackHub",
+      "Description": "Windows に関するフィードバックを Microsoft に提供するためのアプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "マップ",
+      "AppId": "Microsoft.WindowsMaps",
+      "Description": "地図とナビゲーションのアプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "サウンド レコーダー",
+      "AppId": "Microsoft.WindowsSoundRecorder",
+      "Description": "基本的な音声録音アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox Console Companion",
+      "AppId": "Microsoft.XboxApp",
+      "Description": "旧 Xbox Console Companion アプリ (提供終了)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "映画 & TV",
+      "AppId": "Microsoft.ZuneVideo",
+      "Description": "ビデオ コンテンツのレンタル/購入/再生用の映画 & TV アプリ (「Films & TV」に改名)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "ファミリー セーフティ",
+      "AppId": "MicrosoftCorporationII.MicrosoftFamily",
+      "Description": "家族のアカウントと設定を管理するためのファミリー セーフティ アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "クイック アシスト",
+      "AppId": "MicrosoftCorporationII.QuickAssist",
+      "Description": "リモート アシスタンス ツール",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Teams (旧)",
+      "AppId": "MicrosoftTeams",
+      "Description": "旧 Microsoft Teams パーソナル (Microsoft Store 版)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Teams (新)",
+      "AppId": "MSTeams",
+      "Description": "新しい Microsoft Teams アプリ (仕事/学校または個人用)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "ACG Media Player",
+      "AppId": "ACGMediaPlayer",
+      "Description": "メディア プレーヤー アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Actipro Software",
+      "AppId": "ActiproSoftwareLLC",
+      "Description": "UI コントロールやソフトウェア コンポーネントの可能性があり、OEM によってバンドルされることがよくあります",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Adobe Photoshop Express",
+      "AppId": "AdobeSystemsIncorporated.AdobePhotoshopExpress",
+      "Description": "Adobe の基本的な写真編集アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Amazon",
+      "AppId": "Amazon.com.Amazon",
+      "Description": "Amazon ショッピング アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Prime Video",
+      "AppId": "AmazonVideo.PrimeVideo",
+      "Description": "Amazon Prime Video ストリーミング サービスのアプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Asphalt 8",
+      "AppId": "Asphalt8Airborne",
+      "Description": "レーシング ゲーム",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Autodesk SketchBook",
+      "AppId": "AutodeskSketchBook",
+      "Description": "デジタル ドローイングとスケッチのアプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Caesars Slots",
+      "AppId": "CaesarsSlotsFreeCasino",
+      "Description": "カジノ スロット マシン ゲーム",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Cooking Fever",
+      "AppId": "COOKINGFEVER",
+      "Description": "レストラン経営シミュレーション ゲーム",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "CyberLink Media Suite",
+      "AppId": "CyberLinkMediaSuiteEssentials",
+      "Description": "マルチメディア ソフトウェア スイート (OEM によってプリインストールされることがよくあります)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Disney Magic Kingdoms",
+      "AppId": "DisneyMagicKingdoms",
+      "Description": "Disney のテーマパーク建設ゲーム",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Disney+",
+      "AppId": "Disney.37853FC22B2CE",
+      "Description": "Disney+ ストリーミング サービスのアプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Drawboard PDF",
+      "AppId": "DrawboardPDF",
+      "Description": "PDF の表示と注釈付けのアプリ。ペン入力に重点を置いています",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Duolingo",
+      "AppId": "Duolingo-LearnLanguagesforFree",
+      "Description": "語学学習アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Eclipse Manager",
+      "AppId": "EclipseManager",
+      "Description": "特定の OEM ソフトウェアやユーティリティ (画面設定の管理など) に関連することがよくあります",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Facebook",
+      "AppId": "FACEBOOK.FACEBOOK",
+      "Description": "Facebook SNS アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "FarmVille 2",
+      "AppId": "FarmVille2CountryEscape",
+      "Description": "農場経営シミュレーション ゲーム",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Flipboard",
+      "AppId": "Flipboard",
+      "Description": "雑誌風のニュースとソーシャル ネットワークのアグリゲーター",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Hidden City",
+      "AppId": "HiddenCity",
+      "Description": "隠しオブジェクト パズル アドベンチャー ゲーム",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Hulu",
+      "AppId": "HULULLC.HULUPLUS",
+      "Description": "Hulu ストリーミング サービスのアプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "iHeartRadio",
+      "AppId": "iHeartRadio",
+      "Description": "インターネット ラジオ ストリーミング アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Instagram",
+      "AppId": "Facebook.Instagram",
+      "Description": "Instagram SNS アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bubble Witch 3",
+      "AppId": "king.com.BubbleWitch3Saga",
+      "Description": "King のパズル ゲーム",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Candy Crush Saga",
+      "AppId": "king.com.CandyCrushSaga",
+      "Description": "King のパズル ゲーム",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Candy Crush Soda",
+      "AppId": "king.com.CandyCrushSodaSaga",
+      "Description": "King のパズル ゲーム",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "LinkedIn",
+      "AppId": "LinkedInforWindows",
+      "Description": "LinkedIn プロフェッショナル ネットワーキング アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "March of Empires",
+      "AppId": "MarchofEmpires",
+      "Description": "ストラテジー ゲーム",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Netflix",
+      "AppId": "4DF9E0F8.Netflix",
+      "Description": "Netflix ストリーミング サービスのアプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "NYT Crossword",
+      "AppId": "NYTCrossword",
+      "Description": "New York Times のクロスワード パズル アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "One Calendar",
+      "AppId": "OneCalendar",
+      "Description": "カレンダーをまとめて表示するアプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Pandora",
+      "AppId": "PandoraMediaInc",
+      "Description": "Pandora 音楽ストリーミング アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Phototastic Collage",
+      "AppId": "PhototasticCollage",
+      "Description": "フォト コラージュ作成アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "PicsArt",
+      "AppId": "PicsArt-PhotoStudio",
+      "Description": "写真編集とクリエイティブ制作のアプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Polarr Photo Editor",
+      "AppId": "PolarrPhotoEditorAcademicEdition",
+      "Description": "写真編集アプリ (アカデミック エディション)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Royal Revolt",
+      "AppId": "flaregamesGmbH.RoyalRevolt",
+      "Description": "タワー ディフェンス/ストラテジー ゲーム",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "ライブ壁紙",
+      "AppId": "Sidia.LiveWallpaper",
+      "Description": "ライブ壁紙アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Sling TV",
+      "AppId": "SlingTV",
+      "Description": "ライブ TV ストリーミング サービスのアプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Spotify",
+      "AppId": "SpotifyAB.SpotifyMusic",
+      "Description": "Spotify 音楽ストリーミング アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "TikTok",
+      "AppId": "BytedancePte.Ltd.TikTok",
+      "Description": "TikTok ショート動画アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "TuneIn Radio",
+      "AppId": "TuneInRadio",
+      "Description": "インターネット ラジオ ストリーミング アプリ",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "WinZip",
+      "AppId": "WinZipUniversal",
+      "Description": "ファイルの圧縮と展開のユーティリティ (ユニバーサル Windows プラットフォーム版)",
+      "SelectedByDefault": true,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Bing 検索",
+      "AppId": "Microsoft.BingSearch",
+      "Description": "Microsoft Bing の Web 検索 (Windows 検索に統合されます)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Edge",
+      "AppId": ["Microsoft.Edge", "XPFFTQ037JWMHS"],
+      "Description": "Windows の既定のブラウザー。警告: このアプリを削除すると、Windows サンドボックスから唯一のブラウザーがなくなり、他のアプリに影響する可能性があります",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "WinGet"
+    },
+    {
+      "FriendlyName": "Xbox ゲーミング アプリ",
+      "AppId": "Microsoft.GamingApp",
+      "Description": "最新の Xbox ゲーミング アプリ。一部の PC ゲームをインストールするために必要です",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "ヘルプを表示",
+      "AppId": "Microsoft.GetHelp",
+      "Description": "一部の Windows 11 トラブルシューティングとサポート対応に必要です",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft 365 コンパニオン",
+      "AppId": "Microsoft.M365Companions",
+      "Description": "Microsoft 365 (Business) の予定表、ファイル、連絡先のミニアプリ。Microsoft 365 管理者が有効にしている場合は、これらのアプリが再インストールされることがあります",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Paint 3D",
+      "AppId": "Microsoft.MSPaint",
+      "Description": "Paint 3D (3D 機能を備えたモダンなペイント アプリ)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "OneDrive",
+      "AppId": "Microsoft.OneDrive",
+      "Description": "OneDrive コンシューマー向けクラウド ストレージ クライアント",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "WinGet"
+    },
+    {
+      "FriendlyName": "Outlook for Windows",
+      "AppId": "Microsoft.OutlookForWindows",
+      "Description": "新しい Outlook for Windows メール クライアント",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "ペイント",
+      "AppId": "Microsoft.Paint",
+      "Description": "クラシック ペイント (従来の 2D ペイント アプリ)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "連絡先",
+      "AppId": "Microsoft.People",
+      "Description": "メールとカレンダーに必要で、同梱されています (提供終了)",
+      "SelectedByDefault": false,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "リモート デスクトップ",
+      "AppId": "Microsoft.RemoteDesktop",
+      "Description": "リモート デスクトップ クライアント アプリ",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Snipping Tool",
+      "AppId": "Microsoft.ScreenSketch",
+      "Description": "Snipping Tool (スクリーンショットと注釈のツール)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "ウィジェット エクスペリエンス",
+      "AppId": "Microsoft.StartExperiencesApp",
+      "Description": "このアプリは Windows ウィジェットのマイ フィードを提供します",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "ホワイトボード",
+      "AppId": "Microsoft.Whiteboard",
+      "Description": "デジタル コラボレーション ホワイトボード アプリ",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "フォト",
+      "AppId": "Microsoft.Windows.Photos",
+      "Description": "既定の写真表示と基本的な編集のアプリ",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "電卓",
+      "AppId": "Microsoft.WindowsCalculator",
+      "Description": "電卓アプリ",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "カメラ",
+      "AppId": "Microsoft.WindowsCamera",
+      "Description": "内蔵または接続されたカメラを使用するためのカメラ アプリ",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "メールとカレンダー",
+      "AppId": "Microsoft.windowscommunicationsapps",
+      "Description": "メールとカレンダーのアプリ スイート (提供終了)",
+      "SelectedByDefault": false,
+      "Recommendation": "safe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "メモ帳",
+      "AppId": "Microsoft.WindowsNotepad",
+      "Description": "メモ帳テキスト エディター アプリ",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Microsoft Store",
+      "AppId": "Microsoft.WindowsStore",
+      "Description": "Microsoft Store。警告: このアプリを削除すると、簡単には再インストールできません!",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Windows ターミナル",
+      "AppId": "Microsoft.WindowsTerminal",
+      "Description": "Windows 11 の既定のターミナル アプリ (コマンド プロンプト、PowerShell、WSL)。警告: Windows ターミナルから Win11Debloat を起動した場合は削除しないでください。スクリプトが失敗する原因になります。",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox TCUI フレームワーク",
+      "AppId": "Microsoft.Xbox.TCUI",
+      "Description": "UI フレームワーク。Microsoft Store、フォト、特定のゲームに必要と考えられます",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox ゲーム オーバーレイ",
+      "AppId": "Microsoft.XboxGameOverlay",
+      "Description": "ゲーム オーバーレイ。一部のゲームに必要または便利です (Xbox Game Bar の一部)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox ゲーミング オーバーレイ",
+      "AppId": "Microsoft.XboxGamingOverlay",
+      "Description": "ゲーム オーバーレイ。一部のゲームに必要または便利です (Xbox Game Bar の一部)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox ID プロバイダー",
+      "AppId": "Microsoft.XboxIdentityProvider",
+      "Description": "Xbox のサインイン フレームワーク。一部のゲームと Xbox サービスに必要です",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Xbox 音声テキスト変換",
+      "AppId": "Microsoft.XboxSpeechToTextOverlay",
+      "Description": "一部のゲームに必要なユーザー補助機能。警告: このアプリは簡単には再インストールできません!",
+      "SelectedByDefault": false,
+      "Recommendation": "unsafe",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "スマートフォン連携",
+      "AppId": "Microsoft.YourPhone",
+      "Description": "スマートフォン連携 (Android/iOS スマートフォンを PC に接続します)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "メディア プレーヤー",
+      "AppId": "Microsoft.ZuneMusic",
+      "Description": "モダンなメディア プレーヤー (Groove ミュージックに代わるもので、ローカルのオーディオ/ビデオを再生します)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "クロス デバイス エクスペリエンス",
+      "AppId": "MicrosoftWindows.CrossDevice",
+      "Description": "エクスプローラー、カメラなどでのスマートフォン統合 (スマートフォン連携機能の一部)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Windows Web エクスペリエンス パック",
+      "AppId": "MicrosoftWindows.Client.WebExperience",
+      "Description": "ウィジェットなどの特定の機能を Microsoft Store 経由で配信および更新するのに役立ちます",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "ウィジェット プラットフォーム ランタイム",
+      "AppId": "Microsoft.WidgetsPlatformRuntime",
+      "Description": "Windows ウィジェットが動作するために必要なランタイム",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "LG モニター アプリ",
+      "AppId": "LGElectronics.LGMonitorApp",
+      "Description": "LG モニターを制御するための LG の OEM ソフトウェア。LG モニターを接続している場合、Windows Update がこのアプリを警告なしに再インストールすることがあります",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP AI エクスペリエンス センター",
+      "AppId": "AD2F1837.HPAIExperienceCenter",
+      "Description": "HP の OEM ソフトウェア。AI を活用した機能とサポート",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Connected Music",
+      "AppId": "AD2F1837.HPConnectedMusic",
+      "Description": "音楽向けの HP の OEM ソフトウェア (提供終了の可能性があります)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Connected Photo",
+      "AppId": "AD2F1837.HPConnectedPhotopoweredbySnapfish",
+      "Description": "Snapfish と統合された、写真向けの HP の OEM ソフトウェア (提供終了の可能性があります)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP デスクトップ サポート ユーティリティ",
+      "AppId": "AD2F1837.HPDesktopSupportUtilities",
+      "Description": "デスクトップ サポート ツールを提供する HP の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Easy Clean",
+      "AppId": "AD2F1837.HPEasyClean",
+      "Description": "システムのクリーニングや最適化のための HP の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP ファイル ビューアー",
+      "AppId": "AD2F1837.HPFileViewer",
+      "Description": "特定のファイルの種類を表示するための HP の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP JumpStarts",
+      "AppId": "AD2F1837.HPJumpStarts",
+      "Description": "チュートリアル、アプリの検索、HP 機能へのクイック アクセスを提供する HP の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP PC ハードウェア診断",
+      "AppId": "AD2F1837.HPPCHardwareDiagnosticsWindows",
+      "Description": "PC のハードウェア診断のための HP の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP パワー マネージャー",
+      "AppId": "AD2F1837.HPPowerManager",
+      "Description": "電源設定とバッテリーを管理するための HP の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP プリンター コントロール",
+      "AppId": "AD2F1837.HPPrinterControl",
+      "Description": "HP プリンターを管理するための HP の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP プライバシー設定",
+      "AppId": "AD2F1837.HPPrivacySettings",
+      "Description": "プライバシー設定を管理するための HP の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP QuickDrop",
+      "AppId": "AD2F1837.HPQuickDrop",
+      "Description": "デバイス間でファイルをすばやく転送するための HP の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP QuickTouch",
+      "AppId": "AD2F1837.HPQuickTouch",
+      "Description": "タッチ操作専用のショートカットやコントロール用と考えられる HP の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP 登録",
+      "AppId": "AD2F1837.HPRegistration",
+      "Description": "製品登録のための HP の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP サポート アシスタント",
+      "AppId": "AD2F1837.HPSupportAssistant",
+      "Description": "サポート、更新プログラム、トラブルシューティングのための HP の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP Sure Shield AI",
+      "AppId": "AD2F1837.HPSureShieldAI",
+      "Description": "AI ベースの脅威保護と考えられる HP の OEM セキュリティ ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP システム情報",
+      "AppId": "AD2F1837.HPSystemInformation",
+      "Description": "システム情報を表示するための HP の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP ウェルカム",
+      "AppId": "AD2F1837.HPWelcome",
+      "Description": "ウェルカム エクスペリエンスや初期セットアップのヘルプを提供する HP の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "HP WorkWell",
+      "AppId": "AD2F1837.HPWorkWell",
+      "Description": "休憩のリマインダーや人間工学に基づくヒントなどを備えた、健康管理に重点を置く HP の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "myHP",
+      "AppId": "AD2F1837.myHP",
+      "Description": "デバイス情報、サポート、サービスをまとめた HP の OEM ハブ アプリ",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Lenovo Vantage",
+      "AppId": "E046963F.LenovoCompanion",
+      "Description": "デバイス設定、更新プログラム、サポートのための Lenovo の OEM ハブ アプリ",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Lenovo Vantage サービス",
+      "AppId": "LenovoCompanyLimited.LenovoVantageService",
+      "Description": "Lenovo Vantage のバックグラウンド サービス コンポーネント",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dell SupportAssist",
+      "AppId": "DellInc.DellSupportAssistforPCs",
+      "Description": "Dell の OEM サポート、診断、更新ツール",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dell Digital Delivery サービス",
+      "AppId": "DellInc.DellDigitalDelivery",
+      "Description": "事前に購入したソフトウェアを配信するための Dell の OEM ソフトウェア",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    },
+    {
+      "FriendlyName": "Dell Mobile Connect",
+      "AppId": "DellInc.DellMobileConnect",
+      "Description": "Android/iOS スマートフォンを PC にリンクするための Dell の OEM アプリ (スマートフォン連携に取って代わられました)",
+      "SelectedByDefault": false,
+      "Recommendation": "optional",
+      "RemovalMethod": "Appx"
+    }
+  ],
+  "Presets": [
+    {
+      "Name": "Xbox ゲーム関連アプリ",
+      "AppIds": [
+        "Microsoft.GamingApp",
+        "Microsoft.XboxGameOverlay",
+        "Microsoft.XboxGamingOverlay"
+      ]
+    },
+    {
+      "Name": "OEM ソフトウェア (Dell、HP、Lenovo、LG)",
+      "AppIds": [
+        "AD2F1837.HPAIExperienceCenter",
+        "AD2F1837.HPConnectedMusic",
+        "AD2F1837.HPConnectedPhotopoweredbySnapfish",
+        "AD2F1837.HPDesktopSupportUtilities",
+        "AD2F1837.HPEasyClean",
+        "AD2F1837.HPFileViewer",
+        "AD2F1837.HPJumpStarts",
+        "AD2F1837.HPPCHardwareDiagnosticsWindows",
+        "AD2F1837.HPPowerManager",
+        "AD2F1837.HPPrinterControl",
+        "AD2F1837.HPPrivacySettings",
+        "AD2F1837.HPQuickDrop",
+        "AD2F1837.HPQuickTouch",
+        "AD2F1837.HPRegistration",
+        "AD2F1837.HPSupportAssistant",
+        "AD2F1837.HPSureShieldAI",
+        "AD2F1837.HPSystemInformation",
+        "AD2F1837.HPWelcome",
+        "AD2F1837.HPWorkWell",
+        "AD2F1837.myHP",
+        "E046963F.LenovoCompanion",
+        "LenovoCompanyLimited.LenovoVantageService",
+        "LGElectronics.LGMonitorApp",
+        "DellInc.DellSupportAssistforPCs",
+        "DellInc.DellDigitalDelivery",
+        "DellInc.DellMobileConnect"
+      ]
+    }
+  ]
+}

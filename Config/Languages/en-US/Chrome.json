@@ -18,6 +18,8 @@
   "MenuReportBug": "Report a bug",
   "MenuLogs": "Logs",
   "MenuAbout": "About",
+  "MenuLanguage": "Language",
+  "MenuLanguageTooltip": "Change the interface language",
 
   "HomeTabHeader": "Home",
   "HomeTitle": "Welcome to Win11Debloat",

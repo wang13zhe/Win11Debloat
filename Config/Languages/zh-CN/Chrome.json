@@ -18,6 +18,8 @@
   "MenuReportBug": "报告错误",
   "MenuLogs": "日志",
   "MenuAbout": "关于",
+  "MenuLanguage": "语言",
+  "MenuLanguageTooltip": "更改界面语言",
 
   "HomeTabHeader": "主页",
   "HomeTitle": "欢迎使用 Win11Debloat",

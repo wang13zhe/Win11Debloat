@@ -1,4 +1,4 @@
-[CmdletBinding(SupportsShouldProcess)]
+ï»¿[CmdletBinding(SupportsShouldProcess)]
 param (
     [switch]$CLI,
     [switch]$Silent,
@@ -106,30 +106,30 @@ param (
     [switch]$HideDriveLetters
 )
 
-# Win11Debloat ÒÀÀµ Windows PowerShell 5.1 µÄ cmdlet£¨Appx Ä£¿éµÄ Get-AppxPackage /
-# Remove-AppxPackage£¬ÒÔ¼° Get-ComputerRestorePoint£©£¬ÕâĞ© cmdlet ÔÚ PowerShell 7 (pwsh) ÖĞÎŞ·¨¼ÓÔØ£¬
-# ÒòÎª Appx Ä£¿é»á±¨´í "Operation is not supported on this platform" (0x80131539)¡£Èç¹ûÃ»ÓĞ´Ë·À»¤£¬
-# ½Å±¾»á¼ÌĞøÔËĞĞµ«¾²Ä¬µØÎŞ·¨ÒÆ³ıÈÎºÎÓ¦ÓÃ£¬Í¬Ê±ÈÔ±¨¸æ³É¹¦¡£²Î¼û issue #675¡£
+# Win11Debloat ä¾èµ– Windows PowerShell 5.1 çš„ cmdletï¼ˆAppx æ¨¡å—çš„ Get-AppxPackage /
+# Remove-AppxPackageï¼Œä»¥åŠ Get-ComputerRestorePointï¼‰ï¼Œè¿™äº› cmdlet åœ¨ PowerShell 7 (pwsh) ä¸­æ— æ³•åŠ è½½ï¼Œ
+# å› ä¸º Appx æ¨¡å—ä¼šæŠ¥é”™ "Operation is not supported on this platform" (0x80131539)ã€‚å¦‚æœæ²¡æœ‰æ­¤é˜²æŠ¤ï¼Œ
+# è„šæœ¬ä¼šç»§ç»­è¿è¡Œä½†é™é»˜åœ°æ— æ³•ç§»é™¤ä»»ä½•åº”ç”¨ï¼ŒåŒæ—¶ä»æŠ¥å‘ŠæˆåŠŸã€‚å‚è§ issue #675ã€‚
 if ($PSVersionTable.PSEdition -eq 'Core') {
-    Write-Host "Win11Debloat ĞèÒª Windows PowerShell 5.1£¬µ«µ±Ç°ÔËĞĞÔÚ PowerShell $($PSVersionTable.PSVersion) (pwsh / Core edition) ÏÂ¡£" -ForegroundColor Red
-    Write-Host "Ó¦ÓÃÒÆ³ıºÍÏµÍ³»¹Ô­µãÒÀÀµÓÚ PowerShell 7 ÖĞ²»¿ÉÓÃµÄÄ£¿é£¬Òò´ËÎŞ·¨ÔÚ´ËÕıÈ·Íê³ÉÔËĞĞ¡£" -ForegroundColor Red
-    Write-Host "Çë¸ÄÓÃ Windows PowerShell (powershell.exe) ÖØĞÂÔËĞĞ´Ë½Å±¾¡£" -ForegroundColor Yellow
+    Write-Host "Win11Debloat éœ€è¦ Windows PowerShell 5.1ï¼Œä½†å½“å‰è¿è¡Œåœ¨ PowerShell $($PSVersionTable.PSVersion) (pwsh / Core edition) ä¸‹ã€‚" -ForegroundColor Red
+    Write-Host "åº”ç”¨ç§»é™¤å’Œç³»ç»Ÿè¿˜åŸç‚¹ä¾èµ–äº PowerShell 7 ä¸­ä¸å¯ç”¨çš„æ¨¡å—ï¼Œå› æ­¤æ— æ³•åœ¨æ­¤æ­£ç¡®å®Œæˆè¿è¡Œã€‚" -ForegroundColor Red
+    Write-Host "è¯·æ”¹ç”¨ Windows PowerShell (powershell.exe) é‡æ–°è¿è¡Œæ­¤è„šæœ¬ã€‚" -ForegroundColor Yellow
     exit 1
 }
 
-# ¼ì²é½Å±¾ÊÇ·ñÒÔ¹ÜÀíÔ±Éí·İÔËĞĞ
+# æ£€æŸ¥è„šæœ¬æ˜¯å¦ä»¥ç®¡ç†å‘˜èº«ä»½è¿è¡Œ
 $isAdmin = ([Security.Principal.WindowsPrincipal] `
     [Security.Principal.WindowsIdentity]::GetCurrent()
 ).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
 
-# Èç¹û½Å±¾Î´ÒÔ¹ÜÀíÔ±Éí·İÔËĞĞ£¬Ñ¯ÎÊÓÃ»§ÊÇ·ñÔÊĞí
+# å¦‚æœè„šæœ¬æœªä»¥ç®¡ç†å‘˜èº«ä»½è¿è¡Œï¼Œè¯¢é—®ç”¨æˆ·æ˜¯å¦å…è®¸
 if (-not $isAdmin) {
-    Write-Host "Win11Debloat ±ØĞëÒÔ¹ÜÀíÔ±Éí·İÔËĞĞ¡£" -ForegroundColor Red
+    Write-Host "Win11Debloat å¿…é¡»ä»¥ç®¡ç†å‘˜èº«ä»½è¿è¡Œã€‚" -ForegroundColor Red
 
-    $choice = Read-Host "ÊÇ·ñÒÔ¹ÜÀíÔ±Éí·İÖØĞÂÆô¶¯£¿(y/n)"
+    $choice = Read-Host "æ˜¯å¦ä»¥ç®¡ç†å‘˜èº«ä»½é‡æ–°å¯åŠ¨ï¼Ÿ(y/n)"
 
     if ($choice -match '^[Yy]$') {
-        # ÒÔ Win32 °²È«·½Ê½×ªÒåÒª´«µİ¸øÌáÉıÈ¨ÏŞ½ø³ÌµÄ²ÎÊı
+        # ä»¥ Win32 å®‰å…¨æ–¹å¼è½¬ä¹‰è¦ä¼ é€’ç»™æå‡æƒé™è¿›ç¨‹çš„å‚æ•°
         function Format-ElevatedArg([string]$Value) {
             $escaped = $Value -replace '(\\*)"', '$1$1\"'
             $escaped = $escaped -replace '(\\+)$', '$1$1'
@@ -162,7 +162,7 @@ if (-not $isAdmin) {
             Start-Process powershell -ArgumentList $elevatedArgs -Verb RunAs -ErrorAction Stop
         }
         catch {
-            Write-Error "ÒÔ¹ÜÀíÔ±Éí·İÆô¶¯ Win11Debloat Ê§°Ü£º$_"
+            Write-Error "ä»¥ç®¡ç†å‘˜èº«ä»½å¯åŠ¨ Win11Debloat å¤±è´¥ï¼š$_"
             Exit 1
         }
 
@@ -172,25 +172,27 @@ if (-not $isAdmin) {
     Exit 1
 }
 
-# ¶¨Òå½Å±¾¼¶±äÁ¿ºÍÂ·¾¶
+# å®šä¹‰è„šæœ¬çº§å˜é‡å’Œè·¯å¾„
 $script:Version = "2026.08.24"
 $configPath = Join-Path $PSScriptRoot 'Config'
 $logsPath = Join-Path $PSScriptRoot 'Logs'
 $schemasPath = Join-Path $PSScriptRoot 'Schemas'
 $scriptsPath = Join-Path $PSScriptRoot 'Scripts'
 
-# 1. Ê×ÏÈ¶¨Òå LanguagesPath£¨ÆäËûÂ·¾¶ÒÀÀµËü£©
+# 1. é¦–å…ˆå®šä¹‰ LanguagesPathï¼ˆå…¶ä»–è·¯å¾„ä¾èµ–å®ƒï¼‰
 $script:LanguagesPath = Join-Path $configPath 'Languages'
+$script:LanguageSettingsPath = Join-Path $configPath 'Language.json'
 
-# 2. ¸ù¾İÏµÍ³ÓïÑÔ¶¯Ì¬È·¶¨ Apps.json Â·¾¶
-$sysLang = [System.Globalization.CultureInfo]::CurrentUICulture.Name
-if ($sysLang -like "zh-*") {
-    $script:AppsListFilePath = Join-Path (Join-Path $script:LanguagesPath 'zh-CN') 'Apps.json'
-} else {
-    $script:AppsListFilePath = Join-Path (Join-Path $script:LanguagesPath 'en-US') 'Apps.json'
-}
+# è¯­è¨€åå¥½å¿…é¡»åœ¨å…¶ä½™è·¯å¾„å®šä¹‰å‰è§£æï¼Œå› æ­¤å•ç‹¬æå‰åŠ è½½è¯¥å¸®åŠ©è„šæœ¬
+. "$PSScriptRoot/Scripts/FileIO/Language-Preference.ps1"
 
-# 3. ¶¨ÒåËùÓĞÊ£ÓàµÄÂ·¾¶±äÁ¿
+# 2. è¯­è¨€ä¼˜å…ˆçº§ï¼š-Language å‚æ•° > ç•Œé¢ä¸­ä¿å­˜çš„è¯­è¨€ > ç³»ç»Ÿ UI è¯­è¨€ > en-US
+$script:RequestedLanguage = Resolve-PreferredLanguageCode -RequestedLanguage $Language -LanguagesPath $script:LanguagesPath -SettingsPath $script:LanguageSettingsPath
+
+# 3. æ ¹æ®è§£æå‡ºçš„è¯­è¨€åŠ¨æ€ç¡®å®š Apps.json è·¯å¾„
+$script:AppsListFilePath = Join-Path (Join-Path $script:LanguagesPath $script:RequestedLanguage) 'Apps.json'
+
+# 4. å®šä¹‰æ‰€æœ‰å‰©ä½™çš„è·¯å¾„å˜é‡
 $script:DefaultLanguagePath = Join-Path $script:LanguagesPath 'en-US'
 $script:DefaultSettingsFilePath = Join-Path $configPath 'DefaultSettings.json'
 $script:FeaturesFilePath = Join-Path $configPath 'Features.json'
@@ -213,33 +215,34 @@ $script:TestAppInWingetListScriptPath = Join-Path (Join-Path $scriptsPath 'AppRe
 
 $script:ControlParams = 'WhatIf', 'Confirm', 'Verbose', 'Debug', 'LogPath', 'Language', 'Silent', 'Sysprep', 'User', 'SkipExplorerRestart', 'SkipRegistryBackup', 'RunDefaults', 'RunDefaultsLite', 'RunSavedSettings', 'Config', 'CLI', 'AppRemovalTarget'
 
-# ÓÃÓÚ GUI ÔªËØµÄ½Å±¾¼¶±äÁ¿
+# ç”¨äº GUI å…ƒç´ çš„è„šæœ¬çº§å˜é‡
 $script:GuiWindow = $null
 $script:CancelRequested = $false
+$script:RestartGui = $false
 $script:ApplyProgressCallback = $null
 $script:ApplySubStepCallback = $null
 $script:RegistryImportFailures = 0
 $script:AppRemovalFailures = 0
 $script:AppRemovalVerificationUnavailable = $false
 
-# ¼ì²éµ±Ç° PowerShell »·¾³ÊÇ·ñÊÜ°²È«²ßÂÔÏŞÖÆ
+# æ£€æŸ¥å½“å‰ PowerShell ç¯å¢ƒæ˜¯å¦å—å®‰å…¨ç­–ç•¥é™åˆ¶
 if ($ExecutionContext.SessionState.LanguageMode -ne "FullLanguage") {
-    Write-Error "Win11Debloat ÎŞ·¨ÔÚÄúµÄÏµÍ³ÉÏÔËĞĞ£¬PowerShell Ö´ĞĞÊÜ°²È«²ßÂÔÏŞÖÆ"
-    Write-Output "°´ÈÎÒâ¼üÍË³ö..."
+    Write-Error "Win11Debloat æ— æ³•åœ¨æ‚¨çš„ç³»ç»Ÿä¸Šè¿è¡Œï¼ŒPowerShell æ‰§è¡Œå—å®‰å…¨ç­–ç•¥é™åˆ¶"
+    Write-Output "æŒ‰ä»»æ„é”®é€€å‡º..."
     $null = [System.Console]::ReadKey()
     Exit 1
 }
 
 Clear-Host
 
-# È·±£±¾´Î»á»°µÄ PATH ÖĞ´æÔÚËùĞèµÄ Windows ÃüÁîÂ·¾¶¡£
+# ç¡®ä¿æœ¬æ¬¡ä¼šè¯çš„ PATH ä¸­å­˜åœ¨æ‰€éœ€çš„ Windows å‘½ä»¤è·¯å¾„ã€‚
 $system32Path = "$env:SystemRoot\System32"
 if ($env:PATH -notmatch "(?i)(^|;)$([regex]::Escape($system32Path))(?=;|$)") {
     $env:PATH = "$env:SystemRoot\System32;$env:SystemRoot;" + $env:PATH
-    Write-Warning "PATH »·¾³±äÁ¿ÖĞÈ±ÉÙ System32 Â·¾¶£¬ÒÑÎª±¾´Î»á»°Ìí¼Ó¡£"
+    Write-Warning "PATH ç¯å¢ƒå˜é‡ä¸­ç¼ºå°‘ System32 è·¯å¾„ï¼Œå·²ä¸ºæœ¬æ¬¡ä¼šè¯æ·»åŠ ã€‚"
 }
 
-# ÔÚ CLI ÖĞÏÔÊ¾ ASCII ÒÕÊõÆô¶¯»Õ±ê
+# åœ¨ CLI ä¸­æ˜¾ç¤º ASCII è‰ºæœ¯å¯åŠ¨å¾½æ ‡
 Write-Host ""
 Write-Host ""
 Write-Host "                   " -NoNewline; Write-Host "      ^" -ForegroundColor Blue
@@ -257,12 +260,12 @@ Write-Host "                   " -NoNewline; Write-Host "  |  " -ForegroundColor
 Write-Host "                   " -NoNewline; Write-Host "    (" -ForegroundColor Yellow -NoNewline; Write-Host "'''" -ForegroundColor Red -NoNewline; Write-Host ") " -ForegroundColor Yellow -NoNewline; Write-Host "   *  *" -ForegroundColor DarkYellow
 Write-Host "                   " -NoNewline; Write-Host "    ( " -ForegroundColor DarkYellow -NoNewline; Write-Host "'" -ForegroundColor Red -NoNewline; Write-Host " )   " -ForegroundColor DarkYellow -NoNewline; Write-Host "*" -ForegroundColor Yellow
 Write-Host ""
-Write-Host "             Win11Debloat ÕıÔÚÆô¶¯..." -ForegroundColor White
-Write-Host "                Çë±£³Ö´Ë´°¿Ú´ò¿ª" -ForegroundColor DarkGray
+Write-Host "             Win11Debloat æ­£åœ¨å¯åŠ¨..." -ForegroundColor White
+Write-Host "                è¯·ä¿æŒæ­¤çª—å£æ‰“å¼€" -ForegroundColor DarkGray
 Write-Host ""
 Write-Host ""
 
-# ½«½Å±¾Êä³ö¼ÇÂ¼µ½Ö¸¶¨Â·¾¶µÄ 'Win11Debloat.log'
+# å°†è„šæœ¬è¾“å‡ºè®°å½•åˆ°æŒ‡å®šè·¯å¾„çš„ 'Win11Debloat.log'
 if ($LogPath -and (Test-Path $LogPath)) {
     Start-Transcript -Path (Join-Path $LogPath 'Win11Debloat.log') -Append -IncludeInvocationHeader -Force | Out-Null
 }
@@ -270,9 +273,9 @@ else {
     Start-Transcript -Path $script:DefaultLogPath -Append -IncludeInvocationHeader -Force | Out-Null
 }
 
-# µ±×é²ßÂÔ¸²¸Ç Run.bat µÄ Process ×÷ÓÃÓò Bypass Ê±£¬±»±ê¼ÇµÄ PowerShell Ô´ÎÄ¼şÔÚ±»µãÔ´¼ÓÔØÊ±
-# ¿ÉÄÜ»áµ¯³öÌáÊ¾¡£ÔÚ -WhatIf Ö®Íâ£¬½ö´Ó Scripts ÏÂ±»±ê¼ÇµÄ .ps1¡¢.psm1 ºÍ .psd1 ÎÄ¼şÖĞÒÆ³ı
-# Web ±ê¼Ç£¨Mark-of-the-Web£©£»ÆäËûÏÂÔØµÄÎÄ¼ş±£³ÖÔ­Ñù¡£²Î¼û issue #720¡£
+# å½“ç»„ç­–ç•¥è¦†ç›– Run.bat çš„ Process ä½œç”¨åŸŸ Bypass æ—¶ï¼Œè¢«æ ‡è®°çš„ PowerShell æºæ–‡ä»¶åœ¨è¢«ç‚¹æºåŠ è½½æ—¶
+# å¯èƒ½ä¼šå¼¹å‡ºæç¤ºã€‚åœ¨ -WhatIf ä¹‹å¤–ï¼Œä»…ä» Scripts ä¸‹è¢«æ ‡è®°çš„ .ps1ã€.psm1 å’Œ .psd1 æ–‡ä»¶ä¸­ç§»é™¤
+# Web æ ‡è®°ï¼ˆMark-of-the-Webï¼‰ï¼›å…¶ä»–ä¸‹è½½çš„æ–‡ä»¶ä¿æŒåŸæ ·ã€‚å‚è§ issue #720ã€‚
 if (-not $WhatIfPreference) {
     $gpoExecutionPolicySet = (Get-ExecutionPolicy -Scope MachinePolicy) -ne 'Undefined' -or
         (Get-ExecutionPolicy -Scope UserPolicy) -ne 'Undefined'
@@ -286,57 +289,57 @@ if (-not $WhatIfPreference) {
             })
 
         if ($markedScriptFiles.Count -gt 0) {
-            Write-Host "ÕıÔÚ½â³ı $($markedScriptFiles.Count) ¸ö PowerShell ÎÄ¼şµÄ×èÖ¹..."
+            Write-Host "æ­£åœ¨è§£é™¤ $($markedScriptFiles.Count) ä¸ª PowerShell æ–‡ä»¶çš„é˜»æ­¢..."
             $unblockErrors = @()
             $markedScriptFiles | Unblock-File -ErrorAction SilentlyContinue -ErrorVariable +unblockErrors
 
             if ($unblockErrors.Count -gt 0) {
-                Write-Warning "ÎŞ·¨½â³ı $($unblockErrors.Count) ¸ö PowerShell ÎÄ¼şµÄ×èÖ¹¡£"
+                Write-Warning "æ— æ³•è§£é™¤ $($unblockErrors.Count) ä¸ª PowerShell æ–‡ä»¶çš„é˜»æ­¢ã€‚"
             }
             else {
-                Write-Host "ËùÓĞÎÄ¼şÒÑ³É¹¦½â³ı×èÖ¹¡£"
+                Write-Host "æ‰€æœ‰æ–‡ä»¶å·²æˆåŠŸè§£é™¤é˜»æ­¢ã€‚"
             }
         }
     }
 }
 
-# ¼ì²éÉè±¸ÊÇ·ñÒÑ¼ÓÈëÓò²¢¾¯¸æÓÃ»§£¨×é²ßÂÔ¿ÉÄÜ»á¸²¸Ç¸ü¸Ä£©
+# æ£€æŸ¥è®¾å¤‡æ˜¯å¦å·²åŠ å…¥åŸŸå¹¶è­¦å‘Šç”¨æˆ·ï¼ˆç»„ç­–ç•¥å¯èƒ½ä¼šè¦†ç›–æ›´æ”¹ï¼‰
 try {
     $computerSystem = Get-CimInstance Win32_ComputerSystem -ErrorAction SilentlyContinue
     if ($null -ne $computerSystem -and $computerSystem.PartOfDomain) {
-        Write-Warning "´Ë¼ÆËã»úÒÑ¼ÓÈëÓò¡£×é²ßÂÔ¿ÉÄÜ»á¸²¸Ç Win11Debloat Ëù×öµÄ¸ü¸Ä¡£"
+        Write-Warning "æ­¤è®¡ç®—æœºå·²åŠ å…¥åŸŸã€‚ç»„ç­–ç•¥å¯èƒ½ä¼šè¦†ç›– Win11Debloat æ‰€åšçš„æ›´æ”¹ã€‚"
     }
 }
 catch { }
 
-# ¼ì²é½Å±¾ÊÇ·ñ¾ßÓĞËùÓĞ±ØĞèµÄÎÄ¼ş
+# æ£€æŸ¥è„šæœ¬æ˜¯å¦å…·æœ‰æ‰€æœ‰å¿…éœ€çš„æ–‡ä»¶
 if (-not ((Test-Path $script:DefaultSettingsFilePath) -and (Test-Path $script:AppsListFilePath) -and (Test-Path $script:RegfilesPath) -and (Test-Path $script:AssetsPath) -and (Test-Path $script:AppSelectionSchema) -and (Test-Path $script:ApplyChangesWindowSchema) -and (Test-Path $script:SharedStylesSchema) -and (Test-Path $script:BubbleHintSchema) -and (Test-Path $script:RestoreBackupWindowSchema) -and (Test-Path $script:FeaturesFilePath) -and (Test-Path $script:DefaultLanguagePath))) {
-    Write-Error "Win11Debloat ÎŞ·¨ÕÒµ½ËùĞèÎÄ¼ş£¬ÇëÈ·±£ËùÓĞ½Å±¾ÎÄ¼ş¶¼´æÔÚ"
-    Write-Output "°´ÈÎÒâ¼üÍË³ö..."
+    Write-Error "Win11Debloat æ— æ³•æ‰¾åˆ°æ‰€éœ€æ–‡ä»¶ï¼Œè¯·ç¡®ä¿æ‰€æœ‰è„šæœ¬æ–‡ä»¶éƒ½å­˜åœ¨"
+    Write-Output "æŒ‰ä»»æ„é”®é€€å‡º..."
     $null = [System.Console]::ReadKey()
     Exit 1
 }
 
-# ´ÓÎÄ¼ş¼ÓÔØ¹¦ÄÜĞÅÏ¢
+# ä»æ–‡ä»¶åŠ è½½åŠŸèƒ½ä¿¡æ¯
 $script:Features = @{}
 try {
     $featuresData = Get-Content -Path $script:FeaturesFilePath -Raw | ConvertFrom-Json
     foreach ($feature in $featuresData.Features) {
         if ([string]::IsNullOrWhiteSpace([string]$feature.FeatureId) -or [string]::IsNullOrWhiteSpace([string]$feature.Label) -or [string]::IsNullOrWhiteSpace([string]$feature.ApplyText)) {
-            Write-Warning "¹¦ÄÜ '$($feature.FeatureId)' ÔÚ Features.json ÖĞÈ±ÉÙ FeatureId¡¢Label »ò ApplyText£¬½«±»Ìø¹ı¡£"
+            Write-Warning "åŠŸèƒ½ '$($feature.FeatureId)' åœ¨ Features.json ä¸­ç¼ºå°‘ FeatureIdã€Label æˆ– ApplyTextï¼Œå°†è¢«è·³è¿‡ã€‚"
             continue
         }
         $script:Features[$feature.FeatureId] = $feature
     }
 }
 catch {
-    Write-Error "´Ó Features.json ÎÄ¼ş¼ÓÔØ¹¦ÄÜĞÅÏ¢Ê§°Ü"
-    Write-Output "°´ÈÎÒâ¼üÍË³ö..."
+    Write-Error "ä» Features.json æ–‡ä»¶åŠ è½½åŠŸèƒ½ä¿¡æ¯å¤±è´¥"
+    Write-Output "æŒ‰ä»»æ„é”®é€€å‡º..."
     $null = [System.Console]::ReadKey()
     Exit 1
 }
 
-# ¼ì²éÊÇ·ñ°²×°ÁË WinGet£¬Èç¹ûÒÑ°²×°£¬¼ì²é°æ±¾ÊÇ·ñÖÁÉÙÎª v1.4
+# æ£€æŸ¥æ˜¯å¦å®‰è£…äº† WinGetï¼Œå¦‚æœå·²å®‰è£…ï¼Œæ£€æŸ¥ç‰ˆæœ¬æ˜¯å¦è‡³å°‘ä¸º v1.4
 try {
     if (Get-Command winget -ErrorAction SilentlyContinue) {
         $script:WingetInstalled = $true
@@ -346,15 +349,15 @@ try {
     }
 }
 catch {
-    Write-Error "ÎŞ·¨È·¶¨ÊÇ·ñ°²×°ÁË WinGet£¬winget ÃüÁîÊ§°Ü£º$_"
+    Write-Error "æ— æ³•ç¡®å®šæ˜¯å¦å®‰è£…äº† WinGetï¼Œwinget å‘½ä»¤å¤±è´¥ï¼š$_"
     $script:WingetInstalled = $false
 }
 
-# ÏÔÊ¾ĞèÒªÓÃ»§È·ÈÏµÄ WinGet ¾¯¸æ£¬Èç¹û´«ÈëÁË Silent ²ÎÊıÔò½ûÖ¹È·ÈÏ
+# æ˜¾ç¤ºéœ€è¦ç”¨æˆ·ç¡®è®¤çš„ WinGet è­¦å‘Šï¼Œå¦‚æœä¼ å…¥äº† Silent å‚æ•°åˆ™ç¦æ­¢ç¡®è®¤
 if (-not $script:WingetInstalled -and -not $Silent) {
-    Write-Warning "WinGet Î´°²×°»òÒÑ¹ıÊ±£¬Õâ¿ÉÄÜ»á×èÖ¹ Win11Debloat ÒÆ³ıÄ³Ğ©Ó¦ÓÃ"
+    Write-Warning "WinGet æœªå®‰è£…æˆ–å·²è¿‡æ—¶ï¼Œè¿™å¯èƒ½ä¼šé˜»æ­¢ Win11Debloat ç§»é™¤æŸäº›åº”ç”¨"
     Write-Output ""
-    Write-Output "°´ÈÎÒâ¼ü¼ÌĞø..."
+    Write-Output "æŒ‰ä»»æ„é”®ç»§ç»­..."
     $null = [System.Console]::ReadKey()
 }
 
@@ -362,17 +365,17 @@ if (-not $script:WingetInstalled -and -not $Silent) {
 
 ##################################################################################################################
 #                                                                                                                #
-#                                                º¯Êıµ¼Èë                                                        #
+#                                                å‡½æ•°å¯¼å…¥                                                        #
 #                                                                                                                #
 ##################################################################################################################
 
-# Ó¦ÓÃÒÆ³ıº¯Êı
+# åº”ç”¨ç§»é™¤å‡½æ•°
 . "$PSScriptRoot/Scripts/AppRemoval/Invoke-ForceRemoveEdge.ps1"
 . "$PSScriptRoot/Scripts/AppRemoval/Remove-SelectedApps.ps1"
 . "$PSScriptRoot/Scripts/AppRemoval/Get-WingetInstalledApps.ps1"
 . "$PSScriptRoot/Scripts/AppRemoval/Test-AppInWingetList.ps1"
 
-# CLI º¯Êı
+# CLI å‡½æ•°
 . "$PSScriptRoot/Scripts/CLI/Wait-ForKeyPress.ps1"
 . "$PSScriptRoot/Scripts/CLI/Show-CliLastUsedSettings.ps1"
 . "$PSScriptRoot/Scripts/CLI/Show-CliDefaultModeAppRemovalOptions.ps1"
@@ -382,7 +385,7 @@ if (-not $script:WingetInstalled -and -not $Silent) {
 . "$PSScriptRoot/Scripts/CLI/Write-PendingChanges.ps1"
 . "$PSScriptRoot/Scripts/CLI/Write-CliHeader.ps1"
 
-# ¹¦ÄÜº¯Êı
+# åŠŸèƒ½å‡½æ•°
 . "$PSScriptRoot/Scripts/Features/Get-CurrentTweakState.ps1"
 . "$PSScriptRoot/Scripts/Features/Invoke-Changes.ps1"
 . "$PSScriptRoot/Scripts/Features/Invoke-SystemRestorePoint.ps1"
@@ -399,7 +402,7 @@ if (-not $script:WingetInstalled -and -not $Silent) {
 . "$PSScriptRoot/Scripts/Features/Replace-StartMenu.ps1"
 . "$PSScriptRoot/Scripts/Features/Invoke-RestartExplorer.ps1"
 
-# ÎÄ¼ş I/O º¯Êı
+# æ–‡ä»¶ I/O å‡½æ•°
 . "$PSScriptRoot/Scripts/FileIO/Import-JsonFile.ps1"
 . "$PSScriptRoot/Scripts/FileIO/Import-LanguageFile.ps1"
 . "$PSScriptRoot/Scripts/FileIO/Save-ToFile.ps1"
@@ -410,7 +413,7 @@ if (-not $script:WingetInstalled -and -not $Silent) {
 . "$PSScriptRoot/Scripts/FileIO/Import-AppDetailsFromJson.ps1"
 . "$PSScriptRoot/Scripts/FileIO/Import-AppPresetsFromJson.ps1"
 
-# GUI º¯Êı
+# GUI å‡½æ•°
 . "$PSScriptRoot/Scripts/GUI/Get-SystemUsesDarkMode.ps1"
 . "$PSScriptRoot/Scripts/GUI/Set-WindowThemeResources.ps1"
 . "$PSScriptRoot/Scripts/GUI/Attach-ShiftClickBehavior.ps1"
@@ -431,7 +434,7 @@ if (-not $script:WingetInstalled -and -not $Silent) {
 . "$PSScriptRoot/Scripts/GUI/Show-AboutDialog.ps1"
 . "$PSScriptRoot/Scripts/GUI/Show-Bubble.ps1"
 
-# ¸¨Öúº¯Êı
+# è¾…åŠ©å‡½æ•°
 . "$PSScriptRoot/Scripts/Helpers/Add-Parameter.ps1"
 . "$PSScriptRoot/Scripts/Helpers/Resolve-UserProfilePath.ps1"
 . "$PSScriptRoot/Scripts/Helpers/User-HiveHelpers.ps1"
@@ -452,7 +455,7 @@ if (-not $script:WingetInstalled -and -not $Silent) {
 . "$PSScriptRoot/Scripts/Helpers/Apply-RegistryRegFile.ps1"
 . "$PSScriptRoot/Scripts/Helpers/Confirm-UnsafeAppRemoval.ps1"
 
-# Ïß³Ìº¯Êı
+# çº¿ç¨‹å‡½æ•°
 . "$PSScriptRoot/Scripts/Threading/Invoke-DoEvents.ps1"
 . "$PSScriptRoot/Scripts/Threading/Invoke-NonBlocking.ps1"
 
@@ -460,37 +463,23 @@ if (-not $script:WingetInstalled -and -not $Silent) {
 
 ##################################################################################################################
 #                                                                                                                #
-#                                                  ½Å±¾¿ªÊ¼                                                      #
+#                                                  è„šæœ¬å¼€å§‹                                                      #
 #                                                                                                                #
 ##################################################################################################################
 
 
 
-# »ñÈ¡µ±Ç° Windows ÄÚ²¿°æ±¾ºÅ
+# è·å–å½“å‰ Windows å†…éƒ¨ç‰ˆæœ¬å·
 $WinVersion = Get-ItemPropertyValue 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion' CurrentBuild
 
-# ¼ì²é¼ÆËã»úÊÇ·ñÖ§³ÖĞÂÊ½´ı»ú£¬ÓÃÓÚÈ·¶¨ÊÇ·ñ¿ÉÒÔÊ¹ÓÃ DisableModernStandbyNetworking Ñ¡Ïî
+# æ£€æŸ¥è®¡ç®—æœºæ˜¯å¦æ”¯æŒæ–°å¼å¾…æœºï¼Œç”¨äºç¡®å®šæ˜¯å¦å¯ä»¥ä½¿ç”¨ DisableModernStandbyNetworking é€‰é¡¹
 $script:ModernStandbySupported = Test-ModernStandbySupport
 
-# ¼ÓÔØ GUI µÄÓïÑÔÄÚÈİ¡£-Language »á¸²¸Çµ±Ç°ÓÃ»§µÄÏµÍ³ UI ÇøÓòĞÔ£¬
-# Èç¹ûÇëÇóµÄÓïÑÔ²»¿ÉÓÃ£¬ÔòÈÎÒ»Â·¾¶¶¼»ØÍËµ½ en-US¡£
+# åŠ è½½ GUI çš„è¯­è¨€å†…å®¹ã€‚è¯­è¨€å·²åœ¨å¯åŠ¨æ—¶è§£æå®Œæ¯•ï¼ˆ-Language å‚æ•° > ç•Œé¢é€‰æ‹© > ç³»ç»Ÿ UI è¯­è¨€ï¼‰ï¼Œ
+# ä»»ä½•æƒ…å†µä¸‹éƒ½å›é€€åˆ° en-USã€‚
+$script:Lang = Set-ActiveLanguage -LanguageCode $script:RequestedLanguage -UpdateAppList
 
-if ($Language) {
-    # 1. Èç¹ûÓÃ»§ÊÖ¶¯Ö¸¶¨ÁËÓïÑÔ²ÎÊı£¬Ö±½ÓÓÃÖ¸¶¨µÄ
-    $script:Lang = Import-LanguageFile -LanguageCode $Language
-} else {
-    # 2. Èç¹ûÃ»ÓĞÖ¸¶¨£¬×Ô¶¯¼ì²âÏµÍ³ÓïÑÔ
-    $sysLang = [System.Globalization.CultureInfo]::CurrentUICulture.Name
-    if ($sysLang -like "zh-*") {
-        # ÏµÍ³ÊÇÖĞÎÄ»·¾³£¬¼ÓÔØ zh-CN
-        $script:Lang = Import-LanguageFile -LanguageCode 'zh-CN'
-    } else {
-        # ÏµÍ³ÊÇÆäËûÓïÑÔ£¬Ä¬ÈÏ¼ÓÔØÓ¢ÎÄ£¨en-US£©
-        $script:Lang = Import-LanguageFile
-    }
-}
-
-# È·±£²ÎÊı¹şÏ£±í±»ÕıÈ·³õÊ¼»¯£¨ÕâÊÇÔ­½Å±¾µÄºËĞÄ´úÂë£¬Ç§Íò²»ÒªÉ¾µô£©
+# ç¡®ä¿å‚æ•°å“ˆå¸Œè¡¨è¢«æ­£ç¡®åˆå§‹åŒ–ï¼ˆè¿™æ˜¯åŸè„šæœ¬çš„æ ¸å¿ƒä»£ç ï¼Œåƒä¸‡ä¸è¦åˆ æ‰ï¼‰
 if ($null -eq $PSBoundParameters) {
     $script:Params = @{}
 } else {
@@ -499,28 +488,28 @@ if ($null -eq $PSBoundParameters) {
 
 $script:UndoParams = @{}
 
-# µ±ÇëÇó RemoveApps ÇÒÎ´ÏÔÊ½Ìá¹© Apps Ê±£¬Ìí¼ÓÄ¬ÈÏ Apps ²ÎÊı
+# å½“è¯·æ±‚ RemoveApps ä¸”æœªæ˜¾å¼æä¾› Apps æ—¶ï¼Œæ·»åŠ é»˜è®¤ Apps å‚æ•°
 if ((-not $script:Params.ContainsKey("Apps")) -and $script:Params.ContainsKey("RemoveApps")) {
     $script:Params.Add('Apps', 'Default')
 }
 
 $controlParamsCount = 0
 
-# Í³¼ÆÉèÖÃÁË¶àÉÙ¸ö¿ØÖÆ²ÎÊı£¬ÒÔÈ·¶¨ÓÃ»§ÔÚÔËĞĞÊ±ÊÇ·ñÑ¡ÔñÁËÈÎºÎ¸ü¸Ä
+# ç»Ÿè®¡è®¾ç½®äº†å¤šå°‘ä¸ªæ§åˆ¶å‚æ•°ï¼Œä»¥ç¡®å®šç”¨æˆ·åœ¨è¿è¡Œæ—¶æ˜¯å¦é€‰æ‹©äº†ä»»ä½•æ›´æ”¹
 foreach ($Param in $script:ControlParams) {
     if ($script:Params.ContainsKey($Param)) {
         $controlParamsCount++
     }
 }
 
-# Òş²ØÓ¦ÓÃÒÆ³ıµÄ½ø¶ÈÌõ£¬ÒòÎªËüÃÇ»á×èÈû Win11Debloat µÄÊä³ö
+# éšè—åº”ç”¨ç§»é™¤çš„è¿›åº¦æ¡ï¼Œå› ä¸ºå®ƒä»¬ä¼šé˜»å¡ Win11Debloat çš„è¾“å‡º
 if (-not ($script:Params.ContainsKey("Verbose"))) {
     $ProgressPreference = 'SilentlyContinue'
 }
 else {
-    Write-Host "ÏêÏ¸Ä£Ê½ÒÑÆôÓÃ"
+    Write-Host "è¯¦ç»†æ¨¡å¼å·²å¯ç”¨"
     Write-Output ""
-    Write-Output "°´ÈÎÒâ¼ü¼ÌĞø..."
+    Write-Output "æŒ‰ä»»æ„é”®ç»§ç»­..."
     $null = [System.Console]::ReadKey()
 
     $ProgressPreference = 'Continue'
@@ -529,42 +518,42 @@ else {
 if ($script:Params.ContainsKey("Sysprep")) {
     Get-UserDirectory -userName "Default" | Out-Null
 
-    # Èç¹ûÔÚ Windows 10 ÉÏÒÔ Sysprep Ä£Ê½ÔËĞĞ£¬ÔòÍË³ö½Å±¾
+    # å¦‚æœåœ¨ Windows 10 ä¸Šä»¥ Sysprep æ¨¡å¼è¿è¡Œï¼Œåˆ™é€€å‡ºè„šæœ¬
     if ($WinVersion -lt 22000) {
-        Write-Error "Windows 10 ²»Ö§³Ö Win11Debloat Sysprep Ä£Ê½"
+        Write-Error "Windows 10 ä¸æ”¯æŒ Win11Debloat Sysprep æ¨¡å¼"
         Wait-ForKeyPress -ExitCode 1
     }
 }
 
-# Èç¹ûÌá¹©ÁË User »ò AppRemovalTarget ²ÎÊı£¬È·±£Ä¿±êÓÃ»§´æÔÚ
+# å¦‚æœæä¾›äº† User æˆ– AppRemovalTarget å‚æ•°ï¼Œç¡®ä¿ç›®æ ‡ç”¨æˆ·å­˜åœ¨
 if ($script:Params.ContainsKey("User")) {
     Get-UserDirectory -userName $script:Params.Item("User") | Out-Null
 }
 if ($script:Params.ContainsKey("AppRemovalTarget")) {
     $appRemovalTargetValue = $script:Params.Item("AppRemovalTarget")
-    # 'AllUsers' / 'CurrentUser' ÊÇÉÚ±ø×÷ÓÃÓòÖµ£¬²»ÊÇÕæÊµÓÃ»§Ãû - ²»Òª½«ËüÃÇ×÷ÎªÅäÖÃÎÄ¼ş½âÎö
+    # 'AllUsers' / 'CurrentUser' æ˜¯å“¨å…µä½œç”¨åŸŸå€¼ï¼Œä¸æ˜¯çœŸå®ç”¨æˆ·å - ä¸è¦å°†å®ƒä»¬ä½œä¸ºé…ç½®æ–‡ä»¶è§£æ
     if ($appRemovalTargetValue -notin @('AllUsers', 'CurrentUser')) {
         Get-UserDirectory -userName $appRemovalTargetValue | Out-Null
     }
 }
 
-# Èç¹û LastUsedSettings.json ÎÄ¼ş´æÔÚÇÒÎª¿Õ£¬ÔòÉ¾³ıËü
+# å¦‚æœ LastUsedSettings.json æ–‡ä»¶å­˜åœ¨ä¸”ä¸ºç©ºï¼Œåˆ™åˆ é™¤å®ƒ
 if ((Test-Path $script:SavedSettingsFilePath) -and ([String]::IsNullOrWhiteSpace((Get-content $script:SavedSettingsFilePath)))) {
     Remove-Item -Path $script:SavedSettingsFilePath -Force
 }
 
-# ¶ÔÓÚÃæÏò²¿ÊğÄ¿±êµÄ²ÎÊı£¬Ä¬ÈÏÎª CLI Ä£Ê½¡£
+# å¯¹äºé¢å‘éƒ¨ç½²ç›®æ ‡çš„å‚æ•°ï¼Œé»˜è®¤ä¸º CLI æ¨¡å¼ã€‚
 $launchInCLI = $CLI -or $script:Params.ContainsKey("User") -or $script:Params.ContainsKey("Sysprep") -or $script:Params.ContainsKey("AppRemovalTarget")
 
-# ¸ù¾İÌá¹©µÄ²ÎÊı»òÓÃ»§ÊäÈë¸ü¸Ä½Å±¾Ö´ĞĞ
+# æ ¹æ®æä¾›çš„å‚æ•°æˆ–ç”¨æˆ·è¾“å…¥æ›´æ”¹è„šæœ¬æ‰§è¡Œ
 if ((-not $script:Params.Count) -or $RunDefaults -or $RunDefaultsLite -or $RunSavedSettings -or $Config -or ($controlParamsCount -eq $script:Params.Count)) {
     if ($RunDefaults -or $RunDefaultsLite) {
         Show-CliDefaultModeOptions
     }
     elseif ($RunSavedSettings) {
         if (-not (Test-Path $script:SavedSettingsFilePath)) {
-            Write-CliHeader '×Ô¶¨ÒåÄ£Ê½'
-            Write-Error "ÕÒ²»µ½ LastUsedSettings.json ÎÄ¼ş£¬Î´×öÈÎºÎ¸ü¸Ä"
+            Write-CliHeader 'è‡ªå®šä¹‰æ¨¡å¼'
+            Write-Error "æ‰¾ä¸åˆ° LastUsedSettings.json æ–‡ä»¶ï¼Œæœªåšä»»ä½•æ›´æ”¹"
             Wait-ForKeyPress -ExitCode 1
         }
 
@@ -580,9 +569,9 @@ if ((-not $script:Params.Count) -or $RunDefaults -or $RunDefaultsLite -or $RunSa
         }
 
         if (-not $Silent) {
-            Write-CliHeader '×Ô¶¨ÒåÄ£Ê½'
+            Write-CliHeader 'è‡ªå®šä¹‰æ¨¡å¼'
             Write-PendingChanges
-            Write-CliHeader '×Ô¶¨ÒåÄ£Ê½'
+            Write-CliHeader 'è‡ªå®šä¹‰æ¨¡å¼'
         }
     }
     else {
@@ -591,8 +580,15 @@ if ((-not $script:Params.Count) -or $RunDefaults -or $RunDefaultsLite -or $RunSa
         }
         else {
             try {
-                $result = Show-MainWindow
-            
+                while ($true) {
+                    # åˆ‡æ¢ç•Œé¢è¯­è¨€åéœ€è¦é‡å»ºçª—å£ï¼Œå› æ­¤è¿™é‡Œå…è®¸é‡æ–°æ‰“å¼€ä¸»çª—å£
+                    $script:CancelRequested = $false
+                    $result = Show-MainWindow
+
+                    if (-not $script:RestartGui) { break }
+                    $script:RestartGui = $false
+                }
+
                 try {
                     Stop-Transcript
                 }
@@ -601,11 +597,11 @@ if ((-not $script:Params.Count) -or $RunDefaults -or $RunDefaultsLite -or $RunSa
                 Exit
             }
             catch {
-                Write-Warning "Í¼ĞÎ½çÃæÎŞ·¨Æô¶¯£º$($_.Exception.Message)"
-                Write-Verbose "GUI Ê§°ÜÏêÇé£º$($_.Exception.ToString())"
+                Write-Warning "å›¾å½¢ç•Œé¢æ— æ³•å¯åŠ¨ï¼š$($_.Exception.Message)"
+                Write-Verbose "GUI å¤±è´¥è¯¦æƒ…ï¼š$($_.Exception.ToString())"
                 if (-not $Silent) {
                     Write-Host ""
-                    Write-Host "°´ÈÎÒâ¼üÔÚ CLI Ä£Ê½ÏÂ¼ÌĞø..."
+                    Write-Host "æŒ‰ä»»æ„é”®åœ¨ CLI æ¨¡å¼ä¸‹ç»§ç»­..."
                     $null = [System.Console]::ReadKey()
                 }
 
@@ -614,45 +610,45 @@ if ((-not $script:Params.Count) -or $RunDefaults -or $RunDefaultsLite -or $RunSa
         }
     }
 
-    # ¸ù¾İÄ£Ê½Ìí¼ÓÖ´ĞĞ²ÎÊı
+    # æ ¹æ®æ¨¡å¼æ·»åŠ æ‰§è¡Œå‚æ•°
     switch ($Mode) {
-        # Ä¬ÈÏÄ£Ê½£¬¼ÓÔØÄ¬ÈÏÖµºÍÓ¦ÓÃÒÆ³ıÑ¡Ïî
+        # é»˜è®¤æ¨¡å¼ï¼ŒåŠ è½½é»˜è®¤å€¼å’Œåº”ç”¨ç§»é™¤é€‰é¡¹
         '1' { 
             Show-CliDefaultModeOptions
         }
 
-        # Ó¦ÓÃÒÆ³ı£¬¸ù¾İÓÃ»§Ñ¡ÔñÒÆ³ıÓ¦ÓÃ
+        # åº”ç”¨ç§»é™¤ï¼Œæ ¹æ®ç”¨æˆ·é€‰æ‹©ç§»é™¤åº”ç”¨
         '2' {
             Show-CliAppRemoval
         }
 
-        # ´Ó "LastUsedSettings.json" ÎÄ¼ş¼ÓÔØÉÏ´ÎÊ¹ÓÃµÄÑ¡Ïî
+        # ä» "LastUsedSettings.json" æ–‡ä»¶åŠ è½½ä¸Šæ¬¡ä½¿ç”¨çš„é€‰é¡¹
         '3' {
             Show-CliLastUsedSettings
         }
     }
 }
 else {
-    Write-CliHeader 'ÅäÖÃ'
+    Write-CliHeader 'é…ç½®'
 }
 
-# Èç¹û ControlParams ÖĞµÄ¼üÊıµÈÓÚ Params ÖĞµÄ¼üÊı£¬ÔòÓÃ»§Î´Ñ¡Ôñ»òÌí¼ÓÈÎºÎĞŞ¸Ä/¸ü¸Ä£¬
-# ½Å±¾¿ÉÒÔÔÚ²»×öÈÎºÎ¸ü¸ÄµÄÇé¿öÏÂÍË³ö¡£
+# å¦‚æœ ControlParams ä¸­çš„é”®æ•°ç­‰äº Params ä¸­çš„é”®æ•°ï¼Œåˆ™ç”¨æˆ·æœªé€‰æ‹©æˆ–æ·»åŠ ä»»ä½•ä¿®æ”¹/æ›´æ”¹ï¼Œ
+# è„šæœ¬å¯ä»¥åœ¨ä¸åšä»»ä½•æ›´æ”¹çš„æƒ…å†µä¸‹é€€å‡ºã€‚
 if (($controlParamsCount -eq $script:Params.Keys.Count) -or ($script:Params.Keys.Count -eq 1 -and ($script:Params.Keys -contains 'CreateRestorePoint' -or $script:Params.Keys -contains 'Apps'))) {
-    Write-Output "½Å±¾ÒÑÍê³É£¬Î´×öÈÎºÎ¸ü¸Ä¡£"
+    Write-Output "è„šæœ¬å·²å®Œæˆï¼Œæœªåšä»»ä½•æ›´æ”¹ã€‚"
     Wait-ForKeyPress
 }
 
-# Ê¹ÓÃºÏ²¢µÄº¯ÊıÖ´ĞĞËùÓĞÑ¡¶¨/Ìá¹©µÄ²ÎÊı
-# £¨Èç¹ûÇëÇó£¬ÕâÒ²»á´¦Àí»¹Ô­µã´´½¨£©
+# ä½¿ç”¨åˆå¹¶çš„å‡½æ•°æ‰§è¡Œæ‰€æœ‰é€‰å®š/æä¾›çš„å‚æ•°
+# ï¼ˆå¦‚æœè¯·æ±‚ï¼Œè¿™ä¹Ÿä¼šå¤„ç†è¿˜åŸç‚¹åˆ›å»ºï¼‰
 Invoke-AllChanges
 
 if ($script:CancelRequested) {
-    Write-Warning "½Å±¾Ö´ĞĞÒÑ±»ÓÃ»§È¡Ïû¡£ÈÎºÎÊ£ÓàµÄ¸ü¸Ä¾ùÎ´Ó¦ÓÃ¡£"
+    Write-Warning "è„šæœ¬æ‰§è¡Œå·²è¢«ç”¨æˆ·å–æ¶ˆã€‚ä»»ä½•å‰©ä½™çš„æ›´æ”¹å‡æœªåº”ç”¨ã€‚"
     Wait-ForKeyPress
 }
 
-# ÖØÆô×ÊÔ´¹ÜÀíÆ÷½ø³Ì£¬³ı·ÇÔÚ Sysprep »ò User ÉÏÏÂÎÄÖĞÔËĞĞ
+# é‡å¯èµ„æºç®¡ç†å™¨è¿›ç¨‹ï¼Œé™¤éåœ¨ Sysprep æˆ– User ä¸Šä¸‹æ–‡ä¸­è¿è¡Œ
 if (-not ($script:Params.ContainsKey("Sysprep") -or $script:Params.ContainsKey("User"))) {
     Invoke-RestartExplorer
 }
@@ -660,6 +656,6 @@ if (-not ($script:Params.ContainsKey("Sysprep") -or $script:Params.ContainsKey("
 Write-Output ""
 Write-Output ""
 Write-Output ""
-Write-Output "½Å±¾ÒÑÍê³É£¡Çë¼ì²éÉÏ·½ÊÇ·ñÓĞÈÎºÎ´íÎó¡£"
+Write-Output "è„šæœ¬å·²å®Œæˆï¼è¯·æ£€æŸ¥ä¸Šæ–¹æ˜¯å¦æœ‰ä»»ä½•é”™è¯¯ã€‚"
 
 Wait-ForKeyPress
