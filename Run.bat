@@ -1,15 +1,16 @@
 @echo off
+chcp 65001 >nul
 setlocal
 
-:: ���� Windows Terminal ��װ·������Ĭ�ϰ�װ�� Scoop ��װ��
+:: 设置 Windows Terminal 安装路径（默认安装和 Scoop 安装）
 set "wtDefaultPath=%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe"
 set "wtScoopPath=%USERPROFILE%\scoop\apps\windows-terminal\current\wt.exe"
 set "logFile=%~dp0Logs\Win11Debloat-Run.log"
 
-:: ȷ�� Logs �ļ��д���
+:: 确保 Logs 文件夹存在
 if not exist "%~dp0Logs" mkdir "%~dp0Logs"
 
-:: ȷ���ĸ��ն˴���
+:: 确定哪个终端存在
 if exist "%wtDefaultPath%" (
     set "wtPath=%wtDefaultPath%"
 ) else if exist "%wtScoopPath%" (
@@ -18,33 +19,33 @@ if exist "%wtDefaultPath%" (
     set "wtPath="
 )
 
-:: �������ݻᱻ���뵽�·��� PS �������ַ����У�
-:: Ʋ��ͨ�� %:'=''% ת�壬-File ����ʹ�� [char]34 �Ա���������Դ���
+:: 下面内容会被嵌入到下方的 PS 命令字符串中，
+:: 撇号通过 %:'=''% 转义，-File 参数使用 [char]34 以避免引号嵌套问题
 set "SCRIPT_PATH=%~dp0Win11Debloat.ps1"
 
 if defined wtPath (
-    call :Log ����ʹ�� Windows Terminal ���� Win11Debloat.ps1...
-    PowerShell -NoProfile -ExecutionPolicy Bypass -Command "$p='%SCRIPT_PATH:'=''%'; $w='%wtPath:'=''%'; $q=[char]34; Start-Process -FilePath $w -ArgumentList ('PowerShell -NoProfile -ExecutionPolicy Bypass -File ' + $q + $p + $q) -Verb RunAs" >> "%logFile%" || call :Error "PowerShell ����ʧ��"
+    call :Log 正在使用 Windows Terminal 运行 Win11Debloat.ps1...
+    PowerShell -NoProfile -ExecutionPolicy Bypass -Command "$p='%SCRIPT_PATH:'=''%'; $w='%wtPath:'=''%'; $q=[char]34; Start-Process -FilePath $w -ArgumentList ('PowerShell -NoProfile -ExecutionPolicy Bypass -File ' + $q + $p + $q) -Verb RunAs" >> "%logFile%" || call :Error "PowerShell 启动失败"
 ) else (
-    echo δ�ҵ� Windows Terminal��ʹ��Ĭ�� PowerShell...
-    call :Log δ�ҵ� Windows Terminal��ʹ��Ĭ�� PowerShell ���� Win11Debloat.ps1...
-    PowerShell -NoProfile -ExecutionPolicy Bypass -Command "$p='%SCRIPT_PATH:'=''%'; $q=[char]34; Start-Process PowerShell -ArgumentList ('-NoProfile -ExecutionPolicy Bypass -File ' + $q + $p + $q) -Verb RunAs" >> "%logFile%" || call :Error "PowerShell ����ʧ��"
+    echo 未找到 Windows Terminal，使用默认 PowerShell...
+    call :Log 未找到 Windows Terminal，使用默认 PowerShell 运行 Win11Debloat.ps1...
+    PowerShell -NoProfile -ExecutionPolicy Bypass -Command "$p='%SCRIPT_PATH:'=''%'; $q=[char]34; Start-Process PowerShell -ArgumentList ('-NoProfile -ExecutionPolicy Bypass -File ' + $q + $p + $q) -Verb RunAs" >> "%logFile%" || call :Error "PowerShell 启动失败"
 )
 
 echo.
-echo �������Ҫ��һ���İ������������µ�ַ�ύ���⣺
-echo https://github.com/Raphire/Win11Debloat/issues
+echo 如果你需要进一步的帮助，请前往下面的地址提交问题：
+echo https://github.com/wang13zhe/Win11Debloat/issues
 goto :EOF
 
-:: ��־��¼����
+:: 日志记录函数
 :Log
 echo(%* >> "%logFile%"
 goto :EOF
 
-:: ����������
+:: 错误处理函数
 :Error
-echo(����: %*
-call :Log ����: %*
-echo �Ѽ�¼�� %logFile%
+echo(错误: %*
+call :Log 错误: %*
+echo 已记录到 %logFile%
 pause
 goto :EOF

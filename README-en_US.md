@@ -1,177 +1,83 @@
-# Win11Debloat
+# Win11Debloat — Multilingual Edition
 
 **English** | [简体中文](README.md)
 
-[![GitHub Release](https://img.shields.io/github/v/release/Raphire/Win11Debloat?style=for-the-badge&label=Latest%20release)](https://github.com/Raphire/Win11Debloat/releases/latest)
-[![Join the Discussion](https://img.shields.io/badge/Join-the%20Discussion-2D9F2D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Raphire/Win11Debloat/discussions)
-[![Static Badge](https://img.shields.io/badge/Documentation-_?style=for-the-badge&logo=bookstack&color=grey)](https://github.com/Raphire/Win11Debloat/wiki/)
+[![Release](https://img.shields.io/github/v/release/wang13zhe/Win11Debloat?style=for-the-badge&label=Latest%20release)](https://github.com/wang13zhe/Win11Debloat/releases/latest)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
+[![Upstream](https://img.shields.io/badge/upstream-Raphire%2FWin11Debloat-2D9F2D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Raphire/Win11Debloat)
 
- Win11Debloat is a lightweight, easy to use PowerShell script that allows you to quickly declutter and customize your Windows experience, no installation required! You can use it to remove pre-installed apps, disable telemetry, remove intrusive interface elements and much more. No need to painstakingly go through all the settings yourself or remove apps one by one. Win11Debloat makes the process quick and easy!
+> A community fork of [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) with the same debloating
+> capabilities, plus a GUI translated into **10 languages** that follows your Windows display language.
 
-The script also includes many features that system administrators and power users will enjoy. Such as a powerful command-line interface, support for Windows Audit mode and the ability to make changes to other Windows users. You can also easily export & import your preferred settings, allowing you to quickly apply the same settings on all your systems. Please refer to our [wiki](https://github.com/Raphire/Win11Debloat/wiki) for more details.
+![Language menu](Assets/Images/screenshots/language-menu.png)
 
-![Win11Debloat Menu](/Assets/Images/menu.png)
+## ✨ What this fork adds
 
-#### Did this script help you? Please consider buying me a cup of coffee to support my work
+- 🌍 **10 interface languages** — English, 简体中文, 繁體中文, 日本語, 한국어, Deutsch, Français, Español, Português (Brasil), Русский
+- 🧭 **Automatic language selection** — exact culture match, then language prefix fallback (`de-AT` → `de-DE`, `zh-HK` → `zh-TW`), then English
+- 🔄 **Switch at runtime** — `☰` → Language; the window is rebuilt in the selected language and the choice is stored in `Config/Language.json`
+- 📦 **Complete translations** — window chrome, feature labels and tooltips, categories, and every app name and description
+- 🩹 **Fixes along the way** — language files were read without `-Encoding UTF8` (CJK/Cyrillic packs came out garbled or empty), long labels were clipped
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M5C6UPC)
+## 🌐 Supported languages
 
-## Usage
+| Language | Code | UI | Features | Apps |
+| --- | --- | :-: | :-: | :-: |
+| English | `en-US` | ✅ | ✅ | ✅ |
+| 简体中文 | `zh-CN` | ✅ | ✅ | ✅ |
+| 繁體中文 | `zh-TW` | ✅ | ✅ | ✅ |
+| 日本語 | `ja-JP` | ✅ | ✅ | ✅ |
+| 한국어 | `ko-KR` | ✅ | ✅ | ✅ |
+| Deutsch | `de-DE` | ✅ | ✅ | ✅ |
+| Français | `fr-FR` | ✅ | ✅ | ✅ |
+| Español | `es-ES` | ✅ | ✅ | ✅ |
+| Português (Brasil) | `pt-BR` | ✅ | ✅ | ✅ |
+| Русский | `ru-RU` | ✅ | ✅ | ✅ |
 
-> [!Warning]
-> Great care went into making sure this script does not unintentionally break any OS functionality, but use at your own risk! If you run into any issues, please report them [here](https://github.com/Raphire/Win11Debloat/issues).
+| English | Deutsch |
+| --- | --- |
+| ![English](Assets/Images/screenshots/home-zh-CN.png) | ![Deutsch](Assets/Images/screenshots/home-de-DE.png) |
 
-### Quick method
+App list in Japanese:
 
-Download & run the script automatically via PowerShell.
+![日本語](Assets/Images/screenshots/apps-ja-JP.png)
 
-1. Open PowerShell or Terminal.
-2. Copy and paste the command below into PowerShell:
+## 🚀 Usage
 
-```PowerShell
-& ([scriptblock]::Create((irm "https://debloat.raphi.re/")))
+1. Download `Win11Debloat-CN-*.zip` from [Releases](https://github.com/wang13zhe/Win11Debloat/releases/latest)
+2. Extract it to any folder (**do not run it from inside the archive**)
+3. Double-click `Run.bat` and accept the UAC prompt
+4. Use `☰` → Language to switch the interface language at any time
+
+Or pick the language from the command line:
+
+```powershell
+.\Win11Debloat.ps1 -Language de-DE
 ```
 
-3. Wait for the script to automatically download and launch Win11Debloat.
-4. Carefully read through and follow the on-screen instructions.
+Without `-Language` the app uses the language picked in the GUI, then the Windows display language, then English.
 
-This method supports command-line parameters to customize the behaviour of the script. Please click [here](https://github.com/Raphire/Win11Debloat/wiki/Command%E2%80%90line-Interface#parameters) for more information.
+## 📋 Requirements
 
-### Traditional method
+- Windows 10 / Windows 11
+- **Windows PowerShell 5.1** (built in). PowerShell 7 / pwsh is not supported
+- Administrator rights (the script edits the registry and removes preinstalled apps)
 
-<details>
-  <summary>Manually download & run the script.</summary><br/>
+## ⚠️ Notes
 
-  1. [Download the latest version of the script](https://github.com/Raphire/Win11Debloat/releases/latest), and extract the .ZIP file to your desired location.
-  2. Navigate to the Win11Debloat folder
-  3. Double click the `Run.bat` file to start the script. NOTE: If the console window immediately closes and nothing happens, try the advanced method below.
-  4. Accept the Windows UAC prompt to run the script as administrator, this is required for the script to function.
-  5. Carefully read through and follow the on-screen instructions.
-</details>
+The script modifies the registry and removes preinstalled apps — **create a restore point first**. Most changes can be reverted from inside the tool, and removed apps can be reinstalled from the Microsoft Store.
 
-### Advanced method
+> If `Run.bat` closes immediately, open an elevated PowerShell, `cd` into the extracted folder and run `.\Win11Debloat.ps1`.
 
-<details>
-  <summary>Manually download the script & run the script via PowerShell. Recommended for advanced users.</summary><br/>
+## 🔗 Relation to upstream
 
-  1. [Download the latest version of the script](https://github.com/Raphire/Win11Debloat/releases/latest), and extract the .ZIP file to your desired location.
-  2. Open PowerShell or Terminal as an administrator.
-  3. Temporarily enable PowerShell execution by entering the following command:
+- The debloating engine comes from upstream; this fork only changes the localization layer (`Config/Languages/`) and a small amount of supporting code
+- Six language-pack PRs and one UTF-8 fix PR are open upstream: [#838 – #844](https://github.com/Raphire/Win11Debloat/pulls?q=is%3Apr+author%3Awang13zhe)
+- Upstream changes are merged into this fork; translation issues are welcome in [Issues](https://github.com/wang13zhe/Win11Debloat/issues)
 
-  ```PowerShell
-  Set-ExecutionPolicy Bypass -Scope Process -Force
-  ```
+For the full feature set (app list, command-line parameters, Sysprep, configuration import/export), see the [upstream wiki](https://github.com/Raphire/Win11Debloat/wiki).
 
-  4. In PowerShell, navigate to the directory where the files were extracted. Example: `cd c:\Win11Debloat`
-  5. Now run the script by entering the following command:
+## 🙏 Credits & license
 
-  ```PowerShell
-  .\Win11Debloat.ps1
-  ```
-
-  6. Carefully read through and follow the on-screen instructions.
-
-  This method supports command-line parameters to customize the behaviour of the script. Please click [here](https://github.com/Raphire/Win11Debloat/wiki/Command%E2%80%90line-Interface#parameters) for more information.
-</details>
-
-## Features
-
-Below is an overview of the key features and functionality offered by Win11Debloat. You can visit the [the wiki](https://github.com/Raphire/Win11Debloat/wiki) for more details.
-
-> [!Tip]
-> All of the changes made by Win11Debloat can easily be reverted and almost all of the apps can be reinstalled through the Microsoft Store. You can visit [the wiki](https://github.com/Raphire/Win11Debloat/wiki/Reverting-Changes) for more information on reverting changes.
-
-#### App Removal
-
-- Remove a wide variety of preinstalled apps. Click [here](https://github.com/Raphire/Win11Debloat/wiki/App-Removal) for more info.
-
-#### Privacy & Suggested Content
-
-- Disable telemetry, diagnostic data, activity history, app-launch tracking & targeted ads.
-- Disable tips, tricks, suggestions & ads across Windows, the lock screen and Microsoft Edge.
-- Disable Windows location services, app location access and Find My Device location tracking.
-- Hide Microsoft 365 ads on the Settings 'Home' page, or hide the 'Home' page entirely.
-
-#### AI Features
-
-- Disable & remove Microsoft Copilot, Windows Recall and Click to Do.
-- Prevent AI service (WSAIFabricSvc) from starting automatically.
-- Disable AI Features in Edge, Paint and Notepad.
-
-#### System
-
-- Disable the Drag Tray for sharing & moving files.
-- Restore the old Windows 10 style context menu.
-- Turn off Enhance Pointer Precision (mouse acceleration).
-- Disable the Sticky Keys keyboard shortcut.
-- Disable Storage Sense automatic disk cleanup.
-- Disable fast start-up to ensure a full shutdown.
-- Disable BitLocker automatic device encryption.
-- Disable network connectivity during Modern Standby to reduce battery drain.
-
-#### Windows Update
-
-- Prevent Windows from getting updates as soon as they're available.
-- Prevent automatic restarts after updates while signed in.
-- Disable sharing of downloaded updates with other PCs, also known as Delivery Optimization.
-- Prevent Windows from auto-installing device companion apps, like LG Monitor App, Alienware Command Center and more.
-
-#### Appearance
-
-- Enable dark mode for system and apps.
-- Disable transparency, animations and visual effects.
-- Hide the 'Learn about this picture' shortcut for desktop spotlight, or disable the Windows spotlight background option entirely.
-
-#### Start Menu & Search
-
-- Customize the start menu by removing pinned apps, hiding recommendations, and customizing the 'All Apps' section.
-- Disable the Phone Link mobile devices integration in the start menu.
-- Disable Bing web search & Copilot integration and Microsoft Store app suggestions in Windows search.
-
-#### Taskbar
-
-- Change taskbar alignment.
-- Customize or hide taskbar buttons like the search bar, taskview and more.
-- Disable widgets on the taskbar & lock screen.
-- Enable the 'End Task' option in the taskbar right click menu to quickly force-close apps.
-- Enable the 'Last Active Click' behavior in the taskbar app area. This allows you to repeatedly click on an application's icon in the taskbar to switch focus between the open windows of that application.
-- Customize how app buttons are shown on the taskbar.
-
-#### File Explorer
-
-- Change the default location that File Explorer opens to.
-- Show file extensions for known file types.
-- Show hidden files, folders and drives.
-- Hide the Home, Gallery or OneDrive section from the File Explorer navigation pane.
-- Hide duplicate removable drive entries from the File Explorer navigation pane, so only the entry under 'This PC' remains.
-- Add all common folders (Desktop, Downloads, etc.) back to 'This PC' in File Explorer.
-- Change drive letter position or visibility in File Explorer.
-
-#### Multi-tasking
-
-- Disable window snapping.
-- Disable Snap Assist and Snap Layout suggestions when dragging or snapping windows.
-- Change whether tabs are shown when snapping windows or pressing Alt+Tab.
-
-#### Optional Windows Features
-
-- Enable Windows Sandbox, a lightweight desktop environment for safely running applications in isolation.
-- Enable Windows Subsystem for Linux which allows you to run a Linux environment directly on Windows.
-
-#### Other
-
-- Disable Xbox Game Bar integration & game/screen recording. This also disables `ms-gamingoverlay`/`ms-gamebar` popups if you uninstall the Xbox Game Bar.
-- Disable bloat in Brave browser (AI, Crypto, News, etc.)
-
-#### Advanced Features
-
-- Ability to [apply changes to a different user](https://github.com/Raphire/Win11Debloat/wiki/Advanced-Features#running-as-another-user), instead of the currently logged in user.
-- [Sysprep mode](https://github.com/Raphire/Win11Debloat/wiki/Advanced-Features#sysprep-mode) to apply changes to the Windows Default user profile. Which ensures, all new users will have the changes automatically applied to them.
-
-## Contributing
-
-We welcome contributions of all kinds! Please see our [Contributing Guidelines](https://github.com/Raphire/Win11Debloat/blob/master/.github/CONTRIBUTING.md) for detailed instructions on how to get started and best practices for contributing.
-
-## License
-
-Win11Debloat is licensed under the MIT license. See the LICENSE file for more information.
+- Original author [Raphire](https://github.com/Raphire) and all upstream contributors. Released under the [MIT license](LICENSE).
+- If the tool is useful to you, star the [upstream repository](https://github.com/Raphire/Win11Debloat) or [buy the author a coffee](https://ko-fi.com/M4M5C6UPC).
