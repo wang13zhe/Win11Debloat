@@ -882,9 +882,9 @@
       "RemovalMethod": "Appx"
     },
     {
-      "FriendlyName": "Phone Link",
+      "FriendlyName": "Mobile connecté",
       "AppId": "Microsoft.YourPhone",
-      "Description": "Phone Link (connecte un téléphone Android/iOS au PC)",
+      "Description": "Mobile connecté (connecte un téléphone Android/iOS au PC)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
       "RemovalMethod": "Appx"
@@ -900,7 +900,7 @@
     {
       "FriendlyName": "Expérience multi-appareils",
       "AppId": "MicrosoftWindows.CrossDevice",
-      "Description": "Intégration du téléphone dans l'Explorateur de fichiers, l'Appareil photo et plus encore (fait partie des fonctionnalités de Phone Link)",
+      "Description": "Intégration du téléphone dans l'Explorateur de fichiers, l'Appareil photo et plus encore (fait partie des fonctionnalités de Mobile connecté)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
       "RemovalMethod": "Appx"
@@ -1124,7 +1124,7 @@
     {
       "FriendlyName": "Dell Mobile Connect",
       "AppId": "DellInc.DellMobileConnect",
-      "Description": "Application OEM Dell permettant de lier un téléphone Android/iOS au PC (remplacée par Phone Link)",
+      "Description": "Application OEM Dell permettant de lier un téléphone Android/iOS au PC (remplacée par Mobile connecté)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
       "RemovalMethod": "Appx"

@@ -882,9 +882,9 @@
       "RemovalMethod": "Appx"
     },
     {
-      "FriendlyName": "Telefon-Link",
+      "FriendlyName": "Smartphone-Link",
       "AppId": "Microsoft.YourPhone",
-      "Description": "Telefon-Link (verbindet Android- und iOS-Smartphones mit dem PC)",
+      "Description": "Smartphone-Link (verbindet Android- und iOS-Smartphones mit dem PC)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
       "RemovalMethod": "Appx"
@@ -900,7 +900,7 @@
     {
       "FriendlyName": "Geräteübergreifende Erfahrung",
       "AppId": "MicrosoftWindows.CrossDevice",
-      "Description": "Telefonintegration im Datei-Explorer, in der Kamera und mehr (Teil der Telefon-Link-Funktionen)",
+      "Description": "Telefonintegration im Datei-Explorer, in der Kamera und mehr (Teil der Smartphone-Link-Funktionen)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
       "RemovalMethod": "Appx"
@@ -1124,7 +1124,7 @@
     {
       "FriendlyName": "Dell Mobile Connect",
       "AppId": "DellInc.DellMobileConnect",
-      "Description": "Dell-OEM-App zum Verknüpfen von Android- und iOS-Smartphones mit dem PC (abgelöst durch Telefon-Link)",
+      "Description": "Dell-OEM-App zum Verknüpfen von Android- und iOS-Smartphones mit dem PC (abgelöst durch Smartphone-Link)",
       "SelectedByDefault": false,
       "Recommendation": "optional",
       "RemovalMethod": "Appx"

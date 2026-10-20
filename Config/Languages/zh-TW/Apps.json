@@ -170,9 +170,9 @@
       "RemovalMethod": "Appx"
     },
     {
-      "FriendlyName": "便箋",
+      "FriendlyName": "自黏便箋",
       "AppId": "Microsoft.MicrosoftStickyNotes",
-      "Description": "數位便箋應用程式 (已停止提供，並由 OneNote 取代)",
+      "Description": "數位自黏便箋應用程式 (已停止提供，並由 OneNote 取代)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
       "RemovalMethod": "Appx"
@@ -306,9 +306,9 @@
       "RemovalMethod": "Appx"
     },
     {
-      "FriendlyName": "影片與電視",
+      "FriendlyName": "電影與電視",
       "AppId": "Microsoft.ZuneVideo",
-      "Description": "用來租借、購買及播放影片內容的影片與電視應用程式 (已更名為「Films & TV」)",
+      "Description": "用來租借、購買及播放影片內容的電影與電視應用程式 (已更名為「Films & TV」)",
       "SelectedByDefault": true,
       "Recommendation": "safe",
       "RemovalMethod": "Appx"

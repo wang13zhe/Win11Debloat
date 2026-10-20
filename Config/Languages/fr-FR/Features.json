@@ -1,4 +1,4 @@
-{
+﻿{
   "Features": {
     "RemoveApps": {
       "Label": "Supprimer les applications spécifiées avec le paramètre « Apps »",
@@ -161,11 +161,11 @@
       "ApplyUndoText": "Activation de la section « Toutes les applications » du menu Démarrer"
     },
     "DisableStartPhoneLink": {
-      "Label": "Désactiver l'intégration de Phone Link dans le menu Démarrer",
-      "ToolTip": "Cela supprime l'intégration de Phone Link dans le menu Démarrer lorsque vous avez un appareil mobile associé à votre PC.",
-      "ApplyText": "Désactivation de l'intégration des appareils mobiles Phone Link dans le menu Démarrer",
-      "UndoLabel": "Activer l'intégration de Phone Link dans le menu Démarrer",
-      "ApplyUndoText": "Activation de l'intégration des appareils mobiles Phone Link dans le menu Démarrer"
+      "Label": "Désactiver l'intégration de Mobile connecté dans le menu Démarrer",
+      "ToolTip": "Cela supprime l'intégration de Mobile connecté dans le menu Démarrer lorsque vous avez un appareil mobile associé à votre PC.",
+      "ApplyText": "Désactivation de l'intégration des appareils mobiles Mobile connecté dans le menu Démarrer",
+      "UndoLabel": "Activer l'intégration de Mobile connecté dans le menu Démarrer",
+      "ApplyUndoText": "Activation de l'intégration des appareils mobiles Mobile connecté dans le menu Démarrer"
     },
     "DisableBing": {
       "Label": "Désactiver la recherche web Bing et l'intégration de Copilot dans la recherche",
@@ -245,11 +245,11 @@
       "ApplyUndoText": "Activation de l'option Améliorer la précision du pointeur"
     },
     "DisableStickyKeys": {
-      "Label": "Désactiver le raccourci clavier Touches filtrées (5 appuis sur Maj)",
-      "ToolTip": "Cela empêche la boîte de dialogue Touches filtrées de s'afficher lorsque vous appuyez 5 fois de suite sur la touche Maj.",
-      "ApplyText": "Désactivation du raccourci clavier Touches filtrées",
-      "UndoLabel": "Activer le raccourci clavier Touches filtrées (5 appuis sur Maj)",
-      "ApplyUndoText": "Activation du raccourci clavier Touches filtrées"
+      "Label": "Désactiver le raccourci clavier Touches rémanentes (5 appuis sur Maj)",
+      "ToolTip": "Cela empêche la boîte de dialogue Touches rémanentes de s'afficher lorsque vous appuyez 5 fois de suite sur la touche Maj.",
+      "ApplyText": "Désactivation du raccourci clavier Touches rémanentes",
+      "UndoLabel": "Activer le raccourci clavier Touches rémanentes (5 appuis sur Maj)",
+      "ApplyUndoText": "Activation du raccourci clavier Touches rémanentes"
     },
     "DisableWindowSnapping": {
       "Label": "Désactiver l'ancrage des fenêtres",
@@ -337,11 +337,11 @@
       "ApplyUndoText": "Affichage de l'icône Conversation dans la barre des tâches"
     },
     "DisableStorageSense": {
-      "Label": "Désactiver le nettoyage automatique du disque (Sensor)",
-      "ToolTip": "Cela désactive Sensor, qui libère automatiquement de l'espace disque en supprimant les fichiers temporaires, en vidant la corbeille et en nettoyant les fichiers du dossier Téléchargements.",
-      "ApplyText": "Désactivation du nettoyage automatique du disque (Sensor)",
-      "UndoLabel": "Activer le nettoyage automatique du disque (Sensor)",
-      "ApplyUndoText": "Activation du nettoyage automatique du disque (Sensor)"
+      "Label": "Désactiver le nettoyage automatique du disque (Assistant Stockage)",
+      "ToolTip": "Cela désactive l'Assistant Stockage, qui libère automatiquement de l'espace disque en supprimant les fichiers temporaires, en vidant la corbeille et en nettoyant les fichiers du dossier Téléchargements.",
+      "ApplyText": "Désactivation du nettoyage automatique du disque (Assistant Stockage)",
+      "UndoLabel": "Activer le nettoyage automatique du disque (Assistant Stockage)",
+      "ApplyUndoText": "Activation du nettoyage automatique du disque (Assistant Stockage)"
     },
     "DisableFastStartup": {
       "Label": "Désactiver le démarrage rapide",

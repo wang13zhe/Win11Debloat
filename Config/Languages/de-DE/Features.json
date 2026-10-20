@@ -1,4 +1,4 @@
-{
+﻿{
   "Features": {
     "RemoveApps": {
       "Label": "Die mit dem Parameter „Apps“ angegebenen Apps entfernen",
@@ -161,11 +161,11 @@
       "ApplyUndoText": "Bereich „Alle Apps“ im Startmenü wird aktiviert"
     },
     "DisableStartPhoneLink": {
-      "Label": "Telefon-Link-Integration im Startmenü deaktivieren",
-      "ToolTip": "Hiermit wird die Telefon-Link-Integration im Startmenü entfernt, wenn ein Mobilgerät mit Ihrem PC verknüpft ist.",
-      "ApplyText": "Integration von Telefon-Link für Mobilgeräte im Startmenü wird deaktiviert",
-      "UndoLabel": "Telefon-Link-Integration im Startmenü aktivieren",
-      "ApplyUndoText": "Integration von Telefon-Link für Mobilgeräte im Startmenü wird aktiviert"
+      "Label": "Smartphone-Link-Integration im Startmenü deaktivieren",
+      "ToolTip": "Hiermit wird die Smartphone-Link-Integration im Startmenü entfernt, wenn ein Mobilgerät mit Ihrem PC verknüpft ist.",
+      "ApplyText": "Integration von Smartphone-Link für Mobilgeräte im Startmenü wird deaktiviert",
+      "UndoLabel": "Smartphone-Link-Integration im Startmenü aktivieren",
+      "ApplyUndoText": "Integration von Smartphone-Link für Mobilgeräte im Startmenü wird aktiviert"
     },
     "DisableBing": {
       "Label": "Bing-Websuche und Copilot-Integration in der Suche deaktivieren",
@@ -245,11 +245,11 @@
       "ApplyUndoText": "Zeigerpräzision verbessern wird eingeschaltet"
     },
     "DisableStickyKeys": {
-      "Label": "Tastenkombination für Anschlagverzögerung deaktivieren (5-mal Umschalt)",
-      "ToolTip": "Hiermit wird verhindert, dass das Dialogfeld für Anschlagverzögerung angezeigt wird, wenn Sie fünfmal hintereinander die Umschalttaste drücken.",
-      "ApplyText": "Tastenkombination für Anschlagverzögerung wird deaktiviert",
-      "UndoLabel": "Tastenkombination für Anschlagverzögerung aktivieren (5-mal Umschalt)",
-      "ApplyUndoText": "Tastenkombination für Anschlagverzögerung wird aktiviert"
+      "Label": "Tastenkombination für Einrastfunktion deaktivieren (5-mal Umschalt)",
+      "ToolTip": "Hiermit wird verhindert, dass das Dialogfeld für Einrastfunktion angezeigt wird, wenn Sie fünfmal hintereinander die Umschalttaste drücken.",
+      "ApplyText": "Tastenkombination für Einrastfunktion wird deaktiviert",
+      "UndoLabel": "Tastenkombination für Einrastfunktion aktivieren (5-mal Umschalt)",
+      "ApplyUndoText": "Tastenkombination für Einrastfunktion wird aktiviert"
     },
     "DisableWindowSnapping": {
       "Label": "Fensterandocken deaktivieren",
