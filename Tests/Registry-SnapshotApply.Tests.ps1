@@ -221,7 +221,9 @@ Describe 'Test-RegistryKeySnapshotCanBeRestored' {
         }
 
         { Test-RegistryKeySnapshotCanBeRestored -Snapshot $snapshot } |
-            Should -Throw '*Value was either too large or too small*'
+            # The .NET message is localized, so match the invariant numeric overflow value instead
+            # of the English text, which would fail on a non-English system.
+            Should -Throw '*4294967296*'
     }
 
     It 'rejects a descendant that is not directly below its declared parent' {
