@@ -332,5 +332,12 @@
   "StartMenuWhatIfRemovedDefaultProfile": "[WhatIf] start2.bin für das Standardbenutzerprofil entfernt.",
   "StartMenuRemovedDefaultProfile": "start2.bin für das Standardbenutzerprofil entfernt.",
   "StartMenuRemoveFailedDefaultProfile": "Fehler beim Entfernen von start2.bin für das Standardbenutzerprofil. {0}",
-  "StartMenuNoUserLocationsFound": "Es wurden keine Startmenüspeicherorte für Benutzer gefunden."
+  "StartMenuNoUserLocationsFound": "Es wurden keine Startmenüspeicherorte für Benutzer gefunden.",
+  "BackupSnapshotInvalidExists": "Sicherungsüberprüfung fehlgeschlagen: Der Registrierungsschlüssel-Snapshot „{0}“ muss Exists als booleschen Wert definieren.",
+  "BackupUnexpectedKeyDeletion": "Die Sicherung enthält eine nicht autorisierte Löschung eines Registrierungsschlüssels: „{0}“.",
+  "BackupUnsafeExecutableValue": "Die Sicherung enthält unter „{0}“ einen nicht vertrauenswürdigen Befehls- oder DLL-Ladewert. Wiederhergestellt werden nur leere Werte oder exakte Übereinstimmungen mit vertrauenswürdigen Funktionsdaten.",
+  "BackupExecutableConfirmationRequired": "Das Wiederherstellen unbekannter ausführbarer Registrierungseinstellungen erfordert eine ausdrückliche Bestätigung.",
+  "BackupExecutableWarningTitle": "Unbekannte ausführbare Einstellungen wiederherstellen?",
+  "BackupExecutableWarningMessage": "Diese Sicherung enthält ausführbare Registrierungseinstellungen, die nicht mit den Dateien des Skripts übereinstimmen. Dadurch könnten Windows oder Anwendungen potenziell schädlichen Code laden.\n\nStellen Sie keine Registrierungssicherungen aus inoffiziellen Quellen wieder her. Fahren Sie nur fort, wenn Sie diese Sicherung selbst erstellt und die folgenden Einstellungen geprüft haben.\n\n{0}",
+  "BackupExecutableMismatchDetails": "Pfad: {0}\nWertname: {1}\nTyp: {2}\nDaten: {3}"
 }

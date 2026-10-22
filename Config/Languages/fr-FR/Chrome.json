@@ -332,5 +332,12 @@
   "StartMenuWhatIfRemovedDefaultProfile": "[WhatIf] Suppression de start2.bin pour le profil d'utilisateur par défaut.",
   "StartMenuRemovedDefaultProfile": "Suppression de start2.bin pour le profil d'utilisateur par défaut.",
   "StartMenuRemoveFailedDefaultProfile": "Échec de la suppression de start2.bin pour le profil d'utilisateur par défaut. {0}",
-  "StartMenuNoUserLocationsFound": "Aucun emplacement de menu Démarrer d'utilisateur n'a été trouvé."
+  "StartMenuNoUserLocationsFound": "Aucun emplacement de menu Démarrer d'utilisateur n'a été trouvé.",
+  "BackupSnapshotInvalidExists": "Échec de la validation de la sauvegarde : l’instantané de la clé de Registre « {0} » doit définir Exists comme une valeur booléenne.",
+  "BackupUnexpectedKeyDeletion": "La sauvegarde contient une suppression de clé de Registre non autorisée : « {0} ».",
+  "BackupUnsafeExecutableValue": "La sauvegarde contient une valeur de commande ou de chargement de DLL non approuvée à « {0} ». Seules les valeurs vides ou les correspondances exactes avec les données de fonctionnalités approuvées peuvent être restaurées.",
+  "BackupExecutableConfirmationRequired": "La restauration de paramètres de Registre d’exécutables non reconnus nécessite une confirmation explicite.",
+  "BackupExecutableWarningTitle": "Restaurer des paramètres d’exécutables non reconnus ?",
+  "BackupExecutableWarningMessage": "Cette sauvegarde contient des paramètres de Registre d’exécutables qui ne correspondent pas aux fichiers du script. Ils pourraient amener Windows ou des applications à charger du code malveillant.\n\nNe restaurez pas de sauvegardes de Registre provenant de sources non officielles. Ne continuez que si vous avez créé cette sauvegarde vous-même et que vous avez examiné les paramètres ci-dessous.\n\n{0}",
+  "BackupExecutableMismatchDetails": "Chemin : {0}\nNom de la valeur : {1}\nType : {2}\nDonnées : {3}"
 }
