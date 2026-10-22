@@ -89,7 +89,7 @@
 - 本分支**直接以 `Raphire/Win11Debloat` 的 `master` 为基座**，只叠加语言包和少量修复，因此可以持续跟进上游
 - 语言包按上游「一种语言一个 PR」的约定提交，另有 UTF-8 读取修复与用词修正两个 PR
 - 已合并进上游：[#844](https://github.com/Raphire/Win11Debloat/pull/844)（UTF-8 读取）、[#846](https://github.com/Raphire/Win11Debloat/pull/846)（四处源文案修正）
-- 仍在评审：`zh-TW`、`de-DE`、`es-ES`、`fr-FR`、`ko-KR`、`ru-RU` 六个语言包 PR
+- 仍在评审：`zh-TW`、`de-DE`、`es-ES`、`fr-FR`、`ko-KR`、`ru-RU` 六个语言包 PR，以及 [#847](https://github.com/Raphire/Win11Debloat/pull/847) 性能缓存 PR
 - 欢迎在 [Issues](https://github.com/wang13zhe/Win11Debloat/issues) 反馈翻译问题
 
 想了解原版完整功能（应用移除清单、命令行参数、Sysprep、导出/导入配置等），请看 [上游 Wiki](https://github.com/Raphire/Win11Debloat/wiki)。

@@ -89,7 +89,7 @@ Most changes can be undone with the in-tool "Restore" feature, and removed apps 
 - This fork is **based directly on `Raphire/Win11Debloat`'s `master`** and only layers language packs and small fixes on top, so it can keep tracking upstream
 - Language packs follow upstream's "one PR per language" convention, plus two PRs for the UTF-8 read fix and wording corrections
 - Already merged upstream: [#844](https://github.com/Raphire/Win11Debloat/pull/844) (UTF-8 read), [#846](https://github.com/Raphire/Win11Debloat/pull/846) (four source-string corrections)
-- Still under review: the six language-pack PRs `zh-TW`, `de-DE`, `es-ES`, `fr-FR`, `ko-KR`, `ru-RU`
+- Still under review: the six language-pack PRs `zh-TW`, `de-DE`, `es-ES`, `fr-FR`, `ko-KR`, `ru-RU`, and [#847](https://github.com/Raphire/Win11Debloat/pull/847) (perf cache)
 - Report translation issues in [Issues](https://github.com/wang13zhe/Win11Debloat/issues)
 
 For the original feature set (app removal list, command-line arguments, Sysprep, export/import config, etc.), see the [upstream Wiki](https://github.com/Raphire/Win11Debloat/wiki).
