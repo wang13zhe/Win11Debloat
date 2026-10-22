@@ -98,3 +98,20 @@
 
 - 原作者 [Raphire](https://github.com/Raphire) 及所有贡献者，本项目遵循 [MIT 许可证](LICENSE)
 - 喜欢这个工具的话，可以到 [上游仓库](https://github.com/Raphire/Win11Debloat) 给作者点个 Star，或[请作者喝杯咖啡](https://ko-fi.com/M4M5C6UPC)
+
+---
+
+## 🌐 其他语言版本
+
+- [简体中文](README.md)
+- [English](README-en_US.md)
+- [繁體中文](README-zh_TW.md)
+- [日本語](README-ja_JP.md)
+- [한국어](README-ko_KR.md)
+- [Deutsch](README-de_DE.md)
+- [Français](README-fr_FR.md)
+- [Español](README-es_ES.md)
+- [Italiano](README-it_IT.md)
+- [Nederlands](README-nl_NL.md)
+- [Português (Brasil)](README-pt_BR.md)
+- [Русский](README-ru_RU.md)
