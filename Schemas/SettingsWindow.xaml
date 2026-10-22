@@ -54,7 +54,7 @@
                     </Button>
                 </UniformGrid>
                 <TextBlock Text="%LANG:SettingsLanguage%" Style="{DynamicResource ModalInfoLabelTextStyle}" HorizontalAlignment="Left" Margin="0,0,0,10"/>
-                <ComboBox x:Name="SettingsLanguageCombo" AutomationProperties.Name="%LANG:SettingsLanguage%"/>
+                <ComboBox x:Name="SettingsLanguageCombo" MaxDropDownHeight="620" AutomationProperties.Name="%LANG:SettingsLanguage%"/>
                 <TextBlock x:Name="SettingsErrorText" Style="{DynamicResource ModalSubtextStyle}" Visibility="Collapsed" Margin="0,12,0,0"/>
             </StackPanel>
             <Border Grid.Row="2" Style="{DynamicResource ModalFooterBorderStyle}">
