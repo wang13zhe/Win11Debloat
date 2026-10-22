@@ -1,5 +1,5 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
-  - name: Open a discussion
-    url: https://github.com/Raphire/Win11Debloat/discussions
-    about: Discuss anything that is not a bug report or feature request
+  - name: 上游功能问题 / Upstream issues
+    url: https://github.com/Raphire/Win11Debloat/issues
+    about: 脚本功能本身的问题请提到原作者仓库 / Report upstream behaviour to the original repository
