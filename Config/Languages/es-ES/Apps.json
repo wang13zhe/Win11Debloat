@@ -151,6 +151,10 @@
     "FriendlyName": "Películas y TV",
     "Description": "Aplicación para reproducir contenido de vídeo comprado (los nuevos alquileres y compras ya no están disponibles)"
   },
+  "MicrosoftCorporationII.Windows365": {
+    "FriendlyName": "Windows App",
+    "Description": "Cliente de escritorio remoto y PC en la nube (reemplaza a la aplicación Escritorio remoto)"
+  },
   "MicrosoftCorporationII.MicrosoftFamily": {
     "FriendlyName": "Microsoft Family Safety",
     "Description": "Aplicación para administrar el tiempo de pantalla familiar, los filtros de contenido y los informes de actividad"
