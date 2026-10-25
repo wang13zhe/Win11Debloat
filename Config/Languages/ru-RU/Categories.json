@@ -1,4 +1,4 @@
-{
+﻿{
   "PrivacySuggestedContent": {
     "Label": "Конфиденциальность и рекомендуемое содержимое"
   },
@@ -18,7 +18,7 @@
     "Label": "Панель задач"
   },
   "Appearance": {
-    "Label": "Оформление"
+    "Label": "Внешний вид"
   },
   "FileExplorer": {
     "Label": "Проводник"

@@ -22,7 +22,7 @@
     },
     "DisableTelemetry": {
       "Label": "停用遙測、追蹤與目標式廣告",
-      "ToolTip": "此設定會停用遙測、診斷資料收集、活動歷程記錄、應用程式啟動追蹤、目標式廣告等。它會限制傳送給 Microsoft 的裝置與使用方式相關資料。如果您是 Windows Insider，可能會在重新開啟選擇性診斷資料收集之前被封鎖更新。",
+      "ToolTip": "此設定會停用遙測、診斷資料收集、活動歷程記錄、應用程式啟動追蹤、目標式廣告等。它會限制傳送給 Microsoft 的裝置與使用方式相關資料。如果您是 Windows 測試人員計畫的成員，可能會在重新開啟選擇性診斷資料收集之前被封鎖更新。",
       "ApplyText": "正在停用遙測與診斷資料收集",
       "UndoLabel": "啟用遙測、追蹤與目標式廣告",
       "ApplyUndoText": "正在啟用遙測與診斷資料收集"
@@ -96,15 +96,15 @@
       "ApplyUndoText": "正在啟用 Microsoft Copilot"
     },
     "DisableRecall": {
-      "Label": "停用 Windows Recall",
-      "ToolTip": "這會停用 Windows Recall，這是一項 AI 功能，可快速存取最近使用的檔案、應用程式和活動。此功能會透過原則鎖定某些設定。",
-      "ApplyText": "正在停用 Windows Recall",
-      "UndoLabel": "啟用 Windows Recall",
-      "ApplyUndoText": "正在啟用 Windows Recall"
+      "Label": "停用 Windows 回顧 (Recall)",
+      "ToolTip": "這會停用 Windows 回顧 (Recall)，這是一項 AI 功能，可快速存取最近使用的檔案、應用程式和活動。此功能會透過原則鎖定某些設定。",
+      "ApplyText": "正在停用 Windows 回顧",
+      "UndoLabel": "啟用 Windows 回顧",
+      "ApplyUndoText": "正在啟用 Windows 回顧"
     },
     "DisableClickToDo": {
-      "Label": "停用 Click to Do 的 AI 文字與影像分析",
-      "ToolTip": "這會停用 Click to Do，該功能會在 Windows 中提供 AI 文字與影像分析。此功能會透過原則鎖定某些設定。",
+      "Label": "停用「按一下執行」(Click to Do) 的 AI 文字與影像分析",
+      "ToolTip": "這會停用「按一下執行」(Click to Do)，該功能會在 Windows 中提供 AI 文字與影像分析。此功能會透過原則鎖定某些設定。",
       "ApplyText": "正在停用 Click to Do",
       "UndoLabel": "啟用 Click to Do 的 AI 文字與影像分析",
       "ApplyUndoText": "正在啟用 Click to Do"
@@ -210,18 +210,18 @@
       "ApplyUndoText": "正在啟用 Google Chrome 中的 AI 功能"
     },
     "DisablePaintAI": {
-      "Label": "停用小畫家中的 AI 功能",
-      "ToolTip": "這會關閉小畫家中的 AI 功能，例如 AI 影像產生和編輯工具。此功能會透過原則鎖定某些設定。",
-      "ApplyText": "正在停用小畫家中的 AI 功能",
-      "UndoLabel": "啟用小畫家中的 AI 功能",
-      "ApplyUndoText": "正在啟用小畫家中的 AI 功能"
+      "Label": "停用 Paint (小畫家) 中的 AI 功能",
+      "ToolTip": "這會關閉 Paint (小畫家) 中的 AI 功能，例如 AI 影像產生和編輯工具。此功能會透過原則鎖定某些設定。",
+      "ApplyText": "正在停用 Paint (小畫家) 中的 AI 功能",
+      "UndoLabel": "啟用 Paint (小畫家) 中的 AI 功能",
+      "ApplyUndoText": "正在啟用 Paint (小畫家) 中的 AI 功能"
     },
     "DisableNotepadAI": {
-      "Label": "停用記事本中的 AI 功能",
-      "ToolTip": "這會關閉記事本中的 AI 功能，例如 AI 寫作建議。此功能會透過原則鎖定某些設定。",
-      "ApplyText": "正在停用記事本中的 AI 功能",
-      "UndoLabel": "啟用記事本中的 AI 功能",
-      "ApplyUndoText": "正在啟用記事本中的 AI 功能"
+      "Label": "停用 Notepad (記事本) 中的 AI 功能",
+      "ToolTip": "這會關閉 Notepad (記事本) 中的 AI 功能，例如 AI 寫作建議。此功能會透過原則鎖定某些設定。",
+      "ApplyText": "正在停用 Notepad (記事本) 中的 AI 功能",
+      "UndoLabel": "啟用 Notepad (記事本) 中的 AI 功能",
+      "ApplyUndoText": "正在啟用 Notepad (記事本) 中的 AI 功能"
     },
     "EnableDarkMode": {
       "Label": "為系統與應用程式啟用深色主題",
@@ -238,11 +238,11 @@
       "ApplyUndoText": "正在還原 Windows 11 樣式的操作功能表"
     },
     "DisableMouseAcceleration": {
-      "Label": "停用「提高指標精確度」（滑鼠加速）",
+      "Label": "停用「增強指標的準確性」（滑鼠加速）",
       "ToolTip": "這會停用 Windows 預設啟用的滑鼠加速，讓滑鼠移動更一致、更可預測。",
-      "ApplyText": "正在關閉「提高指標精確度」",
-      "UndoLabel": "啟用「提高指標精確度」（滑鼠加速）",
-      "ApplyUndoText": "正在開啟「提高指標精確度」"
+      "ApplyText": "正在關閉「增強指標的準確性」",
+      "UndoLabel": "啟用「增強指標的準確性」（滑鼠加速）",
+      "ApplyUndoText": "正在開啟「增強指標的準確性」"
     },
     "DisableStickyKeys": {
       "Label": "停用相黏鍵鍵盤快速鍵 (連按 5 次 Shift)",
@@ -259,10 +259,10 @@
       "ApplyUndoText": "正在啟用視窗貼齊"
     },
     "DisableSnapAssist": {
-      "Label": "停用貼齊視窗時顯示應用程式建議",
-      "ToolTip": "當您將視窗貼齊至螢幕側邊或角落時，這會關閉應用程式建議。",
+      "Label": "停用貼齊小幫手的應用程式建議",
+      "ToolTip": "當您將視窗貼齊至螢幕側邊或角落時，這會關閉貼齊小幫手的應用程式建議。",
       "ApplyText": "正在停用貼齊小幫手建議",
-      "UndoLabel": "啟用貼齊視窗時顯示應用程式建議",
+      "UndoLabel": "啟用貼齊小幫手的應用程式建議",
       "ApplyUndoText": "正在啟用貼齊小幫手建議"
     },
     "DisableSnapLayouts": {
@@ -427,26 +427,26 @@
       "ApplyUndoText": "正在將工作列設為在所有工作列上顯示應用程式圖示"
     },
     "ExplorerToHome": {
-      "Label": "將檔案總管的預設開啟位置變更為「常用」",
-      "ApplyText": "正在將檔案總管的預設開啟位置變更為「常用」"
+      "Label": "將檔案總管的預設開啟位置變更為「首頁」",
+      "ApplyText": "正在將檔案總管的預設開啟位置變更為「首頁」"
     },
     "ExplorerToThisPC": {
       "Label": "將檔案總管的預設開啟位置變更為「本機」",
       "ApplyText": "正在將檔案總管的預設開啟位置變更為「本機」",
-      "UndoLabel": "將檔案總管的預設開啟位置變更為「常用」",
-      "ApplyUndoText": "正在將檔案總管的預設開啟位置變更為「常用」"
+      "UndoLabel": "將檔案總管的預設開啟位置變更為「首頁」",
+      "ApplyUndoText": "正在將檔案總管的預設開啟位置變更為「首頁」"
     },
     "ExplorerToDownloads": {
       "Label": "將檔案總管的預設開啟位置變更為「下載」",
       "ApplyText": "正在將檔案總管的預設開啟位置變更為「下載」",
-      "UndoLabel": "將檔案總管的預設開啟位置變更為「常用」",
-      "ApplyUndoText": "正在將檔案總管的預設開啟位置變更為「常用」"
+      "UndoLabel": "將檔案總管的預設開啟位置變更為「首頁」",
+      "ApplyUndoText": "正在將檔案總管的預設開啟位置變更為「首頁」"
     },
     "ExplorerToOneDrive": {
       "Label": "將檔案總管的預設開啟位置變更為「OneDrive」",
       "ApplyText": "正在將檔案總管的預設開啟位置變更為「OneDrive」",
-      "UndoLabel": "將檔案總管的預設開啟位置變更為「常用」",
-      "ApplyUndoText": "正在將檔案總管的預設開啟位置變更為「常用」"
+      "UndoLabel": "將檔案總管的預設開啟位置變更為「首頁」",
+      "ApplyUndoText": "正在將檔案總管的預設開啟位置變更為「首頁」"
     },
     "ShowKnownFileExt": {
       "Label": "顯示已知檔案類型的副檔名",
@@ -470,11 +470,11 @@
       "ApplyUndoText": "正在從檔案總管瀏覽窗格顯示重複的可移除磁碟機項目"
     },
     "HideHome": {
-      "Label": "從瀏覽窗格隱藏「常用」",
-      "ToolTip": "從檔案總管瀏覽窗格隱藏「常用」區段。警告：這可能會導致快速存取連結無法更新，直到您重新啟動電腦或檔案總管。",
-      "ApplyText": "正在從檔案總管瀏覽窗格隱藏「常用」區段",
-      "UndoLabel": "在瀏覽窗格中顯示「常用」",
-      "ApplyUndoText": "正在檔案總管瀏覽窗格中顯示「常用」區段"
+      "Label": "從瀏覽窗格隱藏「首頁」",
+      "ToolTip": "從檔案總管瀏覽窗格隱藏「首頁」區段。警告：這可能會導致快速存取連結無法更新，直到您重新啟動電腦或檔案總管。",
+      "ApplyText": "正在從檔案總管瀏覽窗格隱藏「首頁」區段",
+      "UndoLabel": "在瀏覽窗格中顯示「首頁」",
+      "ApplyUndoText": "正在檔案總管瀏覽窗格中顯示「首頁」區段"
     },
     "HideGallery": {
       "Label": "從瀏覽窗格隱藏「圖庫」",
@@ -513,7 +513,7 @@
     },
     "DisableDeliveryOptimization": {
       "Label": "停用與其他 PC 共用已下載的更新",
-      "ToolTip": "這會防止您的 PC 與區域網路或網際網路上的其他 PC 共用已下載的更新，也會防止您的 PC 從其他 PC 下載更新。",
+      "ToolTip": "這會防止您的 PC 透過「傳遞最佳化」與區域網路或網際網路上的其他 PC 共用已下載的更新，也會防止您的 PC 從其他 PC 下載更新。",
       "ApplyText": "正在停用與其他 PC 共用已下載的更新",
       "UndoLabel": "啟用與其他 PC 共用已下載的更新",
       "ApplyUndoText": "正在啟用與其他 PC 共用已下載的更新"
@@ -704,7 +704,7 @@
       "Label": "開啟檔案總管至",
       "ToolTip": "此設定可讓您選擇檔案總管的預設開啟位置。",
       "Values": {
-        "ExplorerToHome": "常用 (預設)",
+        "ExplorerToHome": "首頁 (預設)",
         "ExplorerToThisPC": "本機",
         "ExplorerToDownloads": "下載",
         "ExplorerToOneDrive": "OneDrive"
